@@ -1,0 +1,90 @@
+{
+  "schema": 1,
+  "id": "combined-verdicts-2026-10-29",
+  "date": "2026-10-29",
+  "title": "Top 5 runners — manual verdicts vs TradingAgents",
+  "summary": "Our rule-based/manual verdicts and TauricResearch TradingAgents (DeepSeek v4-flash, market analyst, 1 debate round, 2026-10-29) agree on three of five names: RRC and BRZE both negative (merger arbitrage to exit), AVPT both neutral ahead of the Nov 5 print. They disagree on CRL (we say AVOID; the agent says HOLD — but both refuse new capital) and GTLB (we say WATCH-for-pullback; the agent says SELL into strength because the advance is thin and extended). Net effect: no BUY in either system; the combined read is more cautious than either alone.",
+  "tags": [
+    "runners",
+    "deep dive",
+    "tradingagents"
+  ],
+  "sections": [
+    {
+      "heading": "Verdicts side by side",
+      "body": "Legend: BUY (green) — act now · WATCH (blue) — good, wait for price · WAIT (blue) — event risk · SKIP (amber) — pass · AVOID/SELL (red) — do not hold. The 'Combined' column is the synthesis after checking both reasonings against primary data.",
+      "table": {
+        "columns": [
+          "Verdict",
+          "Ticker",
+          "TradingAgents",
+          "Agreement",
+          "Key point"
+        ],
+        "rows": [
+          [
+            "SKIP",
+            "RRC",
+            "Underweight",
+            "Agree",
+            "Both see a deal-pinned stock; agent computed the price 1.8% above conversion value — paying a premium for EQT exposure with binary deal risk."
+          ],
+          [
+            "SKIP",
+            "BRZE",
+            "Sell",
+            "Agree",
+            "Agent maps the merger-arb: +3.8% to a $47.50 cash bid versus ~34% gap-fill risk if the deal breaks; exit into the pin, do not short."
+          ],
+          [
+            "AVOID",
+            "CRL",
+            "Hold",
+            "Partial",
+            "Both refuse new capital into the Nov 4 print; the agent would hold an existing position (trend intact, entry statistically extended, ~1:1 risk/reward), we would not own it here."
+          ],
+          [
+            "WAIT",
+            "AVPT",
+            "Hold",
+            "Agree",
+            "Both: no new capital at $17.20 ahead of Nov 5; trend is Stage-2 but price is above the upper band with an RSI divergence."
+          ],
+          [
+            "WATCH",
+            "GTLB",
+            "Sell",
+            "Disagree",
+            "We see quality worth waiting for on a pullback; the agent sees a thin-volume, +17%-over-50SMA advance into Dec 1 and would trim 40–50% now. Both agree: do not buy at $58."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "What TradingAgents added",
+      "body": "The run used only the market analyst (news, sentiment and fundamentals analysts were disabled to fit the sandbox time limit), yet it still identified both takeovers from price structure alone. Its RRC note: $55.88 versus a disclosed conversion value of ~$54.91 (0.987 EQT shares) — 1.8% above parity, 'upside-down asymmetry'. Its BRZE note: a seven-session $45.57–45.88 pin with volume decay from 64.6M to 6.3M, frozen RSI 83.8, +3.8% gross upside versus a 34% gap-fill risk to the pre-deal $30.04. Those are the kind of checks we did manually; the agent reached them independently, which is exactly what a second opinion should do.\n\nIts extension work is also useful: GTLB +16.9% above its 50-day average on only ~2.8M shares versus 29.0M on the September event day; CRL ~2.45 ATR above its 10 EMA and above the upper Bollinger band; AVPT above the upper band with a two-day RSI divergence."
+    },
+    {
+      "heading": "Where we disagree, and who is probably right",
+      "body": "CRL — the agent says Hold, we said AVOID. Both agree no new money before Nov 4; the difference is only whether an existing holder must exit. The agent is right that the trend is intact; we are right that a stock 15% above consensus target with shrinking revenue is not a place to add. Practical answer: no new capital either way, and let the print decide.\n\nGTLB — the agent says Sell into strength; we said WATCH for a pullback. Its tape read is sharper than ours: the advance is thin, +17% over the 50-day, into a Dec 1 catalyst. If you already held it, trimming is defensible; if you are starting from cash (as we are), both roads lead to 'do not buy at $58'. The disagreement is about selling versus waiting, not about buying.\n\nOne data caveat: the agent's RRC conversion value ($54.91) differs slightly from ours ($55.49) because it referenced a different EQT close. The conclusion (premium to parity) is unchanged."
+    },
+    {
+      "heading": "What changes in the process",
+      "body": "1) Two independent systems now agree on the direction of every name (none is a buy) — that raises confidence in 'not yet'. 2) The agent's best contribution is arbitrage/tape forensics; ours is event calendars and valuation sanity. Together they cover more than either alone. 3) For weekly use, run TradingAgents only on names our automation marks WATCH (not all 20) — it costs minutes and tokens per name, and its value is highest where a decision is genuinely close. 4) If you want its news/sentiment/fundamentals analysts too, expect 15–25 minutes per ticker instead of 5–10."
+    },
+    {
+      "heading": "Limits",
+      "body": "The agent ran on DeepSeek v4-flash with a market-only analyst set, one debate round and one risk round — a deliberately lean configuration, so its verdicts are shallower than its full setup. It is an LLM system: every number it cites should be checked (we verified the deal figures and conversion math). And its rating scale (Buy/Overweight/Hold/Underweight/Sell) is not our verdict scale; the mapping above is ours, not its."
+    }
+  ],
+  "sources": [
+    {
+      "title": "TauricResearch TradingAgents",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    },
+    {
+      "title": "TradingAgents output (this run)",
+      "url": "https://github.com/TauricResearch/TradingAgents"
+    }
+  ]
+}
