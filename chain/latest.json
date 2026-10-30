@@ -3843,11 +3843,67 @@
         "Breadth divergence: share of S&P above its 200-day average vs the index level.",
         "Any first 'order pause' language from TSMC, HBM or transformer makers."
       ]
+    },
+    "council": {
+      "note": "Six investor lenses applied to this model on 2026-10-30 (Buffett, Dalio, Marks, Druckenmiller, Hohn, Serenity). Each verdict, its evidence and its invalidation are written down — that is the difference between using a framework and quoting one. Re-run quarterly and score each lens against outcomes.",
+      "verdicts": [
+        {
+          "lens": "Ray Dalio — all-weather",
+          "verdict": "Rebalance",
+          "thesis": "The book is one risk factor: AI capex beta. Regime map says growth decelerating + inflation rising (CPI 3.7%, Brent $115) — the stagflation quadrant where concentrated equities and long bonds both struggle, and real assets and cash win on risk contribution.",
+          "evidence": "~95% of the model's variance is one driver; 15% cash is liquidity, not diversification: zero gold, zero inflation-linked bonds, zero non-AI equity beta. 10y at ~5% gives bonds an actual job for the first time in years.",
+          "action": "Two-layer architecture: diversified core (global equity UCITS + short/intermediate bonds + gold 5-8% + cash) sized 50-60%; AI chain sleeve becomes a satellite of 40-50%. Balance risk contribution, not capital.",
+          "invalidation": "If inflation falls with growth holding (goldilocks), the core can be trimmed; if growth falls with inflation (recession proper), bonds+gold carry the book and the satellite gets bought, not sold."
+        },
+        {
+          "lens": "Warren Buffett — owner earnings",
+          "verdict": "Watchlist at current prices",
+          "thesis": "Real businesses with real moats exist in this sleeve (ASML, TSMC, Microsoft, Eaton, Schneider, regulated utilities). The problem is price: CAPE 41 and semis at ~23-26x forward leave no margin of safety; several names' owner earnings depend on capex financed by debt.",
+          "evidence": "Vertical market leaders with durable advantages, but the AI segment is priced for perfection; the Meta $95B raise and vendor-financed chip purchases are exactly the incentives Buffett distrusts. Cash at 3.5-5% is an acceptable alternative while waiting.",
+          "action": "No new capital into the sleeve at these levels. Keep a written 30%-discount watchlist per name (owner earnings, ROIC > 15%). Only buy fear. Prefer the understandable, cash-generative layer — utilities at fair prices, Eaton, Schneider, ASML — and say 'too hard' to merchant power and leverage stories.",
+          "invalidation": "Earnings compound >25% for 2-3 years so multiples normalise by growth rather than price decline."
+        },
+        {
+          "lens": "Howard Marks — cycles",
+          "verdict": "Defensive",
+          "thesis": "Late cycle: easy credit, thin risk premiums, AI mania with pockets of fear. The first-level view is 'AI will be huge'; the second-level view is that the consensus is no longer cheap — what is in the price is perfection. The market is not compensating you for the risk that capex pauses.",
+          "evidence": "Record IG issuance ($182B YTD), Oracle CDS at an 18-year high, covenant-lite-style financing in neoclouds, 96% of semis >20% off highs while the index sits 2% from its record — the classic late-cycle divergence.",
+          "action": "Stay defensive: keep the cash sleeve ≥15%, pre-write the 'buy memo' now (what to buy, at what price, with what thesis), and move from defensive to opportunistic only when spreads widen or forced selling appears. Do not confuse low volatility with low risk.",
+          "invalidation": "Credit spreads stay tight and earnings keep rising — the risk premium gets restored through earnings, not price, and the defensive stance costs carry."
+        },
+        {
+          "lens": "Stanley Druckenmiller — liquidity",
+          "verdict": "Probe, not press",
+          "thesis": "Dominant driver is liquidity tightening + energy shock: 10y ~5%, Fed with a hike bias, oil shock feeding CPI. Price confirms a de-risking regime (semis −27%, breadth weak). There is no liquidity tailwind to press until the Fed changes direction.",
+          "evidence": "Cross-asset confirmation: rates up, dollar firm, small caps weak, credit spreads widening; the AI complex is in a rolling bear market though the index is flat.",
+          "action": "Do not add at size. Hold cash/T-bills, define the expressions for the next regime now: when the Fed pivots or a credit event forces it, press quality AI infrastructure (ASML, TSMC, MSFT) fast. Size down until price confirms.",
+          "invalidation": "Fed pauses without a hike, breadth improves, and semis reclaim their 200-day — then add risk rather than wait for a capitulation that never comes."
+        },
+        {
+          "lens": "Serenity — supply-chain chokepoints",
+          "verdict": "Chain thesis validated; holdings filtered",
+          "thesis": "Our reverse-mapping matches the professional stacks: the value has rotated from chips to power, components and storage, and the next upstream rotation is photonics / co-packaged optics. But the lens also says: a correct theme with dilution risk still loses money.",
+          "evidence": "Leveraged names (CoreWeave, Nebius, IREN, Oracle) carry ATM/offering overhang; micro-cap bottlenecks (AAOI, SIVE, AXTI-class, AEHR) are where the lens hunts but where our liquidity rule forbids core positions; Meta's $95B raise is dilution in the open.",
+          "action": "Keep the sleeve to verified, liquid bottlenecks (ASML, TSMC, MU/SNDK/STX, VRT, ETN, CEG/GEV/Hitachi). Add a photonics/CPO watch layer in the study — monitor, do not own micro-caps. Check dilution before any new name enters the model.",
+          "invalidation": "CPO adoption slower than the 2027-28 roadmap; or a liquid photonics leader becomes available at a reasonable multiple."
+        },
+        {
+          "lens": "Chris Hohn — concentrated quality",
+          "verdict": "Concentrated own, with cuts",
+          "thesis": "Concentration is earned by quality, not by theme. The Sparplan's eight names are the right order of magnitude, but quality ranks unevenly: monopoly and pricing-power businesses first, commodity-adjacent assemblers last.",
+          "evidence": "ASML (sole EUV), TSMC (foundry scale), Microsoft (switching costs), Eaton/Schneider (pricing power with backlogs) are exceptional; Vertiv is excellent but priced; Modine is the weakest moat of the eight; NVDA's CUDA is real, its cyclicality is too.",
+          "action": "Hold 6-8 names maximum. Quality ordering within sleeves: ASML ≈ TSMC > MSFT > Eaton ≈ Schneider > Vertiv > NVDA (moat yes, cycle yes) > Modine. Consider consolidating Modine into Vertiv or nVent if simplicity matters more than diversification.",
+          "invalidation": "A quality name's ROIC or pricing power breaks structurally (e.g., custom silicon erodes NVDA's share faster than expected)."
+        }
+      ],
+      "agree": "Five of six lenses say the same thing from different doors: be defensive at these prices, treat the AI chain as a satellite and not a core, keep the cash sleeve, and pre-commit what you will buy when the fat pitch comes. Which quality names, at what discount, with what invalidation — written down before the panic.",
+      "disagree": "Dalio wants real diversification (gold, bonds, global equity core) while Serenity and Druckenmiller say concentration is the whole point. The resolution is layering, not choosing: a diversified core sized to survive a −50% satellite, plus the concentrated AI satellite sized so that −50% is survivable. Buffett and Hohn split on price — quality is agreed, margin of safety is not available today.",
+      "architecture": "Two-layer portfolio. CORE (50-60%): global equity UCITS ~35-40%, euro short/intermediate government bonds ~8-10%, gold ETC ~5-8%, cash buffer ~5-8% — the part that survives any scenario. SATELLITE (40-50%): this AI chain model at 35/25/15/10/15, capped so a −50% satellite drawdown costs <25% of total assets. Deployment ladder from the satellite cash: 1/3 at −10% from peak, 1/3 at −20%, 1/3 at −30% or on a confirmed liquidity pivot, each with the pre-written buy list. German execution: UCITS ETFs are the legal wrapper (US ETFs blocked by PRIIPs); the cash sleeve uses €STR or broker cash. Review quarterly, rebalance on ±5pp drift or regime change."
     }
   },
   "portfolioModel": {
     "name": "Power & Pixels — stress-aware revision (Oct 2026)",
-    "note": "Revised after the October 2026 repricing: a 15% cash/short-treasury sleeve funded by trimming tech, infrastructure and utilities; the barbell alone was never a hedge. Power and infrastructure remain cash-flow slingshots, not insurance — in a funding shock they fall with the complex. Cash at ~3.5-5% is the only genuinely uncorrelated sleeve available to a German retail investor.",
+    "note": "Revised after the October 2026 repricing: a 15% cash/short-treasury sleeve funded by trimming tech, infrastructure and utilities; the barbell alone was never a hedge. The investor council review (Analysis → Council) reframes this model as a SATELLITE of 40-50% of total assets, with a diversified core around it — see the architecture line there.",
     "baseline": 10000,
     "sleeves": [
       {
