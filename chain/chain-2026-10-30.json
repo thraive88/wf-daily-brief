@@ -481,7 +481,13 @@
           "url": "https://en.sedaily.com/international/2026/10/29/microsoft-beats-estimates-with-923-billion-revenue-as-azure",
           "date": "2026-10-29"
         }
-      ]
+      ],
+      "lastReport": {
+        "date": "2026-10-28",
+        "headline": "Q1 FY27 beat: revenue $92.3B, Azure +48% to $33.2B",
+        "reaction": "+3 to +5% after hours",
+        "summary": "Capex $45.2B (below street on delayed third-party capacity), FCF still positive at $18.6B — the only hyperscaler that stayed cash-flow positive. FY27 capex guide ~$170B; Azure guided to accelerate to 49-50%."
+      }
     },
     {
       "symbol": "AMZN",
@@ -533,7 +539,13 @@
           "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
           "date": "2026-10-29"
         }
-      ]
+      ],
+      "lastReport": {
+        "date": "2026-10-29",
+        "headline": "Q3: AWS +39.3% to $46B with record 13.9% op margin, but TTM FCF −$42.4B",
+        "reaction": "−7.5%",
+        "summary": "Q3 capex $77.3B; 2026 capex ~$220B with 2027 'significantly' higher — FCF stays negative until capex growth stops. Market rewarded AWS growth, punished the cash burn."
+      }
     },
     {
       "symbol": "GOOGL",
@@ -587,7 +599,13 @@
           "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
           "date": "2026-10-28"
         }
-      ]
+      ],
+      "lastReport": {
+        "date": "2026-10-28",
+        "headline": "Q3: revenue +25% but first top-and-bottom miss since 2022; FCF −$9.07B",
+        "reaction": "−13.7% next day (largest single-day drop on record, ~$480B of value)",
+        "summary": "Capex $51.4B/quarter with 2027 guided significantly higher; buybacks halted, equity issued; AI Mode monetizes worse than classic search; $8.66B equity loss (incl. Anthropic/SpaceX). This print triggered the sector-wide repricing."
+      }
     },
     {
       "symbol": "META",
@@ -634,7 +652,13 @@
           "url": "https://investor.atmeta.com",
           "date": "2026-10"
         }
-      ]
+      ],
+      "lastReport": {
+        "date": "2026-10-26",
+        "headline": "$95B equity raise announced ($35B public offering + up to $60B ATM)",
+        "reaction": "−1.8% on the raise; stock ~$631 after an October pullback",
+        "summary": "Q3 FCF −$2.12B, first negative in over a decade; 2026 capex raised to $135-145B; NVDA, AMD and AVGO each expressed interest in up to $5B of the shares — vendor financing of a customer."
+      }
     },
     {
       "symbol": "CRWV",
@@ -882,7 +906,13 @@
           "title": "Vertiv profile & listing (WKN A2PZ5A, ISIN US92537N1081)",
           "url": "https://www.onvista.de/aktien/unternehmensprofil/VERTIV-HOLDINGS-Aktie-US92537N1081"
         }
-      ]
+      ],
+      "lastReport": {
+        "date": "2026-10-28",
+        "headline": "Q3: revenue +61% (organic +55%), organic orders >100%, FY guide raised to $14.65B",
+        "reaction": "+16.5%",
+        "summary": "The clearest confirmation that the physical bottleneck is still being paid for: order growth above 100% and a lifted full-year guide, even as software multiples compressed."
+      }
     },
     {
       "symbol": "ETN",
@@ -2936,7 +2966,13 @@
           "url": "https://www.benzinga.com/markets/earnings/26/10/62735265/intel-stock-worst-day-since-1974-cantor-houston-we-have-a-problem",
           "date": "2026-10-30"
         }
-      ]
+      ],
+      "lastReport": {
+        "date": "2026-10-30",
+        "headline": "Q3 beat (revenue $16.5B, +21%) but weak Q4 guide ($15-16B vs ~$17.1B)",
+        "reaction": "−25.6% (~$125B of value), worst day since 1974 territory",
+        "summary": "Memory-price inflation is forcing PC inventory cuts; a fatal Israel fab incident costs $300-600M; guidance does not forecast positive FCF. The foundry thesis now rests on external customers that don't yet exist."
+      }
     },
     {
       "symbol": "SNDK",
@@ -4190,6 +4226,83 @@
       {
         "title": "What it buys you",
         "body": "Your broker withholds no German tax on dividends or gains until the €1,000 annual threshold is crossed. If this is your only investment account, set the full €1,000."
+      }
+    ]
+  },
+  "calendar": {
+    "note": "Economic dates verified against public calendars on 2026-10-30; the earnings side is fetched live from TradingView (next scheduled report + last reported quarter per company). Nvidia's November print (~Nov 17 per the scanner) is the single biggest chain event and appears in the earnings list.",
+    "econ": [
+      {
+        "date": "2026-11-03",
+        "title": "US midterm elections",
+        "type": "politics",
+        "importance": "high",
+        "expected": "Policy outcomes get repriced by sector; historically low index volatility, high single-name dispersion.",
+        "chainImpact": "AI-regulation risk under a sweep; energy and utilities policy direction; semiconductor China-policy signals."
+      },
+      {
+        "date": "2026-11-06",
+        "title": "October nonfarm payrolls (08:30 ET)",
+        "type": "jobs",
+        "importance": "high",
+        "expected": "Consensus mid-range. The market now trades strength as hawkish — a December hike is ~75-85% priced.",
+        "chainImpact": "Strong print → yields up → CAPE-41 compression; tech beta and neoclouds sell first. Weak print → relief rally, but raises questions about the capex cycle's demand base."
+      },
+      {
+        "date": "2026-11-10",
+        "title": "October CPI (08:30 ET)",
+        "type": "inflation",
+        "importance": "high",
+        "expected": "Headline elevated by the oil shock (Brent ~$115; ~3.7% annualized in September); core is the number that matters.",
+        "chainImpact": "Hot core locks the December hike — every 25bp of expected tightening is another discount-rate strike at AI multiples. Cool print = the relief valve."
+      },
+      {
+        "date": "2026-12-04",
+        "title": "November nonfarm payrolls (08:30 ET)",
+        "type": "jobs",
+        "importance": "high",
+        "expected": "Second jobs print before the December FOMC; wage growth is the hawkish tell.",
+        "chainImpact": "Same channel as November's print, amplified by proximity to the Fed decision."
+      },
+      {
+        "date": "2026-12-08",
+        "title": "FOMC meeting begins",
+        "type": "fed",
+        "importance": "high",
+        "expected": "Two-day meeting; no statement on day one.",
+        "chainImpact": "Positioning day — expect vols to rise into the decision."
+      },
+      {
+        "date": "2026-12-09",
+        "title": "FOMC decision + dot plot (14:00 ET)",
+        "type": "fed",
+        "importance": "high",
+        "expected": "Hike ~75-85% priced. The Summary of Economic Projections (dots) decides the 2027 path.",
+        "chainImpact": "The single biggest scheduled risk for the stress-aware model (15% cash / 35% utilities): hike + hawkish dots forces the rotation into cash and power; a dovish surprise fuels the melt-up scenario."
+      },
+      {
+        "date": "2026-12-10",
+        "title": "November CPI (08:30 ET)",
+        "type": "inflation",
+        "importance": "high",
+        "expected": "Follow-through print the day after the Fed decision.",
+        "chainImpact": "Post-decision confirmation — a hot print re-prices 2027 hikes and hits duration-sensitive AI names."
+      },
+      {
+        "date": "2026-12-15",
+        "title": "November PPI (08:30 ET)",
+        "type": "growth",
+        "importance": "medium",
+        "expected": "Pipeline inflation; energy pass-through.",
+        "chainImpact": "Secondary — matters only if it diverges from CPI."
+      },
+      {
+        "date": "2026-12-23",
+        "title": "November PCE (08:30 ET)",
+        "type": "inflation",
+        "importance": "medium",
+        "expected": "The Fed's preferred gauge; holiday-week liquidity makes reactions exaggerated.",
+        "chainImpact": "Low-liquidity print — outsized moves possible in the last week of the year."
       }
     ]
   }
