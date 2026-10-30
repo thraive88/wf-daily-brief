@@ -1,0 +1,4196 @@
+{
+  "schema": 1,
+  "id": "chain-2026-10-30",
+  "date": "2026-10-30",
+  "title": "AI Supply Chain — Company Dossiers",
+  "summary": "Company chapters pinned to the AI chain — 69 companies across 7 layers including the Tier-1/2 hardware tier. Includes the interdependency analysis, a chokepoint map, a second-opinion section (pricing power, domicile hedging, demand side, EUR/USD), the Power & Pixels barbell and the Germany-ready €10k Sparplan (stress-aware revision with cash buffer). Figures verified against Q2 FY2027 Nvidia, the Oct 28-29, 2026 big-tech prints and Vertiv's Q3 2026.",
+  "disclaimer": "Informational and educational content, not investment advice. All figures are as of late October 2026 and age quickly — check the primary source before acting. Addons cannot open external links, so source URLs are shown as selectable text.",
+  "layers": [
+    {
+      "id": "upstream",
+      "name": "Raw materials & equipment",
+      "description": "The machines that make machines: high-purity silicon wafers, semiconductor gases, rare earths — and EUV lithography, where ASML holds a de facto monopoly. The slowest-moving layer, and the most geopolitically concentrated."
+    },
+    {
+      "id": "silicon",
+      "name": "Silicon & fabrication",
+      "description": "Design and fabrication: fabless architects (Nvidia, AMD), the IP and EDA layer that designs every chip (Arm, Synopsys, Cadence), the foundry that prints them (TSMC), advanced packaging (TSMC CoWoS, ASE, Amkor) and the memory makers whose HBM sits beside every accelerator die (SK Hynix, Micron, Samsung) — plus the NAND flash tier that stores what inference reads (SanDisk, Kioxia). The physical bottleneck of the AI boom."
+    },
+    {
+      "id": "components",
+      "name": "Components & server assembly (Tier-1/2)",
+      "description": "The unpacked physical layer: two very different businesses. Toll collectors at scarce nodes — IC substrates (Ibiden, Unimicron, Tripod), high-density power supplies (Delta, Lite-On), high-end cooling — earn real pricing power from 2-3 year lead times. Thin-margin assemblers — Taiwanese ODMs (Foxconn, Quanta, Wistron), Super Micro, Celestica — have giant backlogs but single-digit margins. Interconnect and optics (Amphenol, Marvell, Arista, Coherent, Lumentum, Fabrinet) sit between the two."
+    },
+    {
+      "id": "compute",
+      "name": "Compute infrastructure",
+      "description": "Hyperscalers and neoclouds that own the data centers and rent out compute. They convert capex guidance into orders for everything upstream."
+    },
+    {
+      "id": "power",
+      "name": "Power & physical plant (cross-cutting)",
+      "description": "Electricity and physical hardware behind the compute: PPAs with nuclear, gas and renewable generators; grid equipment and cooling. Demand is driven by layer 3, but the bills are paid before any model monetizes — which is exactly the appeal."
+    },
+    {
+      "id": "data",
+      "name": "Data & curation",
+      "description": "Sourcing, licensing, cleaning and labeling training data, plus RLHF labor. Mostly private (Scale AI, in-house teams); the listed names are thin and should be read as sentiment proxies."
+    },
+    {
+      "id": "models",
+      "name": "Models & applications",
+      "description": "Foundation labs (OpenAI, Anthropic, Google, Meta) and the applications built on their APIs. Where the capex is supposed to turn into revenue."
+    }
+  ],
+  "flows": [
+    {
+      "from": "Hyperscalers (MSFT · AMZN · GOOGL · META)",
+      "to": "NVDA · AVGO · AMD",
+      "label": "Capex converts into accelerator and networking orders. Nvidia Q2 FY2027: hyperscale $48.7B (+102% YoY), ACIE $40.3B (+139%)."
+    },
+    {
+      "from": "NVDA · AVGO",
+      "to": "TSM · SK Hynix · MU",
+      "label": "Wafers plus CoWoS packaging at TSMC; HBM stacked beside every compute die. Packaging and HBM capacity gate shipments."
+    },
+    {
+      "from": "TSM · Samsung · Intel",
+      "to": "ASML",
+      "label": "Foundry capex lands at ASML roughly 12-18 months before wafer output — the earliest leading indicator in the chain."
+    },
+    {
+      "from": "MSFT · AMZN · GOOGL",
+      "to": "CEG · VST · NEE · EQT · WMB",
+      "label": "Long-term PPAs and gas supply: 24/7 carbon-free or bridge fuel, secured years ahead at fixed or escalating prices."
+    },
+    {
+      "from": "Hyperscalers · neoclouds",
+      "to": "VRT · ETN",
+      "label": "Liquid cooling retrofits, switchgear, transformers. Paid regardless of whose chip sits in the rack."
+    },
+    {
+      "from": "MSFT",
+      "to": "OPENAI (27% equity) · Azure compute loop",
+      "label": "OpenAI trains on Azure; Microsoft books cloud revenue and equity gains. Equity-method noise cuts both ways."
+    },
+    {
+      "from": "AMZN · GOOGL",
+      "to": "ANTHROPIC (equity + primary cloud)",
+      "label": "Anthropic's compute spend largely recycles back into AWS/GCP revenue; equity marks revalue the stakes."
+    },
+    {
+      "from": "Debt markets",
+      "to": "CRWV and other neoclouds",
+      "label": "GPU-backed debt funds capacity that hyperscalers don't buy directly. The chain's leverage layer — and its first point of failure."
+    },
+    {
+      "from": "GOOGL search cash cow",
+      "to": "AI capex",
+      "label": "AI Mode queries monetize worse than classic search; capex $51.4B/quarter pushed FCF to −$9.07B in Q3 2026."
+    }
+  ],
+  "hedge": {
+    "name": "Power & Pixels — stress-aware revision",
+    "note": "Revised Oct 30, 2026: added a 15% cash/short-treasury sleeve; see the Portfolio model tab for the full rationale, yield table and DRIP.",
+    "rows": [
+      {
+        "bucket": "Utilities & IPPs",
+        "weight": "35%",
+        "names": "CEG · VST · NEE",
+        "rationale": "Fixed-rate PPAs, trimmed from 40% because the names were repriced as AI proxies."
+      },
+      {
+        "bucket": "Data-centre infrastructure",
+        "weight": "25%",
+        "names": "VRT · ETN",
+        "rationale": "Cooling/switchgear with 2028 backlogs, trimmed from 30% for multiple risk."
+      },
+      {
+        "bucket": "AI semis & core tech",
+        "weight": "15%",
+        "names": "NVDA · AVGO · MSFT",
+        "rationale": "Capped growth sleeve; semis already ~27% off their peak."
+      },
+      {
+        "bucket": "Gas & energy value",
+        "weight": "10%",
+        "names": "EQT · WMB",
+        "rationale": "Bridge fuel and Hormuz hedge; cheap multiples, high yields."
+      },
+      {
+        "bucket": "Cash & T-bills",
+        "weight": "15%",
+        "names": "€STR MM · T-bills",
+        "rationale": "New: highest-yielding sleeve at ~3.5-5%; the only low-correlation asset and the dry powder."
+      }
+    ]
+  },
+  "companies": [
+    {
+      "symbol": "ASML",
+      "name": "ASML Holding",
+      "layer": "upstream",
+      "status": "public",
+      "exchange": "NASDAQ (Amsterdam-listed too)",
+      "tags": [
+        "monopoly",
+        "bottleneck"
+      ],
+      "role": "Sole supplier of EUV lithography — every leading-edge AI chip is printed on ASML machines. High-NA EUV is the gate for node transitions beyond the current generation; there is no second source.",
+      "upstream": [
+        "Carl Zeiss optics",
+        "Cymer light sources (owned)",
+        "Trumpf lasers",
+        "~1,000+ tool sub-suppliers"
+      ],
+      "customers": [
+        "TSMC",
+        "Samsung",
+        "Intel (direct)",
+        "the entire industry indirectly"
+      ],
+      "kpis": [
+        {
+          "label": "Net bookings",
+          "value": "Watch each quarterly print",
+          "watch": "Two consecutive quarters of collapsing orders telegraph foundry capex cuts 12-18 months before wafer output falls."
+        },
+        {
+          "label": "China revenue share",
+          "value": "Elevated vs. history",
+          "watch": "Export-control changes swing both demand timing and sentiment."
+        },
+        {
+          "label": "High-NA adoption",
+          "value": "First tools shipping",
+          "watch": "Ramp pace sets the length of the next equipment cycle."
+        }
+      ],
+      "readThrough": "ASML orders are the chain's earliest upstream signal: they land roughly a year before wafer output and two before accelerator shipments. If ASML bookings roll over while hyperscaler capex still looks strong, believe ASML.",
+      "risks": [
+        "Export controls (US/NL) directly limit addressable demand",
+        "Three customers = extreme concentration",
+        "Lumpy order timing makes quarters noisy"
+      ],
+      "sources": [
+        {
+          "title": "ASML Investor Relations",
+          "url": "https://www.asml.com/en/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "TSM",
+      "name": "Taiwan Semiconductor Manufacturing",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NYSE (TWSE: 2330)",
+      "tags": [
+        "foundry",
+        "bottleneck"
+      ],
+      "role": "Fabricates roughly 90% of the world's most advanced processors and controls CoWoS advanced packaging — the step that binds HBM to accelerator dies and has repeatedly been the industry's binding constraint on AI chip shipments.",
+      "upstream": [
+        "ASML (EUV)",
+        "Applied Materials / Lam / KLA (process tools)",
+        "Shin-Etsu / Sumco (wafers)",
+        "Linde (gases)"
+      ],
+      "customers": [
+        "NVDA",
+        "AMD",
+        "AVGO",
+        "Apple",
+        "Qualcomm"
+      ],
+      "kpis": [
+        {
+          "label": "AI accelerator revenue guidance",
+          "value": "Watch quarterly guidance",
+          "watch": "TSMC guides its own AI revenue CAGR; any cut is the strongest negative signal available for the whole chain."
+        },
+        {
+          "label": "CoWoS capacity expansion",
+          "value": "Announced expansions",
+          "watch": "Packaging gates how many accelerators ship regardless of wafer supply. Capacity adds are demand-confirmation."
+        },
+        {
+          "label": "Next-node ramp (N2/A16)",
+          "value": "Ramp schedule",
+          "watch": "Node transitions drive both pricing power and the next capex wave upstream."
+        }
+      ],
+      "readThrough": "TSMC's monthly revenue and guidance are the cleanest read on real AI hardware demand — it books revenue when chips are made, before hyperscalers report anything.",
+      "risks": [
+        "Taiwan Strait geopolitics — single-point-of-failure concentration",
+        "US fab construction dilutes margins",
+        "Customer-funded capex cycles exaggerate swings"
+      ],
+      "sources": [
+        {
+          "title": "TSMC Investor Relations",
+          "url": "https://investor.tsmc.com/english"
+        }
+      ]
+    },
+    {
+      "symbol": "NVDA",
+      "name": "NVIDIA",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "core",
+        "bottleneck"
+      ],
+      "role": "Designs the dominant AI accelerators (Blackwell Ultra shipping, Rubin next) and owns the CUDA software moat. In Q2 FY2027, data center was 92% of revenue — this company is the AI buildout, priced.",
+      "upstream": [
+        "TSMC (fab + CoWoS)",
+        "SK Hynix / Samsung / Micron (HBM)",
+        "cooling and power gear inside its own racks"
+      ],
+      "customers": [
+        "Hyperscalers — $48.7B of $89B data center revenue, +102% YoY",
+        "ACIE (AI clouds, industrial, enterprise) — $40.3B, +139% YoY",
+        "sovereign AI programs"
+      ],
+      "kpis": [
+        {
+          "label": "Data Center revenue",
+          "value": "$89.0B in Q2 FY2027 (+117% YoY); $96.2B total revenue",
+          "watch": "Deceleration vs. hyperscaler capex guidance. ACIE is now the marginal demand — watch its growth rate first."
+        },
+        {
+          "label": "Hyperscale vs. ACIE mix",
+          "value": "+102% vs +139% YoY",
+          "watch": "If debt-funded neoclouds (part of ACIE) crack first, demand mix shifts back to slower hyperscaler growth."
+        },
+        {
+          "label": "Forward guidance",
+          "value": "Q3 FY2027 outlook",
+          "watch": "Guidance below capex-implied demand is what triggered the October 2026 hardware-layer repricing."
+        }
+      ],
+      "readThrough": "Nvidia's quarterly print is the chain's cash-register tape: it confirms or denies that hyperscaler capex guidance actually converts into orders. Everything downstream of it — TSMC packaging, HBM pricing, cooling demand — is repriced around this print.",
+      "risks": [
+        "A handful of hyperscalers plus neoclouds make up most demand",
+        "Custom silicon (Google TPU, Amazon Trainium, Meta MTIA) takes share",
+        "China data center compute is now excluded from guidance (<1% of DC revenue)"
+      ],
+      "sources": [
+        {
+          "title": "NVIDIA Q2 FY2027 results (Aug 2026)",
+          "url": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-second-quarter-fiscal-2027",
+          "date": "2026-08"
+        }
+      ]
+    },
+    {
+      "symbol": "AVGO",
+      "name": "Broadcom",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "networking",
+        "custom-silicon"
+      ],
+      "role": "Supplies the networking silicon and optics behind AI clusters (Tomahawk/Jericho switches) and designs custom accelerators (XPUs) for hyperscalers — the second source that grows whenever a customer tries to reduce Nvidia dependence.",
+      "upstream": [
+        "TSMC (fab + CoWoS)",
+        "optical component suppliers"
+      ],
+      "customers": [
+        "Google (TPU)",
+        "Meta",
+        "other custom-ASIC clients",
+        "essentially every large cluster builder (networking)"
+      ],
+      "kpis": [
+        {
+          "label": "AI revenue growth",
+          "value": "Watch the quarterly AI revenue line",
+          "watch": "Compare against Nvidia's growth: faster = custom silicon is taking share."
+        },
+        {
+          "label": "Custom accelerator backlog",
+          "value": "Multi-year engagements",
+          "watch": "New XPU wins lock 2-3 years of revenue — announcements matter more than quarters."
+        },
+        {
+          "label": "Ethernet vs InfiniBand",
+          "value": "Ethernet gaining share in AI clusters",
+          "watch": "Continued Ethernet adoption widens Broadcom's addressable market."
+        }
+      ],
+      "readThrough": "Broadcom is the cleanest public read on the de-Nvidia-fication trade: it wins when hyperscalers hedge their accelerator supply, so its growth rate is a share-shift indicator, not just a demand indicator.",
+      "risks": [
+        "Concentration in a few custom-ASIC programs",
+        "VMware software integration execution",
+        "Non-AI segments remain cyclical"
+      ],
+      "sources": [
+        {
+          "title": "Broadcom Investor Relations",
+          "url": "https://investors.broadcom.com"
+        }
+      ]
+    },
+    {
+      "symbol": "MU",
+      "name": "Micron Technology",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "hbm",
+        "bottleneck"
+      ],
+      "role": "One of three HBM suppliers (with SK Hynix and Samsung). HBM is stacked DRAM bonded beside each accelerator die — the most supply-constrained component of the AI bill of materials, priced through long-term contracts.",
+      "upstream": [
+        "ASML / Applied / Lam (DRAM tools)",
+        "advanced packaging"
+      ],
+      "customers": [
+        "NVDA",
+        "AMD",
+        "custom-ASIC programs",
+        "via them, the hyperscalers"
+      ],
+      "kpis": [
+        {
+          "label": "HBM sold out?",
+          "value": "Watch quarterly commentary",
+          "watch": "HBM sold out into the next year = pricing power intact. First inventory build = cycle turn."
+        },
+        {
+          "label": "HBM share vs SK Hynix",
+          "value": "Watch qualification wins",
+          "watch": "Nvidia qualification for each HBM generation decides share shifts between Micron, SK Hynix and Samsung."
+        },
+        {
+          "label": "Capex vs. bit growth",
+          "value": "Watch guidance",
+          "watch": "Disciplined capex keeps memory pricing high; capacity overbuild ends the boom."
+        }
+      ],
+      "readThrough": "Memory is the chain's boom-bust amplifier: HBM margins are spectacular at the top and the first thing to collapse if AI capex pauses. Micron's bookings are a five-quarter leading indicator for the memory cycle.",
+      "risks": [
+        "Memory is inherently cyclical — record margins invite supply",
+        "SK Hynix leads HBM today",
+        "Customer inventory corrections cut fast"
+      ],
+      "sources": [
+        {
+          "title": "Micron Investor Relations",
+          "url": "https://investors.micron.com"
+        }
+      ]
+    },
+    {
+      "symbol": "000660.KS",
+      "name": "SK Hynix",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "KRX (Korea) — EU retail access limited",
+      "tags": [
+        "hbm",
+        "leader",
+        "access-limited"
+      ],
+      "role": "The HBM market leader and Nvidia's primary HBM partner — arguably the single most supply-constrained company in the AI chain. Listed in Seoul; no liquid US ADR, so many EU retail investors can only participate indirectly.",
+      "upstream": [
+        "ASML / Applied / Lam (DRAM tools)",
+        "Korean materials ecosystem"
+      ],
+      "customers": [
+        "NVIDIA (primary HBM partner)",
+        "other accelerator designers"
+      ],
+      "kpis": [
+        {
+          "label": "HBM revenue share",
+          "value": "Watch quarterly disclosure",
+          "watch": "HBM as % of total revenue: the higher, the more AI leverage and the more cycle risk."
+        },
+        {
+          "label": "HBM4 qualification",
+          "value": "Next-generation ramp",
+          "watch": "Whoever qualifies first for Nvidia's HBM4 sets pricing for the generation."
+        }
+      ],
+      "readThrough": "When SK Hynix says HBM is sold out, the bottleneck for the whole chain has moved elsewhere (usually TSMC packaging). Watch the two in sequence.",
+      "risks": [
+        "Memory cycle",
+        "Korean won and export exposure",
+        "Samsung's qualification catching up"
+      ],
+      "sources": [
+        {
+          "title": "SK Hynix Investor Relations",
+          "url": "https://www.skhynix.com/ir"
+        }
+      ]
+    },
+    {
+      "symbol": "MSFT",
+      "name": "Microsoft",
+      "layer": "compute",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "hyperscaler",
+        "openai-proxy"
+      ],
+      "role": "Hyperscaler (Azure, $33.2B/quarter, +48% YoY) and the main compute landlord for OpenAI — it holds an estimated 27% equity stake in the OpenAI Group, making it the closest listed proxy for the largest private lab.",
+      "upstream": [
+        "NVDA / AMD / AVGO",
+        "power contracts (incl. Constellation's Three Mile Island restart)",
+        "VRT / ETN equipment"
+      ],
+      "customers": [
+        "enterprises (Azure + Copilot)",
+        "OpenAI (cloud loop + equity)"
+      ],
+      "kpis": [
+        {
+          "label": "Azure growth",
+          "value": "+48% YoY in Q1 FY2027; guided to 49-50%",
+          "watch": "Deceleration while capex keeps rising is the bear case; acceleration vindicates the buildout."
+        },
+        {
+          "label": "Capex and free cash flow",
+          "value": "$45.2B quarterly capex; ~$170B FY2027 guide; FCF still positive at $18.6B",
+          "watch": "Microsoft is the only one of the big three that stayed FCF-positive in October 2026 — if that flips, the whole sector narrative changes."
+        },
+        {
+          "label": "OpenAI stake marks",
+          "value": "27% equity stake",
+          "watch": "OpenAI's confidential S-1 draft re-prices Microsoft's stub on every valuation headline."
+        }
+      ],
+      "readThrough": "Microsoft is the chain's proof point that AI capex can coexist with positive free cash flow — and its OpenAI stake is the main public vehicle for exposure to the largest private lab. Both roles are on the same scorecard.",
+      "risks": [
+        "Capacity shortages (delayed third-party data-center deliveries trimmed Q1 capex)",
+        "OpenAI dependency cuts both ways",
+        "Copilot monetization pace is unproven"
+      ],
+      "sources": [
+        {
+          "title": "Microsoft Q1 FY2027 results (Azure +48%, $92.3B revenue)",
+          "url": "https://en.sedaily.com/international/2026/10/29/microsoft-beats-estimates-with-923-billion-revenue-as-azure",
+          "date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "symbol": "AMZN",
+      "name": "Amazon",
+      "layer": "compute",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "hyperscaler",
+        "anthropic-proxy"
+      ],
+      "role": "AWS ($46.0B/quarter, +39% YoY, 38.7% operating margin) is the largest cloud by revenue; Amazon is also Anthropic's anchor backer and builds Trainium custom silicon to dilute Nvidia dependence.",
+      "upstream": [
+        "NVDA / AMD",
+        "AVGO (networking)",
+        "power contracts",
+        "VRT / ETN equipment"
+      ],
+      "customers": [
+        "enterprises (AWS)",
+        "Anthropic (cloud loop + equity)"
+      ],
+      "kpis": [
+        {
+          "label": "Free cash flow",
+          "value": "TTM −$42.4B (vs +$14.8B a year earlier)",
+          "watch": "Q3 capex $77.3B; 2026 capex ~$220B and 2027 guided significantly higher — FCF stays negative until capex growth stops."
+        },
+        {
+          "label": "AWS growth and margin",
+          "value": "+39.3% revenue, 38.7% operating margin",
+          "watch": "AWS margin is what ultimately funds the capex; margin compression plus capex growth is the double-warning."
+        },
+        {
+          "label": "Anthropic stake",
+          "value": "Equity + primary cloud provider",
+          "watch": "Anthropic's future IPO/valuation marks revalue the stake and the AWS backlog."
+        }
+      ],
+      "readThrough": "Amazon is the clearest live experiment in the capex-vs-FCF trade-off: the market rewarded 39% AWS growth but punished the negative FCF with a ~7.5% drop. Watch how far investors tolerate this trade.",
+      "risks": [
+        "Capex intensity",
+        "Retail margin cyclicality",
+        "Neocloud competition for AI workloads"
+      ],
+      "sources": [
+        {
+          "title": "Amazon Q3 2026 results (FCF −$42.4B, capex held at ~$220B)",
+          "url": "https://www.cnbc.com/2026/10/29/amazon-amzn-q3-earnings-report-2026.html",
+          "date": "2026-10-29"
+        }
+      ]
+    },
+    {
+      "symbol": "GOOGL",
+      "name": "Alphabet",
+      "layer": "models",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "hyperscaler",
+        "vertically-integrated",
+        "frontier-lab"
+      ],
+      "role": "The only fully vertically integrated player: hyperscaler (Cloud +103% to $30.7B), frontier lab (Gemini, 1B app users) and chip designer (TPU) in one. Gemini trains on its own silicon.",
+      "upstream": [
+        "NVDA (partly)",
+        "Broadcom (TPU co-design)",
+        "power contracts"
+      ],
+      "customers": [
+        "enterprises (Cloud, $561B backlog)",
+        "consumers (Search, Gemini app)",
+        "Anthropic (equity + cloud)"
+      ],
+      "kpis": [
+        {
+          "label": "Free cash flow",
+          "value": "−$9.07B in Q3 2026",
+          "watch": "Capex $51.4B/quarter, 2027 guided significantly higher; buybacks halted and equity issued. FCF is the thesis test."
+        },
+        {
+          "label": "Search vs AI Mode monetization",
+          "value": "AI Mode queries monetize worse than classic search",
+          "watch": "The cannibalization question: watch paid-click economics in Search each quarter — this is the industry's core monetization risk in miniature."
+        },
+        {
+          "label": "Cloud backlog",
+          "value": "+103% revenue, $561B backlog",
+          "watch": "Backlog conversion pace; $8.66B equity losses (incl. Anthropic) also hit net income."
+        }
+      ],
+      "readThrough": "Alphabet's Oct 28 print was the trigger of the October 2026 repricing: revenue grew 25% (fine), but negative FCF plus AI cannibalizing search broke the 'AI is free growth' story. Its record 13.7% drop is the event the whole chain now trades against.",
+      "risks": [
+        "Search cannibalization is structural",
+        "TPU external sales strategy is unresolved",
+        "Regulatory pressure",
+        "Equity marks add accounting noise"
+      ],
+      "sources": [
+        {
+          "title": "Alphabet Q3 2026 results (FCF −$9.07B, record drop)",
+          "url": "https://www.cnbc.com/2026/10/28/alphabet-googl-earnings-q3-2026.html",
+          "date": "2026-10-28"
+        }
+      ]
+    },
+    {
+      "symbol": "META",
+      "name": "Meta Platforms",
+      "layer": "models",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "open-weights",
+        "capex-heavy"
+      ],
+      "role": "Open-weights model leader (Llama) and one of the largest capex spenders. Unusual position: it buys compute at hyperscaler scale but has no external cloud to sell the surplus — monetization must come through its own ad products.",
+      "upstream": [
+        "NVDA",
+        "AMD",
+        "custom MTIA silicon",
+        "power contracts"
+      ],
+      "customers": [
+        "its own ads business",
+        "open-source ecosystem (Llama)"
+      ],
+      "kpis": [
+        {
+          "label": "Capex vs. ad revenue",
+          "value": "Oct 2026 quarter: first net cash outflow since 2012 (reported)",
+          "watch": "The ratio of capex growth to ad-revenue growth — when capex outgrows ads, the stock reprices."
+        },
+        {
+          "label": "Llama adoption",
+          "value": "Watch download/derivative counts",
+          "watch": "Open-weights strategy pays off only if the ecosystem builds on Llama rather than OpenAI/Anthropic APIs."
+        }
+      ],
+      "readThrough": "Meta is the purest test of whether AI monetization can keep up with capex inside a single company: no cloud revenue to offset the spend, just ads.",
+      "risks": [
+        "Negative FCF with no cloud business to absorb the spend",
+        "Ad-cycle sensitivity",
+        "Open-weights thesis diluted by rivals' stronger models"
+      ],
+      "sources": [
+        {
+          "title": "Meta Q3 2026 reporting (net cash outflow)",
+          "url": "https://investor.atmeta.com",
+          "date": "2026-10"
+        }
+      ]
+    },
+    {
+      "symbol": "CRWV",
+      "name": "CoreWeave",
+      "layer": "compute",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "neocloud",
+        "debt",
+        "risk-case"
+      ],
+      "role": "Pure-play AI cloud: rents GPU capacity to AI labs and enterprises, financed largely with debt secured against GPUs. The archetypal neocloud and a large part of Nvidia's ACIE demand segment.",
+      "upstream": [
+        "NVDA (GPU supply)",
+        "debt markets (financing)",
+        "VRT-class cooling"
+      ],
+      "customers": [
+        "AI labs",
+        "enterprises",
+        "mega-contracts from hyperscalers historically"
+      ],
+      "kpis": [
+        {
+          "label": "Cost of debt",
+          "value": "Watch bond yields",
+          "watch": "Refinancing cost is the whole business model; rising yields with GPU collateral values falling is the failure mode."
+        },
+        {
+          "label": "Backlog concentration",
+          "value": "Watch contract disclosures",
+          "watch": "A few mega-contracts can carry the backlog — one non-renewal changes the story."
+        },
+        {
+          "label": "GPU utilization and depreciation",
+          "value": "Watch margins",
+          "watch": "Contract terms vs. useful life of the GPUs; depreciation outrunning contract revenue is the trap."
+        }
+      ],
+      "readThrough": "Neoclouds are the chain's leverage layer: their backlog strength confirms ACIE demand is real, while their bond yields measure how nervous credit markets are about AI. The group fell sharply (~−30% reported) in the October 2026 sell-off — the first domino if AI demand pauses.",
+      "risks": [
+        "Debt-funded capex",
+        "Customer concentration",
+        "GPU depreciation risk",
+        "Rate sensitivity"
+      ],
+      "sources": [
+        {
+          "title": "CoreWeave Investor Relations",
+          "url": "https://investors.coreweave.com"
+        }
+      ]
+    },
+    {
+      "symbol": "OPENAI",
+      "name": "OpenAI (private)",
+      "layer": "models",
+      "status": "private",
+      "tags": [
+        "frontier-lab",
+        "ipo-pipeline"
+      ],
+      "role": "Creator of ChatGPT and the demand anchor behind much of the chain's compute buildout. Private (public benefit corporation after restructuring); Microsoft holds ~27%. A confidential draft S-1 has been filed, with market consensus pointing to a listing around 2027.",
+      "upstream": [
+        "Azure + other cloud capacity",
+        "custom hardware partners",
+        "NVDA GPUs"
+      ],
+      "customers": [
+        "consumers (ChatGPT)",
+        "enterprises (API)",
+        "developers"
+      ],
+      "kpis": [
+        {
+          "label": "Revenue run-rate",
+          "value": "Watch disclosed/leaked figures",
+          "watch": "Run-rate vs. compute commitments is the single most important number in the AI economy right now."
+        },
+        {
+          "label": "Compute commitments",
+          "value": "Multi-year cloud contracts",
+          "watch": "Commitments being renegotiated down would be the first genuine AI-demand crack."
+        },
+        {
+          "label": "IPO timing",
+          "value": "S-1 filed confidentially; consensus 2027",
+          "watch": "A listing converts proxy exposure (MSFT) into direct exposure and re-prices both."
+        }
+      ],
+      "readThrough": "Every capex dollar in this chain is ultimately a bet that OpenAI-class demand is durable. Its revenue disclosures and IPO progress are the chain's upside scenario.",
+      "risks": [
+        "Cash burn vs. commitments",
+        "Competition from Gemini and Claude",
+        "Governance/structural changes"
+      ],
+      "sources": [
+        {
+          "title": "OpenAI corporate updates / SEC filings via press",
+          "url": "https://openai.com/news"
+        }
+      ]
+    },
+    {
+      "symbol": "ANTHROPIC",
+      "name": "Anthropic (private)",
+      "layer": "models",
+      "status": "private",
+      "tags": [
+        "frontier-lab",
+        "ipo-pipeline"
+      ],
+      "role": "Creator of Claude; enterprise-focused frontier lab backed by Amazon and Google, which also serve as its primary compute providers — a loop where venture funding recycles into AWS/GCP revenue. A confidential draft S-1 has been filed.",
+      "upstream": [
+        "AWS (Trainium + GPU capacity)",
+        "Google Cloud (TPU)"
+      ],
+      "customers": [
+        "enterprises",
+        "developers (API)",
+        "consumer apps"
+      ],
+      "kpis": [
+        {
+          "label": "Revenue/valuation marks",
+          "value": "Watch funding rounds + equity marks",
+          "watch": "Google's Q3 equity losses (incl. Anthropic) show how swings already hit public balance sheets."
+        },
+        {
+          "label": "IPO progress",
+          "value": "S-1 filed; no date set",
+          "watch": "A listing would give both AMZN and GOOGL shareholders a direct benchmark for their stakes."
+        }
+      ],
+      "readThrough": "Anthropic is the strongest evidence for the equity-plus-cloud model: the lab's spend flows back to its backers, so its success compounds both stakes at once.",
+      "risks": [
+        "Compute dependence on two backers",
+        "Enterprise concentration",
+        "Frontier-model competition"
+      ],
+      "sources": [
+        {
+          "title": "Anthropic news",
+          "url": "https://www.anthropic.com/news"
+        }
+      ]
+    },
+    {
+      "symbol": "APX",
+      "name": "Appen",
+      "layer": "data",
+      "status": "public",
+      "exchange": "ASX — micro-cap, EU access limited",
+      "tags": [
+        "data-labeling",
+        "micro-cap"
+      ],
+      "role": "One of the few listed data-labeling firms — the public representative of a layer whose real players (Scale AI, in-house teams, click-work platforms) are private. A sentiment proxy, not a structural holding.",
+      "upstream": [
+        "global contractor workforce",
+        "licensing deals"
+      ],
+      "customers": [
+        "AI labs",
+        "enterprises training custom models"
+      ],
+      "kpis": [
+        {
+          "label": "Revenue trend",
+          "value": "Watch half-year results",
+          "watch": "Shrinking model-training budgets show up here first; growth means the data layer still commands premium spend."
+        },
+        {
+          "label": "Contract wins",
+          "value": "Watch announcements",
+          "watch": "Generative AI is automating parts of annotation — watch whether Appen captures the RLHF wave or loses to it."
+        }
+      ],
+      "readThrough": "The data layer is the least investable link in the chain. Read Appen as a leading indicator of data-spend direction, not as portfolio material.",
+      "risks": [
+        "Commodity labor arbitrage erodes",
+        "Customer concentration",
+        "Automation of its own work"
+      ],
+      "sources": [
+        {
+          "title": "Appen Investor Centre",
+          "url": "https://www.appen.com/investors"
+        }
+      ],
+      "quoteSymbol": "APX.AX"
+    },
+    {
+      "symbol": "VRT",
+      "name": "Vertiv",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "liquid-cooling",
+        "bottleneck"
+      ],
+      "role": "The liquid-cooling and power-management specialist of the data center. Next-generation chips run too hot for air cooling, forcing retrofits — Vertiv's core demand driver, and one of the tightest physical bottlenecks in the buildout.",
+      "upstream": [
+        "industrial components",
+        "copper and steel supply chains"
+      ],
+      "customers": [
+        "hyperscalers",
+        "colocation providers",
+        "neoclouds (CRWV-class)"
+      ],
+      "kpis": [
+        {
+          "label": "Backlog and book-to-bill",
+          "value": "Q3 2026: organic orders +100%+, FY guidance raised to $14.65B revenue",
+          "watch": "Order growth above 100% confirms the retrofit wave is still accelerating; watch the first quarter it decelerates."
+        },
+        {
+          "label": "Revenue and EPS growth",
+          "value": "Q3 2026: revenue +61% (organic +55%), adjusted EPS +78%",
+          "watch": "Growth rates are the proof the bottleneck pricing is real; the stock jumped 16.5% on the print."
+        },
+        {
+          "label": "Liquid cooling revenue mix",
+          "value": "Watch disclosure",
+          "watch": "Rising mix = priced-up product cycle; slowing means air-cooling legacy drag."
+        }
+      ],
+      "readThrough": "Vertiv sells into every rack regardless of whose chip sits inside — it is the chip-agnostic way to own the buildout. Its orders lead hyperscaler equipment spending by a quarter or two.",
+      "risks": [
+        "Cyclical exposure to data-center construction pauses",
+        "Competition from Schneider and in-house designs",
+        "Component cost inflation"
+      ],
+      "sources": [
+        {
+          "title": "Vertiv Q3 2026 results — orders >100% organic, FY guide raised",
+          "url": "https://investors.vertiv.com",
+          "date": "2026-10"
+        },
+        {
+          "title": "Vertiv profile & listing (WKN A2PZ5A, ISIN US92537N1081)",
+          "url": "https://www.onvista.de/aktien/unternehmensprofil/VERTIV-HOLDINGS-Aktie-US92537N1081"
+        }
+      ]
+    },
+    {
+      "symbol": "ETN",
+      "name": "Eaton",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "electrical",
+        "bottleneck"
+      ],
+      "role": "Switchgear, transformers and power distribution — the equipment between the grid and the GPU. Transformer lead times stretched to multi-year during the buildout, making Eaton's backlog a proxy for how fast data centers can actually connect to power.",
+      "upstream": [
+        "copper",
+        "electrical steel",
+        "specialty components"
+      ],
+      "customers": [
+        "utilities",
+        "data center builders",
+        "industrial customers"
+      ],
+      "kpis": [
+        {
+          "label": "Electrical Americas backlog",
+          "value": "Watch quarterly",
+          "watch": "Multi-year backlog = visibility; backlog growth decelerating while data-center announcements keep coming means grid-pacing constraints."
+        },
+        {
+          "label": "Transformer lead times",
+          "value": "Watch industry data",
+          "watch": "Lead times contracting from record highs signals the equipment bottleneck is easing — good for data centers, less pricing power for Eaton."
+        }
+      ],
+      "readThrough": "Eaton's backlog is the best available public gauge of the physical connection bottleneck: power can be contracted and chips delivered, but without switchgear nothing runs.",
+      "risks": [
+        "Industrial cyclicality outside data centers",
+        "Copper cost inflation",
+        "Lead-time normalization compresses pricing"
+      ],
+      "sources": [
+        {
+          "title": "Eaton Investor Relations",
+          "url": "https://www.eaton.com/us/en-us/company/investor-relations.html"
+        }
+      ]
+    },
+    {
+      "symbol": "CEG",
+      "name": "Constellation Energy",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "hedge",
+        "nuclear"
+      ],
+      "role": "The largest US nuclear operator, and the template for the AI power deal: a 20-year PPA to restart Three Mile Island for Microsoft. Hyperscalers pay premium, fixed-rate prices for carbon-free 24/7 power — the most contractually insulated cash flows in the chain.",
+      "upstream": [
+        "uranium supply",
+        "grid interconnection"
+      ],
+      "customers": [
+        "Microsoft (TMI restart PPA)",
+        "other hyperscalers in negotiation",
+        "regulated markets"
+      ],
+      "kpis": [
+        {
+          "label": "PPA announcements",
+          "value": "Watch press releases",
+          "watch": "Each new hyperscaler PPA secures years of fixed revenue and validates the premium nuclear model."
+        },
+        {
+          "label": "Nuclear fleet output",
+          "value": "Watch availability factors",
+          "watch": "Uptime on the existing fleet is the free option; restarts add capacity at known cost."
+        }
+      ],
+      "readThrough": "Constellation converts the AI power scramble into contracted, inflation-protected revenue. It is the first name paid in the chain — which is exactly why it trades at an AI premium too.",
+      "risks": [
+        "Regulatory/restart approvals",
+        "Politically exposed consumer rates",
+        "Valuation already assumes the PPA wave continues"
+      ],
+      "sources": [
+        {
+          "title": "Constellation Energy Investor Relations",
+          "url": "https://www.constellationenergy.com/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "VST",
+      "name": "Vistra",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "ipp"
+      ],
+      "role": "Independent power producer with a gas and nuclear fleet in ERCOT and other competitive markets — direct exposure to power prices, which data-center demand keeps pushing up.",
+      "upstream": [
+        "natural gas supply",
+        "uranium"
+      ],
+      "customers": [
+        "competitive power markets",
+        "hyperscalers via PPAs"
+      ],
+      "kpis": [
+        {
+          "label": "Realized power prices",
+          "value": "Watch quarterly",
+          "watch": "Merchant exposure means power prices flow straight to earnings — the purest data-center-demand play in utilities."
+        },
+        {
+          "label": "Fleet expansion/deals",
+          "value": "Watch M&A",
+          "watch": "Acquiring generation capacity near data-center corridors extends the growth runway."
+        }
+      ],
+      "readThrough": "Vistra is the high-beta expression of AI power demand: more upside than regulated utilities if demand keeps rising, more downside if the buildout pauses.",
+      "risks": [
+        "Merchant power price volatility",
+        "Regulatory intervention on prices",
+        "Acquisition integration"
+      ],
+      "sources": [
+        {
+          "title": "Vistra Investor Relations",
+          "url": "https://www.vistracorp.com/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "NEE",
+      "name": "NextEra Energy",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "utility",
+        "renewables"
+      ],
+      "role": "The largest US utility by market cap and its biggest renewables developer. Regulated rate-base growth (legally allowed returns) plus a renewables pipeline that data centers need to hit green-energy targets.",
+      "upstream": [
+        "solar/wind equipment",
+        "grid interconnection queues"
+      ],
+      "customers": [
+        "regulated Florida customers",
+        "hyperscalers and corporates (renewables PPAs)"
+      ],
+      "kpis": [
+        {
+          "label": "Renewables backlog",
+          "value": "Watch quarterly",
+          "watch": "Contracted renewables backlog is the growth engine; data-center PPAs extend it."
+        },
+        {
+          "label": "Rate-base growth",
+          "value": "Watch regulatory filings",
+          "watch": "Approved rate increases fund the grid investment — the regulated half of the hedge."
+        }
+      ],
+      "readThrough": "NextEra is the defensive anchor of the power sleeve: slower than CEG/VST but with regulated returns that don't depend on AI demand holding up.",
+      "risks": [
+        "Interest-rate sensitivity",
+        "Regulatory outcomes",
+        "Hurricane/weather exposure in Florida"
+      ],
+      "sources": [
+        {
+          "title": "NextEra Energy Investor Relations",
+          "url": "https://www.investor.nexteraenergy.com"
+        }
+      ]
+    },
+    {
+      "symbol": "EQT",
+      "name": "EQT Corporation",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "natural-gas"
+      ],
+      "role": "The largest US natural gas producer. Every gigawatt of on-site gas generation for data centers increases structural demand for EQT's molecules — the bridge-fuel thesis in equity form.",
+      "upstream": [
+        "Appalachian acreage",
+        "pipeline takeaway capacity"
+      ],
+      "customers": [
+        "utilities",
+        "industrial users",
+        "power generators, increasingly data-center-adjacent"
+      ],
+      "kpis": [
+        {
+          "label": "Realized gas prices",
+          "value": "Watch quarterly",
+          "watch": "Commodity exposure is the point: data-center demand tightens the market, prices follow."
+        },
+        {
+          "label": "Data-center supply deals",
+          "value": "Watch announcements",
+          "watch": "Direct gas-to-data-center contracts would upgrade the story from commodity to contracted growth."
+        }
+      ],
+      "readThrough": "EQT is the cheapest way to own the AI power demand story — a commodity producer with structural demand growth, trading at value multiples with a dividend.",
+      "risks": [
+        "Gas price cyclicality (weather-driven)",
+        "Pipeline capacity constraints",
+        "Energy-transition policy risk"
+      ],
+      "sources": [
+        {
+          "title": "EQT Investor Relations",
+          "url": "https://ir.eqt.com"
+        }
+      ]
+    },
+    {
+      "symbol": "WMB",
+      "name": "Williams Companies",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "midstream"
+      ],
+      "role": "Natural gas pipelines and storage. Data centers must be built near fiber and power; on-site gas generation requires pipeline connectivity — Williams owns the pipes that connect the molecules to the megawatts.",
+      "upstream": [
+        "pipeline infrastructure",
+        "regulatory approval"
+      ],
+      "customers": [
+        "utilities",
+        "power generators",
+        "industrial users"
+      ],
+      "kpis": [
+        {
+          "label": "Contracted capacity growth",
+          "value": "Watch quarterly",
+          "watch": "Fee-based, take-or-pay contracts make revenue stable; new data-center pipeline laterals add growth without commodity risk."
+        },
+        {
+          "label": "Dividend coverage",
+          "value": "Watch cash flow",
+          "watch": "High-yield midstream: coverage ratio determines whether the income is safe during downturns."
+        }
+      ],
+      "readThrough": "Williams is the toll road between the gas field and the data center — fee-based cash flows with less commodity swing than EQT, higher yield than utilities.",
+      "risks": [
+        "Regulatory and permitting risk",
+        "Interest-rate sensitivity",
+        "Volume risk if gas demand stalls"
+      ],
+      "sources": [
+        {
+          "title": "Williams Investor Relations",
+          "url": "https://investor.williams.com"
+        }
+      ]
+    },
+    {
+      "symbol": "4062.T",
+      "name": "Ibiden",
+      "layer": "upstream",
+      "status": "public",
+      "exchange": "TYO (Tokyo)",
+      "tags": [
+        "substrates",
+        "bottleneck"
+      ],
+      "role": "Maker of the advanced IC package substrates (ABF) that sit between the chip die and the board. AI accelerators need the industry's largest, highest-layer-count substrates — a quiet bottleneck that gates every GPU ramp.",
+      "upstream": [
+        "Ajinomoto build-up film",
+        "copper foil",
+        "Japanese materials ecosystem"
+      ],
+      "customers": [
+        "Intel",
+        "NVIDIA (via TSMC/assembly)",
+        "AMD"
+      ],
+      "kpis": [
+        {
+          "label": "Substrate capacity expansion",
+          "value": "Watch capex announcements",
+          "watch": "New substrate capacity lands 2-3 years after announcement; lead times are the tell."
+        },
+        {
+          "label": "AI substrate mix",
+          "value": "Watch quarterly commentary",
+          "watch": "Rising AI share = pricing power; falling means the substrate crunch eased."
+        }
+      ],
+      "readThrough": "Substrate supply is one of the physical gates on accelerator output — when substrate lead times stretch, Nvidia shipment guidance is capped regardless of wafer supply.",
+      "risks": [
+        "Japan production concentration",
+        "Customer concentration",
+        "Semiconductor cycle"
+      ],
+      "sources": [
+        {
+          "title": "Ibiden Investor Relations",
+          "url": "https://www.ibiden.co.jp/en/ir/"
+        }
+      ]
+    },
+    {
+      "symbol": "3037.TW",
+      "name": "Unimicron",
+      "layer": "components",
+      "status": "public",
+      "exchange": "TWSE (Taiwan)",
+      "tags": [
+        "pcb",
+        "taiwan"
+      ],
+      "role": "Taiwan's largest PCB/substrate maker; supplies the ultra-high-density boards and substrates inside AI servers and switches, alongside Ibiden and Tripod.",
+      "upstream": [
+        "copper-clad laminate",
+        "Japanese materials"
+      ],
+      "customers": [
+        "AI server ODMs",
+        "networking equipment makers",
+        "chip packagers"
+      ],
+      "kpis": [
+        {
+          "label": "AI product revenue share",
+          "value": "Watch quarterly",
+          "watch": "AI boards carry premium margins; mix shift is the whole equity story."
+        },
+        {
+          "label": "Utilisation rates",
+          "value": "Watch commentary",
+          "watch": "High utilisation with tight supply means price increases stick."
+        }
+      ],
+      "readThrough": "PCB and substrate makers sit at the roof of every AI server — their order books lead ODM assembly by a quarter.",
+      "risks": [
+        "Taiwan concentration",
+        "Chinese PCB competition",
+        "Capex-heavy expansion"
+      ],
+      "sources": [
+        {
+          "title": "Unimicron Investor Relations",
+          "url": "https://www.unimicron.com/en/investor"
+        }
+      ]
+    },
+    {
+      "symbol": "3044.TW",
+      "name": "Tripod Technology",
+      "layer": "components",
+      "status": "public",
+      "exchange": "TWSE (Taiwan)",
+      "tags": [
+        "pcb",
+        "taiwan"
+      ],
+      "role": "PCB supplier focused on AI server and networking boards — switch line cards and server motherboards that must route enormous data rates without signal loss.",
+      "upstream": [
+        "copper-clad laminate",
+        "Taiwan PCB supply chain"
+      ],
+      "customers": [
+        "networking equipment makers",
+        "AI server ODMs"
+      ],
+      "kpis": [
+        {
+          "label": "AI server board revenue",
+          "value": "Watch quarterly",
+          "watch": "Tracks the ODM build rate a quarter ahead."
+        },
+        {
+          "label": "Gross margin",
+          "value": "Watch trend",
+          "watch": "High-layer-count boards command premium pricing; margin is the pricing-power proxy."
+        }
+      ],
+      "readThrough": "A second-order Taiwan read: Tripod's orders confirm ODM build plans before the assemblers report.",
+      "risks": [
+        "PCB cyclicality",
+        "Taiwan concentration",
+        "Customer concentration"
+      ],
+      "sources": [
+        {
+          "title": "Tripod Technology Investor Relations",
+          "url": "https://www.tripod-tech.com/eng/ir"
+        }
+      ]
+    },
+    {
+      "symbol": "APH",
+      "name": "Amphenol",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "connectivity",
+        "cabling"
+      ],
+      "role": "Supplies the high-speed copper cabling assemblies and connectors — and increasingly optical transceivers — that link thousands of GPUs into one fabric. Interconnect content per rack grows with every GPU generation.",
+      "upstream": [
+        "copper",
+        "connector components",
+        "optical components"
+      ],
+      "customers": [
+        "hyperscalers",
+        "server ODMs",
+        "NVIDIA rack programmes"
+      ],
+      "kpis": [
+        {
+          "label": "IT datacom growth",
+          "value": "Watch segment growth",
+          "watch": "The cleanest public measure of AI interconnect demand."
+        },
+        {
+          "label": "AI-related orders",
+          "value": "Watch commentary",
+          "watch": "Content-per-rack growth compounds even if GPU unit growth slows."
+        }
+      ],
+      "readThrough": "Amphenol is the 'wiring' play: agnostic to which accelerator wins, paid per rack built. Its datacom growth reads through to real build rates.",
+      "risks": [
+        "Industrial cyclicality outside datacom",
+        "Copper price exposure",
+        "Competition from Asian connector makers"
+      ],
+      "sources": [
+        {
+          "title": "Amphenol Investor Relations",
+          "url": "https://investors.amphenol.com"
+        }
+      ]
+    },
+    {
+      "symbol": "MRVL",
+      "name": "Marvell Technology",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "networking",
+        "optical"
+      ],
+      "role": "Optical DSPs for 800G/1.6T links, plus custom accelerator silicon — the optical-engine counterpart to Broadcom's switching franchise.",
+      "upstream": [
+        "TSMC (fab)",
+        "optical component suppliers"
+      ],
+      "customers": [
+        "hyperscalers",
+        "networking OEMs",
+        "custom-ASIC clients"
+      ],
+      "kpis": [
+        {
+          "label": "Data centre revenue mix",
+          "value": "Watch quarterly",
+          "watch": "Optical DSP demand tracks cluster scale-out; a stall precedes ODM slowdowns."
+        },
+        {
+          "label": "Custom silicon bookings",
+          "value": "Watch design wins",
+          "watch": "Each win locks multi-year revenue and confirms the de-Nvidia-fication trend."
+        }
+      ],
+      "readThrough": "Marvell reads the optical layer of the fabric: when clusters stop growing, DSP orders fall first.",
+      "risks": [
+        "Broadcom competition",
+        "Customer concentration",
+        "Carrier/enterprise cyclicality"
+      ],
+      "sources": [
+        {
+          "title": "Marvell Investor Relations",
+          "url": "https://investor.marvell.com"
+        }
+      ]
+    },
+    {
+      "symbol": "SMCI",
+      "name": "Super Micro Computer",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "odm",
+        "rack-scale"
+      ],
+      "role": "US-based rack-scale integrator: builds the actual AI server boxes and direct-to-liquid-cooled racks that Nvidia sells as DGX/HGX-class systems. The listed US alternative to the Taiwanese ODMs.",
+      "upstream": [
+        "NVIDIA / AMD GPUs",
+        "Delta / Lite-On PSUs",
+        "Taiwanese PCB supply"
+      ],
+      "customers": [
+        "hyperscalers",
+        "AI labs",
+        "enterprises"
+      ],
+      "kpis": [
+        {
+          "label": "Gross margin vs. volume",
+          "value": "Watch quarterly",
+          "watch": "ODM economics: volume growth with collapsing margin is the classic trap."
+        },
+        {
+          "label": "Backlog and customer concentration",
+          "value": "Watch disclosures",
+          "watch": "A few mega-customers can carry the backlog; one leaving changes the story."
+        }
+      ],
+      "readThrough": "Super Micro converts GPU allocations into completed racks — its shipments are the physical 'delivery' signal of the AI buildout.",
+      "risks": [
+        "Thin ODM margins",
+        "Taiwan ODM competition",
+        "Governance history"
+      ],
+      "sources": [
+        {
+          "title": "Super Micro Investor Relations",
+          "url": "https://ir.supermicro.com"
+        }
+      ]
+    },
+    {
+      "symbol": "2317.TW",
+      "name": "Foxconn / Hon Hai",
+      "layer": "components",
+      "status": "public",
+      "exchange": "TWSE (Taiwan)",
+      "tags": [
+        "odm",
+        "taiwan",
+        "geopolitics"
+      ],
+      "role": "The world's largest electronics assembler and the biggest builder of Nvidia's GB200/GB300-class AI racks; expanding assembly into Mexico and the US to shorten the Taiwan exposure.",
+      "upstream": [
+        "GPUs from Nvidia",
+        "Taiwan components ecosystem",
+        "global component supply"
+      ],
+      "customers": [
+        "NVIDIA",
+        "hyperscalers",
+        "major cloud programmes"
+      ],
+      "kpis": [
+        {
+          "label": "AI server revenue",
+          "value": "Watch monthly/quarterly",
+          "watch": "The single best public gauge of rack assembly volume."
+        },
+        {
+          "label": "Non-Taiwan capacity",
+          "value": "Watch expansion announcements",
+          "watch": "Mexico/US lines are the geographic hedge in progress."
+        }
+      ],
+      "readThrough": "Foxconn is the assembly chokepoint in company form: over 90% of advanced AI racks pass through Taiwanese ODMs, and Foxconn is the largest of them.",
+      "risks": [
+        "Razor-thin assembly margins",
+        "Taiwan Strait geopolitics",
+        "Concentration in a handful of platform programmes"
+      ],
+      "sources": [
+        {
+          "title": "Hon Hai Investor Relations",
+          "url": "https://www.honhai.com/en-us/investor-relations"
+        }
+      ]
+    },
+    {
+      "symbol": "2382.TW",
+      "name": "Quanta Computer",
+      "layer": "components",
+      "status": "public",
+      "exchange": "TWSE (Taiwan)",
+      "tags": [
+        "odm",
+        "taiwan",
+        "geopolitics"
+      ],
+      "role": "Top-tier AI server ODM assembling hyperscaler and Nvidia platform racks; one of the small group of Taiwanese assemblers that can build at AI scale.",
+      "upstream": [
+        "NVIDIA / AMD platforms",
+        "Taiwan component ecosystem"
+      ],
+      "customers": [
+        "hyperscalers",
+        "NVIDIA partner programmes"
+      ],
+      "kpis": [
+        {
+          "label": "AI server revenue share",
+          "value": "Watch quarterly",
+          "watch": "Mix shift from laptops to AI servers is the margin story."
+        },
+        {
+          "label": "Capacity expansion",
+          "value": "Watch announcements",
+          "watch": "Global capacity buildout is both growth and geopolitical hedging."
+        }
+      ],
+      "readThrough": "Quanta's AI server guidance is a direct read on hyperscaler rack orders, a quarter ahead of the capex headlines.",
+      "risks": [
+        "Taiwan concentration",
+        "ODM margin pressure",
+        "Platform concentration"
+      ],
+      "sources": [
+        {
+          "title": "Quanta Computer Investor Relations",
+          "url": "https://www.quantatw.com/Quanta/english/investor/investor.aspx"
+        }
+      ]
+    },
+    {
+      "symbol": "3231.TW",
+      "name": "Wistron",
+      "layer": "components",
+      "status": "public",
+      "exchange": "TWSE (Taiwan)",
+      "tags": [
+        "odm",
+        "taiwan",
+        "geopolitics"
+      ],
+      "role": "AI server ODM and liquid-cooling module supplier; assembles racks for hyperscalers and supplies thermal assemblies into the same buildout.",
+      "upstream": [
+        "NVIDIA / AMD platforms",
+        "Taiwan component ecosystem"
+      ],
+      "customers": [
+        "hyperscalers",
+        "server brands"
+      ],
+      "kpis": [
+        {
+          "label": "AI server growth",
+          "value": "Watch quarterly",
+          "watch": "The third-largest ODM read after Foxconn and Quanta."
+        },
+        {
+          "label": "Cooling module revenue",
+          "value": "Watch disclosure",
+          "watch": "Liquid-cooling modules are the higher-margin adjacency."
+        }
+      ],
+      "readThrough": "Wistron couples assembly and thermal content — it earns twice from the liquid-cooling transition.",
+      "risks": [
+        "Taiwan concentration",
+        "Margin pressure",
+        "Customer concentration"
+      ],
+      "sources": [
+        {
+          "title": "Wistron Investor Relations",
+          "url": "https://www.wistron.com/en/investor"
+        }
+      ]
+    },
+    {
+      "symbol": "MOD",
+      "name": "Modine Manufacturing",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "thermal",
+        "cooling"
+      ],
+      "role": "Industrial-scale chillers and air handlers for data centres — the second listed pure-play cooling name behind Vertiv, critical for racks above 100kW where air cooling fails.",
+      "upstream": [
+        "industrial components",
+        "copper and steel"
+      ],
+      "customers": [
+        "hyperscalers",
+        "colocation providers",
+        "data-centre builders"
+      ],
+      "kpis": [
+        {
+          "label": "Data-centre backlog",
+          "value": "Watch quarterly",
+          "watch": "Backlog growth confirms the cooling retrofit wave beyond Vertiv."
+        },
+        {
+          "label": "Thermal segment margin",
+          "value": "Watch trend",
+          "watch": "Data-centre mix carries higher margins than legacy HVAC."
+        }
+      ],
+      "readThrough": "Modine is the diversification away from Vertiv concentration in the cooling sleeve — same demand driver, smaller backlog.",
+      "risks": [
+        "Competition from Vertiv and Schneider",
+        "Legacy auto/industrial exposure",
+        "Execution on capacity expansion"
+      ],
+      "sources": [
+        {
+          "title": "Modine Investor Relations",
+          "url": "https://investors.modine.com"
+        }
+      ]
+    },
+    {
+      "symbol": "AAON",
+      "name": "AAON",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "hedge",
+        "thermal",
+        "cooling"
+      ],
+      "role": "Air-handling units and chillers moving into data-centre thermal management; a smaller, US-domiciled cooling beneficiary of the same air-to-liquid transition.",
+      "upstream": [
+        "HVAC components",
+        "copper",
+        "steel"
+      ],
+      "customers": [
+        "data-centre builders",
+        "commercial HVAC customers"
+      ],
+      "kpis": [
+        {
+          "label": "Data-centre orders",
+          "value": "Watch quarterly",
+          "watch": "The new demand line; growth confirms the segment is real."
+        },
+        {
+          "label": "Margins",
+          "value": "Watch trend",
+          "watch": "Capacity ramp costs vs. pricing power."
+        }
+      ],
+      "readThrough": "AAON is a smaller-cap expression of the cooling thesis with more execution risk than Modine or Vertiv.",
+      "risks": [
+        "Small-cap execution risk",
+        "HVAC cyclicality",
+        "Competition from established thermal players"
+      ],
+      "sources": [
+        {
+          "title": "AAON Investor Relations",
+          "url": "https://www.aaon.com/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "2308.TW",
+      "name": "Delta Electronics",
+      "layer": "power",
+      "status": "public",
+      "exchange": "TWSE (Taiwan)",
+      "tags": [
+        "psu",
+        "taiwan",
+        "bottleneck"
+      ],
+      "role": "Dominant supplier of the high-density power supply units inside AI server racks — the bricks that convert grid AC into the clean DC feeding Nvidia and AMD chips. Also supplies power and thermal infrastructure for data centres.",
+      "upstream": [
+        "semiconductor power components",
+        "Taiwan manufacturing"
+      ],
+      "customers": [
+        "server ODMs",
+        "hyperscalers",
+        "NVIDIA platforms"
+      ],
+      "kpis": [
+        {
+          "label": "AI power revenue share",
+          "value": "Watch quarterly",
+          "watch": "PSU content per rack rises with each GPU generation as wattage climbs."
+        },
+        {
+          "label": "Data-centre power segment",
+          "value": "Watch growth",
+          "watch": "Grid-to-chip power products are the higher-margin adjacency."
+        }
+      ],
+      "readThrough": "Delta and Lite-On together control most of the AI server PSU market — a supply hiccup here halts rack assembly even when GPUs arrive.",
+      "risks": [
+        "Taiwan concentration",
+        "Component cost inflation",
+        "EV/industrial cyclicality"
+      ],
+      "sources": [
+        {
+          "title": "Delta Electronics Investor Relations",
+          "url": "https://www.deltaww.com/en-US/investor"
+        }
+      ]
+    },
+    {
+      "symbol": "2301.TW",
+      "name": "Lite-On Technology",
+      "layer": "power",
+      "status": "public",
+      "exchange": "TWSE (Taiwan)",
+      "tags": [
+        "psu",
+        "taiwan"
+      ],
+      "role": "Second pillar of the AI server PSU market alongside Delta — power supply bricks and power shelves for GPU racks.",
+      "upstream": [
+        "power semiconductors",
+        "Taiwan manufacturing"
+      ],
+      "customers": [
+        "server ODMs",
+        "hyperscalers"
+      ],
+      "kpis": [
+        {
+          "label": "AI power revenue",
+          "value": "Watch quarterly",
+          "watch": "Same demand driver as Delta; relative share shifts matter."
+        },
+        {
+          "label": "Margin trend",
+          "value": "Watch",
+          "watch": "Power shelves at AI density command premium pricing."
+        }
+      ],
+      "readThrough": "A high-wattage rack needs two PSU suppliers by design — Lite-On is the second-source read on rack power demand.",
+      "risks": [
+        "Taiwan concentration",
+        "Competition from Delta",
+        "Cyclical non-AI segments"
+      ],
+      "sources": [
+        {
+          "title": "Lite-On Investor Relations",
+          "url": "https://www.liteon.com/en/investor"
+        }
+      ]
+    },
+    {
+      "symbol": "SU.PA",
+      "name": "Schneider Electric",
+      "layer": "power",
+      "status": "public",
+      "exchange": "Euronext Paris (EPA: SU)",
+      "tags": [
+        "hedge",
+        "electrical",
+        "eu-listed"
+      ],
+      "role": "French energy-management giant: low- and medium-voltage distribution, UPS, cooling and racks for data centres. The EU-listed alternative to Eaton with order backlogs reportedly stretching past 2028.",
+      "upstream": [
+        "copper",
+        "electrical components",
+        "software platforms"
+      ],
+      "customers": [
+        "utilities",
+        "data-centre builders",
+        "industrial customers"
+      ],
+      "kpis": [
+        {
+          "label": "Data-centre backlog",
+          "value": "Watch quarterly systems revenue",
+          "watch": "Backlogs past 2028 insulate revenue from short-term tech budget cuts."
+        },
+        {
+          "label": "Organic growth in energy management",
+          "value": "Watch trend",
+          "watch": "Electrification demand is the structural driver beyond data centres."
+        }
+      ],
+      "readThrough": "Schneider is the European, euro-denominated way to own the grid-to-chip power node without USD exposure — and one of the 'Western-domiciled 60%' in the dialogue's geographic hedge.",
+      "risks": [
+        "European industrial cyclicality",
+        "Competition from Eaton and Siemens",
+        "Acquisition integration"
+      ],
+      "sources": [
+        {
+          "title": "Schneider Electric Investor Relations",
+          "url": "https://www.se.com/ww/en/about-us/investor-relations/"
+        }
+      ]
+    },
+    {
+      "symbol": "SIE.DE",
+      "name": "Siemens",
+      "layer": "power",
+      "status": "public",
+      "exchange": "Xetra (ETR: SIE)",
+      "tags": [
+        "grid",
+        "eu-listed",
+        "automation"
+      ],
+      "role": "Grid technology, switchgear and industrial automation; the electrification backbone behind data-centre grid connections in Europe.",
+      "upstream": [
+        "electrical steel",
+        "copper",
+        "software"
+      ],
+      "customers": [
+        "utilities",
+        "data-centre builders",
+        "industry"
+      ],
+      "kpis": [
+        {
+          "label": "Smart Infrastructure orders",
+          "value": "Watch quarterly",
+          "watch": "Electrification orders are the grid-buildout proxy."
+        },
+        {
+          "label": "Data-centre exposure commentary",
+          "value": "Watch",
+          "watch": "Growing explicit AI demand disclosure would re-rate the segment."
+        }
+      ],
+      "readThrough": "Siemens is broader and slower than Eaton — the diversified European grid play rather than a pure AI beneficiary.",
+      "risks": [
+        "Conglomerate discount",
+        "European industrial weakness",
+        "Rail/automation cyclicality"
+      ],
+      "sources": [
+        {
+          "title": "Siemens Investor Relations",
+          "url": "https://www.siemens.com/global/en/investor-relations.html"
+        }
+      ]
+    },
+    {
+      "symbol": "4063.T",
+      "name": "Shin-Etsu Chemical",
+      "layer": "upstream",
+      "status": "public",
+      "exchange": "TYO (Tokyo)",
+      "tags": [
+        "wafers",
+        "materials"
+      ],
+      "role": "The world's largest supplier of 300mm silicon wafers and photoresists — every advanced chip starts on Shin-Etsu material.",
+      "upstream": [
+        "quartz sand",
+        "chemicals"
+      ],
+      "customers": [
+        "TSMC",
+        "Samsung",
+        "Intel",
+        "memory makers"
+      ],
+      "kpis": [
+        {
+          "label": "Wafer shipment volumes",
+          "value": "Watch quarterly",
+          "watch": "Wafers lead chip output by a quarter; the quietest leading indicator in the chain."
+        },
+        {
+          "label": "Photoresist pricing",
+          "value": "Watch commentary",
+          "watch": "EUV-era resist demand grows per wafer."
+        }
+      ],
+      "readThrough": "Shin-Etsu volume is wafers consumed — an output-side read on fab utilisation, unaffected by which chip designer wins.",
+      "risks": [
+        "Semiconductor cycle",
+        "Japanese production concentration",
+        "Chemical pricing"
+      ],
+      "sources": [
+        {
+          "title": "Shin-Etsu Investor Relations",
+          "url": "https://www.shinetsu.co.jp/en/ir/"
+        }
+      ]
+    },
+    {
+      "symbol": "LIN",
+      "name": "Linde",
+      "layer": "upstream",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "gases",
+        "materials"
+      ],
+      "role": "Supplies the semiconductor-grade gases — nitrogen, argon, neon mixtures — without which fabs cannot etch or cool. Long-term on-site contracts make revenue visible.",
+      "upstream": [
+        "air separation units",
+        "rare gases sourcing"
+      ],
+      "customers": [
+        "fabs (TSMC, Samsung, Intel, Micron)",
+        "industrial users"
+      ],
+      "kpis": [
+        {
+          "label": "Electronics segment growth",
+          "value": "Watch quarterly",
+          "watch": "Tracks fab utilisation directly."
+        },
+        {
+          "label": "On-site contract wins",
+          "value": "Watch announcements",
+          "watch": "Multi-decade take-or-pay contracts at new fab sites are the growth engine."
+        }
+      ],
+      "readThrough": "Linde's electronics volumes are a clean read on fab activity; new on-site contracts mark where fabs are being built next.",
+      "risks": [
+        "Industrial gas cycle",
+        "Energy costs",
+        "Neon supply geopolitics"
+      ],
+      "sources": [
+        {
+          "title": "Linde Investor Relations",
+          "url": "https://investors.linde.com"
+        }
+      ]
+    },
+    {
+      "symbol": "AMD",
+      "name": "Advanced Micro Devices",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "accelerators",
+        "challenger"
+      ],
+      "role": "The clear number two in AI accelerators (Instinct MI-series). Its share gains are the main competitive check on Nvidia pricing — and a genuine alternative source for hyperscalers hedging supply.",
+      "upstream": [
+        "TSMC (fab + CoWoS)",
+        "SK Hynix / Micron (HBM)",
+        "ASE (packaging)"
+      ],
+      "customers": [
+        "Microsoft",
+        "Meta",
+        "Oracle",
+        "sovereign AI programmes"
+      ],
+      "kpis": [
+        {
+          "label": "Data-centre GPU revenue",
+          "value": "Watch quarterly trajectory",
+          "watch": "The single best measure of whether Nvidia's pricing power is eroding."
+        },
+        {
+          "label": "ROCm software adoption",
+          "value": "Watch developer ecosystem",
+          "watch": "Hardware is competitive; the software gap is the constraint."
+        }
+      ],
+      "readThrough": "AMD's success is the chain's only real de-concentration force at the accelerator layer — watch it as a Nvidia-share story, not just a demand story.",
+      "risks": [
+        "Software ecosystem lag vs CUDA",
+        "Nvidia cadence (Rubin)",
+        "Custom ASICs taking the #2 slot"
+      ],
+      "sources": [
+        {
+          "title": "AMD Investor Relations",
+          "url": "https://ir.amd.com"
+        }
+      ]
+    },
+    {
+      "symbol": "ARM",
+      "name": "Arm Holdings",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "ip-eda",
+        "toll-node"
+      ],
+      "role": "The instruction-set architecture inside nearly every mobile chip and a growing share of custom data-centre silicon (Grace, Graviton, Axion, MTIA-class designs). Royalties on every chip — the purest IP toll in the industry.",
+      "upstream": [
+        "design ecosystem",
+        "TSMC for customers' fabs"
+      ],
+      "customers": [
+        "NVIDIA",
+        "Amazon",
+        "Google",
+        "Meta",
+        "Apple",
+        "Qualcomm"
+      ],
+      "kpis": [
+        {
+          "label": "Royalty revenue growth",
+          "value": "Watch quarterly",
+          "watch": "Tracks total chip volumes across every end market."
+        },
+        {
+          "label": "Data-centre design wins",
+          "value": "Watch announcements",
+          "watch": "Custom Arm-based accelerators are the share-transfer signal."
+        }
+      ],
+      "readThrough": "Arm earns whether Nvidia or the hyperscalers' custom silicon wins — the cleanest expression of the de-Nvidia-fication trend.",
+      "risks": [
+        "RISC-V as an open alternative",
+        "Premium valuation",
+        "Customer concentration in mobile"
+      ],
+      "sources": [
+        {
+          "title": "Arm Investor Relations",
+          "url": "https://investors.arm.com"
+        }
+      ]
+    },
+    {
+      "symbol": "SNPS",
+      "name": "Synopsys",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "ip-eda",
+        "toll-node"
+      ],
+      "role": "Leader of the EDA duopoly: chip-design software with 90%+ combined share alongside Cadence, plus semiconductor IP. No advanced chip — Nvidia, AMD, TPU, custom ASIC — gets designed without it. Arguably the deepest moat in the entire chain.",
+      "upstream": [
+        "engineering talent",
+        "compute for simulation"
+      ],
+      "customers": [
+        "every fabless designer",
+        "foundries",
+        "systems companies building custom silicon"
+      ],
+      "kpis": [
+        {
+          "label": "Backlog / bookings",
+          "value": "Watch quarterly",
+          "watch": "Design starts lead the whole chain by 18-24 months."
+        },
+        {
+          "label": "China export restrictions",
+          "value": "Watch policy",
+          "watch": "Controls on EDA tools are a direct revenue lever."
+        }
+      ],
+      "readThrough": "EDA bookings are the earliest leading indicator in the world of AI silicon — design starts happen two years before chips ship.",
+      "risks": [
+        "US-China export controls",
+        "Valuation",
+        "Cadence competition"
+      ],
+      "sources": [
+        {
+          "title": "Synopsys Investor Relations",
+          "url": "https://investor.synopsys.com"
+        }
+      ]
+    },
+    {
+      "symbol": "CDNS",
+      "name": "Cadence Design Systems",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "ip-eda",
+        "toll-node"
+      ],
+      "role": "The other half of the EDA duopoly, strong in custom/analog and increasingly in system-level AI design (hardware verification, packaging design for advanced nodes).",
+      "upstream": [
+        "engineering talent",
+        "simulation compute"
+      ],
+      "customers": [
+        "fabless designers",
+        "foundries",
+        "hyperscaler silicon teams"
+      ],
+      "kpis": [
+        {
+          "label": "Backlog growth",
+          "value": "Watch quarterly",
+          "watch": "Same leading signal as Synopsys: design activity two years ahead of shipments."
+        },
+        {
+          "label": "AI-driven product mix",
+          "value": "Watch commentary",
+          "watch": "Verification and packaging software intensity grows with AI chip complexity."
+        }
+      ],
+      "readThrough": "Second EDA leader — both names together are the 'sell tools to everyone' position, indifferent to which chip wins.",
+      "risks": [
+        "Export controls",
+        "Valuation",
+        "Competition"
+      ],
+      "sources": [
+        {
+          "title": "Cadence Investor Relations",
+          "url": "https://investor.cadence.com"
+        }
+      ]
+    },
+    {
+      "symbol": "005930.KS",
+      "name": "Samsung Electronics",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "KRX (Korea) — EU retail access limited",
+      "tags": [
+        "memory",
+        "foundry",
+        "access-limited"
+      ],
+      "role": "The third HBM supplier, a leading-edge foundry (2nm ambitions) and the only company that spans memory, logic and packaging. Currently lagging SK Hynix in HBM qualification — which is exactly why it is the swing factor.",
+      "upstream": [
+        "ASML / Applied / Lam",
+        "Korean materials ecosystem"
+      ],
+      "customers": [
+        "NVIDIA (qualification quest)",
+        "AMD",
+        "device makers"
+      ],
+      "kpis": [
+        {
+          "label": "HBM qualification at Nvidia",
+          "value": "Watch announcements",
+          "watch": "Qualification would break the SK Hynix/Micron duopoly and shift HBM pricing."
+        },
+        {
+          "label": "Foundry wins at advanced nodes",
+          "value": "Watch customer news",
+          "watch": "A credible second source at N2+ is the only TSMC hedge."
+        }
+      ],
+      "readThrough": "Samsung is the chain's structural swing supplier: its HBM and foundry progress decides whether 2027 bottlenecks loosen.",
+      "risks": [
+        "HBM qualification delays",
+        "Foundry yield problems",
+        "Korean won / export exposure"
+      ],
+      "sources": [
+        {
+          "title": "Samsung Electronics Investor Relations",
+          "url": "https://www.samsung.com/global/ir/"
+        }
+      ]
+    },
+    {
+      "symbol": "ASX",
+      "name": "ASE Technology Holding",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NYSE (TWSE: 3711)",
+      "tags": [
+        "packaging",
+        "taiwan"
+      ],
+      "role": "The world's largest outsourced semiconductor assembly and test (OSAT) provider. Advanced packaging is no longer only TSMC's CoWoS — the OSAT ecosystem handles test, bumping and fan-out that every AI chip needs.",
+      "upstream": [
+        "TSMC wafers",
+        "substrate suppliers"
+      ],
+      "customers": [
+        "NVIDIA",
+        "AMD",
+        "fabless designers",
+        "foundries"
+      ],
+      "kpis": [
+        {
+          "label": "Advanced packaging revenue",
+          "value": "Watch quarterly",
+          "watch": "Tracks AI chip unit volumes in the supply chain that isn't TSMC."
+        },
+        {
+          "label": "Utilisation",
+          "value": "Watch commentary",
+          "watch": "High utilisation with tight supply = pricing power."
+        }
+      ],
+      "readThrough": "ASE is the packaging layer's second source — its capacity additions measure how fast the industry can open non-TSMC packaging lanes.",
+      "risks": [
+        "Taiwan concentration",
+        "Customer concentration",
+        "Cycle"
+      ],
+      "sources": [
+        {
+          "title": "ASE Technology Investor Relations",
+          "url": "https://www.aseglobal.com/en/investor"
+        }
+      ]
+    },
+    {
+      "symbol": "AMKR",
+      "name": "Amkor Technology",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "packaging",
+        "us-domiciled"
+      ],
+      "role": "The largest US-headquartered OSAT, building advanced packaging capacity in Arizona as a direct hedge against Taiwanese/Taiwanese-strait concentration.",
+      "upstream": [
+        "substrates",
+        "equipment vendors"
+      ],
+      "customers": [
+        "NVIDIA / AMD via programmes",
+        "automotive",
+        "device makers"
+      ],
+      "kpis": [
+        {
+          "label": "US capacity buildout",
+          "value": "Watch capex news",
+          "watch": "Arizona capacity is the physical de-risking signal, not a headline."
+        },
+        {
+          "label": "Advanced packaging mix",
+          "value": "Watch quarterly",
+          "watch": "AI packaging carries premium margins vs. consumer."
+        }
+      ],
+      "readThrough": "Amkor is the geopolitical hedge inside the packaging node — watch it as a policy-driven beneficiary.",
+      "risks": [
+        "Execution on US buildout",
+        "Customer concentration",
+        "Consumer cycle"
+      ],
+      "sources": [
+        {
+          "title": "Amkor Investor Relations",
+          "url": "https://ir.amkor.com"
+        }
+      ]
+    },
+    {
+      "symbol": "ANET",
+      "name": "Arista Networks",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "networking-systems"
+      ],
+      "role": "The leading Ethernet switch vendor for hyperscale AI clusters (Meta, Microsoft). Its systems sit on Broadcom silicon — Arista sells the network, Broadcom sells the switching logic inside it.",
+      "upstream": [
+        "Broadcom switching silicon",
+        "Taiwanese switch ODMs (Celestica)"
+      ],
+      "customers": [
+        "Meta",
+        "Microsoft",
+        "Oracle",
+        "enterprises"
+      ],
+      "kpis": [
+        {
+          "label": "AI networking revenue",
+          "value": "Watch quarterly",
+          "watch": "The clearest revenue line showing Ethernet gaining AI share from InfiniBand."
+        },
+        {
+          "label": "Hyperscaler concentration",
+          "value": "Watch disclosures",
+          "watch": "Two customers dominate; watch programme shifts."
+        }
+      ],
+      "readThrough": "Arista reads the network's role in AI: when clusters scale out, Ethernet switch demand follows, quarter by quarter.",
+      "risks": [
+        "White-box competition",
+        "Cisco",
+        "Customer concentration"
+      ],
+      "sources": [
+        {
+          "title": "Arista Investor Relations",
+          "url": "https://investors.arista.com"
+        }
+      ]
+    },
+    {
+      "symbol": "CLS",
+      "name": "Celestica",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NYSE (Toronto)",
+      "tags": [
+        "odm",
+        "networking-systems"
+      ],
+      "role": "Hyperscaler ODM building switches and servers — the North American, non-Taiwanese assembly alternative (with plants in Mexico) at the centre of the geographic de-risking trade.",
+      "upstream": [
+        "Broadcom/co-packaged silicon",
+        "global component supply"
+      ],
+      "customers": [
+        "hyperscalers",
+        "OEMs"
+      ],
+      "kpis": [
+        {
+          "label": "AI programme revenue",
+          "value": "Watch quarterly",
+          "watch": "AI hardware mix is the whole story; margin discipline is the risk."
+        },
+        {
+          "label": "Non-China capacity",
+          "value": "Watch expansion",
+          "watch": "Mexico capacity is the geopolitical hedge in action."
+        }
+      ],
+      "readThrough": "Celestica is the assembler alternative to Taiwan — watch it as the quantified 'Friend-shoring' beneficiary.",
+      "risks": [
+        "Customer concentration",
+        "Thin margins",
+        "Execution"
+      ],
+      "sources": [
+        {
+          "title": "Celestica Investor Relations",
+          "url": "https://corporate.celestica.com/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "COHR",
+      "name": "Coherent",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "optics"
+      ],
+      "role": "Optical transceivers, lasers and photonics for 800G/1.6T data-centre links — the physical light path between GPUs, alongside Marvell's DSPs.",
+      "upstream": [
+        "compound semiconductors",
+        "laser fabs"
+      ],
+      "customers": [
+        "hyperscalers",
+        "network OEMs"
+      ],
+      "kpis": [
+        {
+          "label": "Datacom revenue growth",
+          "value": "Watch quarterly",
+          "watch": "Tracks cluster scale-out directly."
+        },
+        {
+          "label": "1.6T ramp",
+          "value": "Watch product news",
+          "watch": "Each speed generation resets supplier share."
+        }
+      ],
+      "readThrough": "Optics is the unsung bottleneck: compute slows when transceivers run short.",
+      "risks": [
+        "Commoditisation",
+        "China competition",
+        "Debt/leverage history"
+      ],
+      "sources": [
+        {
+          "title": "Coherent Investor Relations",
+          "url": "https://www.coherent.com/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "LITE",
+      "name": "Lumentum",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "optics"
+      ],
+      "role": "EML lasers and optical components underpinning the transceivers inside AI clusters; a key source of the lasers that competitors of Coherent also buy.",
+      "upstream": [
+        "laser fabs",
+        "indium phosphide materials"
+      ],
+      "customers": [
+        "transceiver module makers",
+        "hyperscalers (indirect)"
+      ],
+      "kpis": [
+        {
+          "label": "Datacom growth",
+          "value": "Watch quarterly",
+          "watch": "Cloud bookings are the demand read."
+        },
+        {
+          "label": "Laser supply tightness",
+          "value": "Watch commentary",
+          "watch": "Scarce lasers = pricing power; easing = margin compression."
+        }
+      ],
+      "readThrough": "Lumentum is an upstream leak in the optics layer — its laser supply constrains every transceiver maker.",
+      "risks": [
+        "Customer concentration",
+        "Competition",
+        "Cycle"
+      ],
+      "sources": [
+        {
+          "title": "Lumentum Investor Relations",
+          "url": "https://investor.lumentum.com"
+        }
+      ]
+    },
+    {
+      "symbol": "FN",
+      "name": "Fabrinet",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "optics",
+        "odm"
+      ],
+      "role": "Contract manufacturer of optical modules — builds transceivers for the module vendors and increasingly for AI programmes directly. The 'TSMC of optics assembly'.",
+      "upstream": [
+        "lasers (Lumentum/Coherent)",
+        "DSPs (Marvell/Broadcom)"
+      ],
+      "customers": [
+        "NVIDIA programmes",
+        "module vendors",
+        "hyperscalers"
+      ],
+      "kpis": [
+        {
+          "label": "Datacom revenue mix",
+          "value": "Watch quarterly",
+          "watch": "When optical volumes rise, Fabrinet ships first."
+        },
+        {
+          "label": "Customer concentration",
+          "value": "Watch disclosures",
+          "watch": "One programme can dominate the P&L."
+        }
+      ],
+      "readThrough": "Fabrinet's throughput is the cleanest physical read on optical module demand.",
+      "risks": [
+        "Customer concentration",
+        "Thin margins",
+        "Thailand production concentration"
+      ],
+      "sources": [
+        {
+          "title": "Fabrinet Investor Relations",
+          "url": "https://investor.fabrinet.com"
+        }
+      ]
+    },
+    {
+      "symbol": "GEV",
+      "name": "GE Vernova",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "grid-equipment",
+        "turbines"
+      ],
+      "role": "Gas turbines for on-site data-centre generation plus a grid-equipment franchise (transformers, switchgear, HVDC) inside Electrification. Possibly the single largest listed beneficiary of the AI power crunch, after Eaton/Schneider.",
+      "upstream": [
+        "steel",
+        "specialty components",
+        "gas supply chain"
+      ],
+      "customers": [
+        "utilities",
+        "data-centre builders",
+        "independent power producers"
+      ],
+      "kpis": [
+        {
+          "label": "Electrification orders/backlog",
+          "value": "Watch quarterly",
+          "watch": "Order growth past 2028 visibility is the transformer bottleneck in numbers."
+        },
+        {
+          "label": "Gas turbine slot reservations",
+          "value": "Watch announcements",
+          "watch": "Reserved slots = data-centre demand made concrete."
+        }
+      ],
+      "readThrough": "GE Vernova sits exactly where the chain's two scarcest physical goods meet: power generation and grid equipment.",
+      "risks": [
+        "Execution on wind losses",
+        "Long-cycle execution",
+        "Valuation"
+      ],
+      "sources": [
+        {
+          "title": "GE Vernova Investor Relations",
+          "url": "https://investors.gevernova.com"
+        }
+      ]
+    },
+    {
+      "symbol": "6501.T",
+      "name": "Hitachi",
+      "layer": "power",
+      "status": "public",
+      "exchange": "TYO (Tokyo)",
+      "tags": [
+        "hedge",
+        "grid-equipment"
+      ],
+      "role": "Owner of Hitachi Energy, the global leader in high-voltage transformers and HVDC — one of the three companies that decide how fast the grid can physically connect data centres.",
+      "upstream": [
+        "steel",
+        "specialty electrical components"
+      ],
+      "customers": [
+        "utilities",
+        "TenneT and European TSOs",
+        "data-centre power projects"
+      ],
+      "kpis": [
+        {
+          "label": "Energy segment orders",
+          "value": "Watch quarterly",
+          "watch": "HVDC order wins are multi-year revenue locks."
+        },
+        {
+          "label": "Transformer lead times",
+          "value": "Watch commentary",
+          "watch": "Extended lead times equal pricing power across the node."
+        }
+      ],
+      "readThrough": "Hitachi Energy is the transformer chokepoint in listed form — watch it for the real grid-capacity timeline.",
+      "risks": [
+        "Japan conglomerate discount",
+        "Execution",
+        "Currency"
+      ],
+      "sources": [
+        {
+          "title": "Hitachi Investor Relations",
+          "url": "https://www.hitachi.com/IR/"
+        }
+      ]
+    },
+    {
+      "symbol": "ENR.DE",
+      "name": "Siemens Energy",
+      "layer": "power",
+      "status": "public",
+      "exchange": "Xetra (ETR: ENR)",
+      "tags": [
+        "hedge",
+        "grid-equipment",
+        "eu-listed"
+      ],
+      "role": "Grid Technologies (transformers, switchgear, HVDC) plus gas services and a troubled wind unit. The European-listed grid-capacity play next to Hitachi and GE Vernova.",
+      "upstream": [
+        "steel",
+        "electrical components"
+      ],
+      "customers": [
+        "utilities",
+        "TSOs",
+        "industrial and data-centre projects"
+      ],
+      "kpis": [
+        {
+          "label": "Grid Technologies orders",
+          "value": "Watch quarterly",
+          "watch": "Orders convert to revenue 2-4 years out; the backlog is the asset."
+        },
+        {
+          "label": "Wind turnaround",
+          "value": "Watch segment losses",
+          "watch": "Wind losses are the discount mechanism for the grid business."
+        }
+      ],
+      "readThrough": "Siemens Energy is a cleaner grid proxy if you can stomach the wind-drag — watch the segment mix.",
+      "risks": [
+        "Wind execution",
+        "Guarantees/leverage",
+        "Cyclicality"
+      ],
+      "sources": [
+        {
+          "title": "Siemens Energy Investor Relations",
+          "url": "https://www.siemens-energy.com/global/en/home/investor-relations.html"
+        }
+      ]
+    },
+    {
+      "symbol": "PWR",
+      "name": "Quanta Services",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "grid-construction"
+      ],
+      "role": "North America's largest grid-construction contractor: builds the transmission lines and substations that connect new load. The labour-and-execution bottleneck behind every grid announcement.",
+      "upstream": [
+        "labour market",
+        "equipment fleet"
+      ],
+      "customers": [
+        "utilities",
+        "developers",
+        "data-centre projects"
+      ],
+      "kpis": [
+        {
+          "label": "Total backlog",
+          "value": "Watch quarterly",
+          "watch": "Record backlogs show the buildout is physical work, not just approvals."
+        },
+        {
+          "label": "Data-centre related work",
+          "value": "Watch commentary",
+          "watch": "Direct disclosure of AI demand would re-rate the story."
+        }
+      ],
+      "readThrough": "Quanta monetises the grid buildout with less commodity and valuation risk than the equipment makers.",
+      "risks": [
+        "Labour scarcity",
+        "Utility capex cycle",
+        "Weather/project risk"
+      ],
+      "sources": [
+        {
+          "title": "Quanta Services Investor Relations",
+          "url": "https://investors.quantaservices.com"
+        }
+      ]
+    },
+    {
+      "symbol": "CAT",
+      "name": "Caterpillar",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "gensets"
+      ],
+      "role": "Diesel and gas generator sets for data-centre backup and on-site power — every rack hall ships with CAT gensets as the last line of defence.",
+      "upstream": [
+        "engines",
+        "steel",
+        "fuel systems"
+      ],
+      "customers": [
+        "data-centre builders",
+        "utilities",
+        "industrial users"
+      ],
+      "kpis": [
+        {
+          "label": "Energy & transportation sales",
+          "value": "Watch quarterly",
+          "watch": "Genset demand from data centres is the new growth line."
+        },
+        {
+          "label": "Dealer inventory / cycle",
+          "value": "Watch commentary",
+          "watch": "The construction cycle remains the anchor risk."
+        }
+      ],
+      "readThrough": "Caterpillar is a lower-beta, dividend-paying way to own the 'every megawatt needs a backup' trade.",
+      "risks": [
+        "Construction cycle",
+        "Tariffs/steel costs",
+        "Tariff exposure to exports"
+      ],
+      "sources": [
+        {
+          "title": "Caterpillar Investor Relations",
+          "url": "https://investors.caterpillar.com"
+        }
+      ]
+    },
+    {
+      "symbol": "TLN",
+      "name": "Talen Energy",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "hedge",
+        "nuclear"
+      ],
+      "role": "Nuclear IPP whose Susquehanna campus powers Amazon's data-centre complex directly — the second name, after Constellation, proving the co-location nuclear model.",
+      "upstream": [
+        "uranium",
+        "PJM market rules"
+      ],
+      "customers": [
+        "Amazon (Susquehanna campus)",
+        "PJM wholesale market"
+      ],
+      "kpis": [
+        {
+          "label": "Co-location/PPA announcements",
+          "value": "Watch news",
+          "watch": "Each deal locks premium fixed revenue."
+        },
+        {
+          "label": "PJM capacity market rules",
+          "value": "Watch regulation",
+          "watch": "Changes to co-location rules can move the whole model."
+        }
+      ],
+      "readThrough": "Talen validates the nuclear co-location template beyond Constellation — the cheapest baseload in the chain.",
+      "risks": [
+        "Regulatory (PJM) risk",
+        "Single-site concentration",
+        "Leverage"
+      ],
+      "sources": [
+        {
+          "title": "Talen Energy Investor Relations",
+          "url": "https://ir.talenenergy.com"
+        }
+      ]
+    },
+    {
+      "symbol": "NVT",
+      "name": "nVent Electric",
+      "layer": "power",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hedge",
+        "thermal",
+        "cooling"
+      ],
+      "role": "Liquid-cooling cold plates, manifolds and electrical enclosures — the component-level thermal supplier behind liquid conversions, alongside Vertiv, Modine and Schneider.",
+      "upstream": [
+        "copper",
+        "specialty materials"
+      ],
+      "customers": [
+        "cooling integrators",
+        "hyperscalers",
+        "server ODMs"
+      ],
+      "kpis": [
+        {
+          "label": "Data solutions growth",
+          "value": "Watch quarterly",
+          "watch": "Liquid cooling adjacency is the growth engine."
+        },
+        {
+          "label": "Electrical connections backlog",
+          "value": "Watch commentary",
+          "watch": "Product-level demand tracks rack builds."
+        }
+      ],
+      "readThrough": "nVent supplies the hardware inside the cooling loop — the fourth cooling name completes the picture.",
+      "risks": [
+        "Competition from Vertiv/Schneider",
+        "Industrial cyclicality",
+        "Execution"
+      ],
+      "sources": [
+        {
+          "title": "nVent Investor Relations",
+          "url": "https://investors.nvent.com"
+        }
+      ]
+    },
+    {
+      "symbol": "NBIS",
+      "name": "Nebius Group",
+      "layer": "compute",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "neocloud",
+        "debt",
+        "eu-based"
+      ],
+      "role": "European neocloud (ex-Yandex assets) renting GPU capacity to AI labs; one of the group that collapsed ~30% in the October 2026 sell-off. The EU-listed alternative in the leverage layer.",
+      "upstream": [
+        "NVIDIA GPUs",
+        "debt markets",
+        "VRT-class cooling"
+      ],
+      "customers": [
+        "AI labs",
+        "enterprises",
+        "sovereign programmes"
+      ],
+      "kpis": [
+        {
+          "label": "Contracted ARR",
+          "value": "Watch quarterly",
+          "watch": "Backlog conversion is the whole investment case."
+        },
+        {
+          "label": "Financing terms",
+          "value": "Watch bond/debt news",
+          "watch": "Cost of capital decides the business model."
+        }
+      ],
+      "readThrough": "Nebius makes the neocloud group a peer set — watch its financing terms against CoreWeave's for the credit cycle read.",
+      "risks": [
+        "Debt-funded capex",
+        "Geopolitics (origin)",
+        "Customer concentration"
+      ],
+      "sources": [
+        {
+          "title": "Nebius Investor Relations",
+          "url": "https://nebius.com/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "IREN",
+      "name": "IREN",
+      "layer": "compute",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "neocloud",
+        "btc-pivot"
+      ],
+      "role": "Bitcoin miner converting power sites into AI cloud capacity — the clearest example of the 'power is the asset, GPUs are the product' pivot.",
+      "upstream": [
+        "grid power sites",
+        "NVIDIA GPUs",
+        "debt/convertibles"
+      ],
+      "customers": [
+        "AI enterprises",
+        "GPU rental market"
+      ],
+      "kpis": [
+        {
+          "label": "AI cloud revenue",
+          "value": "Watch quarterly",
+          "watch": "The pivot's success measure against mining revenue."
+        },
+        {
+          "label": "Power capacity secured",
+          "value": "Watch announcements",
+          "watch": "Megawatts under contract are the moat."
+        }
+      ],
+      "readThrough": "IREN tracks the miner-to-AI conversion trade — a high-beta proxy for data-centre power scarcity.",
+      "risks": [
+        "Bitcoin/AI hybrid risk",
+        "Financing",
+        "Execution on conversions"
+      ],
+      "sources": [
+        {
+          "title": "IREN Investor Relations",
+          "url": "https://iren.com/investors"
+        }
+      ]
+    },
+    {
+      "symbol": "INTC",
+      "name": "Intel",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "cpu",
+        "foundry",
+        "turnaround",
+        "value"
+      ],
+      "role": "The only US company that both designs processors and attempts leading-edge fabrication. Xeon still powers much of the cloud, but the accelerator race and the foundry buildout went badly — which makes Intel the chain's cheapest call option on non-Taiwan leading-edge capacity. Q3 2026 beat (revenue $16.5B, +21% YoY; data centre/AI +78%), yet the stock collapsed ~25.6% (~$125B of value) on Oct 30 after weak Q4 PC guidance — memory-price inflation is forcing PC makers to slash inventories — compounded by a fatal fab incident in Israel.",
+      "upstream": [
+        "ASML (incl. High-NA)",
+        "Applied / Lam / KLA",
+        "memory suppliers (ironically: DRAM inflation hurts its PC customers)"
+      ],
+      "customers": [
+        "cloud and enterprise CPU buyers",
+        "PC OEMs",
+        "a small foundry customer list"
+      ],
+      "kpis": [
+        {
+          "label": "Foundry external customers",
+          "value": "Watch 18A/14A announcements",
+          "watch": "One credible external customer would re-rate the foundry thesis; none material yet."
+        },
+        {
+          "label": "Free cash flow",
+          "value": "Guidance still does not forecast positive FCF",
+          "watch": "Intel needs cash for the buildout; negative FCF plus capex is the existential risk."
+        },
+        {
+          "label": "PC cycle vs memory inflation",
+          "value": "Q4 guide cut on memory-driven inventory cuts",
+          "watch": "DRAM/HBM demand is starving PC margins — watch whether that eases in 2027."
+        }
+      ],
+      "readThrough": "Intel is the chain's value/turnaround expression: if US leading-edge capacity becomes strategic enough to fund, the option pays enormously; if not, it keeps burning cash while TSMC takes the margin. Watch foundry wins, not headlines.",
+      "risks": [
+        "Long execution history of missed roadmaps",
+        "Negative FCF while capex runs",
+        "AMD/Arm and TSMC competition",
+        "Policy dependence (~10% US government stake since 2025)"
+      ],
+      "sources": [
+        {
+          "title": "Intel Q3 2026 beat, Q4 guide shock, -25.6% Oct 30",
+          "url": "https://www.benzinga.com/markets/earnings/26/10/62735265/intel-stock-worst-day-since-1974-cantor-houston-we-have-a-problem",
+          "date": "2026-10-30"
+        }
+      ]
+    },
+    {
+      "symbol": "SNDK",
+      "name": "SanDisk",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "memory-nand",
+        "storage",
+        "bottleneck"
+      ],
+      "role": "Pure-play NAND flash, spun out of Western Digital in 2025 and repositioned as the AI-storage supplier: enterprise SSDs and high-density QLC flash for inference caches. Its new multi-year 'NVM' supply contracts with hyperscalers (reported total value $42-94B, durations up to five years, financial guarantees) are an attempt to tame NAND's legendary cycle. NAND joint venture with Kioxia extended through 2034.",
+      "upstream": [
+        "ASML / Applied / Lam (NAND tools)",
+        "Kioxia (JV fabs in Yokkaichi and Kitakami)"
+      ],
+      "customers": [
+        "US hyperscalers (3 in the NVM programme reportedly)",
+        "enterprise SSD makers",
+        "device OEMs"
+      ],
+      "kpis": [
+        {
+          "label": "NVM contract coverage",
+          "value": "Contracts reportedly cover ~1/3 of FY2027 bit shipments",
+          "watch": "If multi-year contracts hold through the next downturn, NAND's cycle has genuinely changed; if they get renegotiated, it has not."
+        },
+        {
+          "label": "NAND pricing",
+          "value": "ASPs up ~140% QoQ in 2026; enterprise SSD shortage",
+          "watch": "Pricing power this extreme invites capacity — watch for the first supply response."
+        },
+        {
+          "label": "Data-centre share of NAND demand",
+          "value": "~20% early 2020s → ~50% in 2026",
+          "watch": "The structural demand shift behind the shortage; inference caches are the new storage workload."
+        }
+      ],
+      "readThrough": "Storage stopped being the boring commodity of the chain: AI inference reads exabytes, and NAND now has backlog visibility for the first time. SanDisk is the cleanest listed expression of that transition — and its contract structure is the experiment to watch.",
+      "risks": [
+        "NAND cycle is not dead, only contracted",
+        "Premium valuation (~6x forward sales at the peak)",
+        "Kioxia JV dependence",
+        "HDD/SSD substitution at the margin"
+      ],
+      "sources": [
+        {
+          "title": "SanDisk AI-flash programme (Nasdaq)",
+          "url": "https://www.nasdaq.com/articles/sandisk-targets-ai-flash-boom-94b-customer-deals-20b-buyback",
+          "date": "2026-09"
+        }
+      ]
+    },
+    {
+      "symbol": "285A.T",
+      "name": "Kioxia Holdings",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "TYO (Tokyo)",
+      "tags": [
+        "memory-nand",
+        "storage"
+      ],
+      "role": "Japan's NAND champion and the third global NAND producer, tied to SanDisk through the Yokkaichi/Kitakami joint ventures. Supplies the flash inside enterprise SSDs — the storage tier under every inference workload.",
+      "upstream": [
+        "NAND tools (ASML/Applied/Lam)",
+        "Japanese materials ecosystem"
+      ],
+      "customers": [
+        "SanDisk JV output",
+        "SSD makers",
+        "hyperscalers (indirect)"
+      ],
+      "kpis": [
+        {
+          "label": "JV output and roadmap",
+          "value": "BiCS9/BiCS10 generation ramp",
+          "watch": "Bits-per-wafer growth on 13% of industry capex was the JV's historic edge — watch it hold."
+        },
+        {
+          "label": "NAND pricing",
+          "value": "Same shortage as SanDisk",
+          "watch": "Kioxia's earnings are the cleanest read on NAND spot economics in Asia."
+        }
+      ],
+      "readThrough": "Kioxia is SanDisk's twin: same fabs, same shortage, different listing. Owning both is owning one business twice — pick one if you size it.",
+      "risks": [
+        "NAND cycle",
+        "JV governance",
+        "Yen and Japan-listing liquidity",
+        "EU retail access limited"
+      ],
+      "sources": [
+        {
+          "title": "Kioxia Investor Relations",
+          "url": "https://www.kioxia-holdings.com/en-jp/ir.html"
+        }
+      ]
+    },
+    {
+      "symbol": "STX",
+      "name": "Seagate Technology",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "storage",
+        "hdd",
+        "bottleneck"
+      ],
+      "role": "The nearline HDD leader for data centres — storage is the third pillar of AI infrastructure after compute and power. Nearline capacity is fully allocated through calendar 2026, long-term agreements with cloud customers run through 2027, and customers are already discussing 2028-29 demand. Roughly 90% of Seagate's exabyte shipments go to data centres; growth comes from areal density (HAMR), not more units.",
+      "upstream": [
+        "media and head manufacturing",
+        "rare-earth and specialty materials"
+      ],
+      "customers": [
+        "hyperscalers (AWS, Google, Microsoft, Meta, OpenAI-class buyers)",
+        "cloud service providers"
+      ],
+      "kpis": [
+        {
+          "label": "Nearline allocation",
+          "value": "Fully allocated through 2026; H1 2027 orders being taken",
+          "watch": "The shortage is the moat: watch the first year a hyperscaler gets unallocated supply."
+        },
+        {
+          "label": "Areal density roadmap",
+          "value": "HAMR generation ramp",
+          "watch": "Capacity per drive is the growth lever in a no-new-units model."
+        },
+        {
+          "label": "Exabyte growth",
+          "value": "Nearline mix ~87% of sales",
+          "watch": "Exabyte CAGR is the honest AI-demand read for storage."
+        }
+      ],
+      "readThrough": "HDDs were the most boring asset in tech until AI recycled them. The shortage now shows up as 52+ week lead times — storage tightness is as physical as transformers and chillers.",
+      "risks": [
+        "Supply discipline could break (cycle)",
+        "Hyperscaler concentration",
+        "SSD substitution at the high end",
+        "Toshiba capacity response"
+      ],
+      "sources": [
+        {
+          "title": "WD & Seagate confirm 2026 drives sold out (heise)",
+          "url": "https://www.heise.de/en/news/WD-and-Seagate-confirm-Hard-drives-for-2026-sold-out-11178917.html",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "symbol": "WDC",
+      "name": "Western Digital",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "storage",
+        "hdd",
+        "bottleneck"
+      ],
+      "role": "HDD-only since the SanDisk spin-off: nearline drive maker, sold out through calendar 2026, long-term agreements with most top customers into 2027-28 (customers already negotiating 2030-31 assurance). Roadmap runs from 44TB drives now toward 100TB by 2029, targeting >25% exabyte CAGR.",
+      "upstream": [
+        "media/head supply chain",
+        "specialty materials"
+      ],
+      "customers": [
+        "top-7 hyperscalers and cloud buyers"
+      ],
+      "kpis": [
+        {
+          "label": "LTA coverage",
+          "value": "Most 2027 supply under long-term agreements; 2028/29 signed",
+          "watch": "Contract length is the visibility metric — and the pricing-power proof."
+        },
+        {
+          "label": "Gross margin",
+          "value": "46.1% in the FY2025 Q4 print (up from 38.4%)",
+          "watch": "Margin expansion on fixed capacity is the whole earnings story."
+        },
+        {
+          "label": "Density roadmap",
+          "value": "44TB shipping; 100TB by 2029",
+          "watch": "Dell's COO expects component tightness 5+ years, memory and HDD the worst — watch his supply commentary."
+        }
+      ],
+      "readThrough": "Western Digital and Seagate are effectively a duopoly-plus-Toshiba on nearline capacity; both sold out into 2027 is the storage equivalent of transformers being sold out to 2028.",
+      "risks": [
+        "Cycle",
+        "SSD price crossover could cap upside",
+        "Customer concentration"
+      ],
+      "sources": [
+        {
+          "title": "Hard drives sold out for the year (The Register)",
+          "url": "https://assets.theregister.com/2026/02/20/ai_blamed_again_as_hard_drives_sell_out/",
+          "date": "2026-02"
+        }
+      ]
+    },
+    {
+      "symbol": "ORCL",
+      "name": "Oracle",
+      "layer": "compute",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "hyperscaler",
+        "debt",
+        "risk-case"
+      ],
+      "role": "The debt-financed hyperscaler: OCI won enormous AI compute contracts (OpenAI/Stargate-class programmes) and is building capacity at a pace its cash flow doesn't cover. Oracle carries both the chain's biggest visible AI backlog and its most acute financing risk — 5-year CDS at an 18-year high, S&P rating at BBB-.",
+      "upstream": [
+        "NVDA / AMD GPUs",
+        "power contracts",
+        "VRT / ETN equipment"
+      ],
+      "customers": [
+        "OpenAI-class AI labs",
+        "enterprises (databases, OCI)",
+        "sovereign programmes"
+      ],
+      "kpis": [
+        {
+          "label": "RPO (remaining performance obligations)",
+          "value": "Watch quarterly",
+          "watch": "The backlog is the bull case; watch conversion pace and contract quality."
+        },
+        {
+          "label": "Capex vs. free cash flow",
+          "value": "Capex surging, FCF under pressure",
+          "watch": "Oracle is the first hyperscaler where negative FCF is structural, not cyclical."
+        },
+        {
+          "label": "CDS spread / bond spreads",
+          "value": "5y CDS at 18-year high; BBB-",
+          "watch": "The single best real-time gauge of AI-credit stress — if Oracle breaks, the funding-shock scenario starts."
+        }
+      ],
+      "readThrough": "Oracle is the chain's leveraged bet on AI demand: a database business funding a compute buildout for customers who may or may not pay up. Its credit metrics are the canary for the whole debt layer.",
+      "risks": [
+        "Debt-funded capacity",
+        "Customer concentration (AI labs)",
+        "Rating downgrade risk",
+        "Historical valuation re-rating"
+      ],
+      "sources": [
+        {
+          "title": "Oracle credit stress reporting (CDS 18-yr high, BBB-)",
+          "url": "https://ir.oracle.com",
+          "date": "2026-10"
+        }
+      ]
+    },
+    {
+      "symbol": "DELL",
+      "name": "Dell Technologies",
+      "layer": "components",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "server-oem",
+        "value"
+      ],
+      "role": "One of the largest AI server and storage system vendors (PowerEdge/ISG) for hyperscalers and enterprises — the scale OEM next to SMCI and the Taiwanese ODMs. Thin margins, huge revenue: the 'value' way to own AI hardware volumes rather than pricing power.",
+      "upstream": [
+        "NVDA / AMD GPUs",
+        "Delta/Lite-On PSUs",
+        "HDD/SSD from STX/WDC/MU/SNDK"
+      ],
+      "customers": [
+        "hyperscalers",
+        "enterprises",
+        "sovereign and neocloud buyers"
+      ],
+      "kpis": [
+        {
+          "label": "AI server orders/backlog",
+          "value": "Watch quarterly ISG disclosure",
+          "watch": "Dell's AI backlog is a demand cross-check on SMCI and the ODMs."
+        },
+        {
+          "label": "ISG margin",
+          "value": "Watch trend",
+          "watch": "AI server mix is margin-dilutive — the ODM trap applies to Dell too."
+        }
+      ],
+      "readThrough": "Dell's AI backlog and margin tell you whether the physical buildout is broadening from hyperscalers to enterprises — the demand question that matters for 2027.",
+      "risks": [
+        "Thin hardware margins",
+        "PC cycle exposure (memory inflation)",
+        "Customer concentration"
+      ],
+      "sources": [
+        {
+          "title": "Dell Investor Relations",
+          "url": "https://investors.delltechnologies.com"
+        }
+      ]
+    },
+    {
+      "symbol": "ALAB",
+      "name": "Astera Labs",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "connectivity-silicon",
+        "mid-cap",
+        "high-beta"
+      ],
+      "role": "Connectivity silicon for AI racks: PCIe/CXL retimers and the Scorpio fabric switches that connect GPUs to each other and to CPU/memory inside the rack. Every GPU added raises connectivity content — one of the fastest-growing subnodes of the chain. Market cap ~$50-68B in Oct 2026, then -26% in the selloff: the definition of a high-beta AI name.",
+      "upstream": [
+        "TSMC (fab)",
+        "high-speed SerDes/IP"
+      ],
+      "customers": [
+        "hyperscalers",
+        "server ODMs",
+        "Nvidia platform programmes"
+      ],
+      "kpis": [
+        {
+          "label": "Scorpio ramp",
+          "value": "Watch quarterly",
+          "watch": "Scale-up fabric wins decide whether Astera becomes a standard or a niche."
+        },
+        {
+          "label": "Customer concentration",
+          "value": "Watch disclosures",
+          "watch": "A few hyperscalers carry revenue; one design change can move the stock 20%."
+        }
+      ],
+      "readThrough": "Astera quantifies how connectivity content per rack compounds with GPU count — the clearest public read on scale-up networking demand.",
+      "risks": [
+        "Extreme valuation vs early revenue",
+        "Nvidia NVLink in-house competition",
+        "Customer concentration",
+        "High beta in selloffs"
+      ],
+      "sources": [
+        {
+          "title": "Astera Labs Investor Relations",
+          "url": "https://investors.asteralabs.com"
+        }
+      ]
+    },
+    {
+      "symbol": "CRDO",
+      "name": "Credo Technology",
+      "layer": "silicon",
+      "status": "public",
+      "exchange": "NASDAQ",
+      "tags": [
+        "connectivity-silicon",
+        "mid-cap",
+        "high-beta"
+      ],
+      "role": "Active electrical cables (AECs) and SerDes IP for 400G/800G/1.6T links — the copper answer to optics inside and between racks, cheaper and lower-power for short runs. ~$32-34B market cap on ~$1.3B revenue, de-rated -23% in the October sell-off.",
+      "upstream": [
+        "TSMC (fab)",
+        "SerDes IP"
+      ],
+      "customers": [
+        "hyperscalers",
+        "switch and server OEMs"
+      ],
+      "kpis": [
+        {
+          "label": "Revenue growth",
+          "value": "Watch quarterly",
+          "watch": "AEC adoption tracks cluster build rates; growth slowing is an early crack."
+        },
+        {
+          "label": "Optics competition",
+          "value": "Watch 1.6T transition",
+          "watch": "When co-packaged optics matures, copper's reach shrinks — the structural cap on the thesis."
+        }
+      ],
+      "readThrough": "Credo is the copper half of the interconnect trade; Marvell/Coherent are the optical half. Watching both tells you where the bandwidth bottleneck is moving.",
+      "risks": [
+        "High multiple",
+        "Optical/co-packaged-optics substitution",
+        "Customer concentration"
+      ],
+      "sources": [
+        {
+          "title": "Credo Investor Relations",
+          "url": "https://investors.credosemi.com"
+        }
+      ]
+    },
+    {
+      "symbol": "DLR",
+      "name": "Digital Realty",
+      "layer": "compute",
+      "status": "public",
+      "exchange": "NYSE",
+      "tags": [
+        "data-center-reit",
+        "landlord"
+      ],
+      "role": "Data-centre REIT — the landlord layer: owns and leases colocation and interconnection capacity to hyperscalers and enterprises (Equinix is the closest peer). Structural demand from AI; levered, rate-sensitive, and priced off the 10-year, which sits near 5%.",
+      "upstream": [
+        "land, power connections",
+        "construction (Quanta-class contractors)"
+      ],
+      "customers": [
+        "hyperscalers",
+        "enterprises",
+        "network operators"
+      ],
+      "kpis": [
+        {
+          "label": "Bookings and backlog",
+          "value": "Watch quarterly",
+          "watch": "AI leasing demand is real; watch pricing power at renewals."
+        },
+        {
+          "label": "Cost of capital",
+          "value": "10y near 5%",
+          "watch": "REITs are duration: rates up 100bp ≈ multiple compression, whatever AI demand does."
+        }
+      ],
+      "readThrough": "Digital Realty is the only way in this list to own the land-and-power layer as a REIT — but at 5% long rates, the financing tide runs against it.",
+      "risks": [
+        "Rate sensitivity",
+        "Capex-heavy development",
+        "Power constraints in key metros"
+      ],
+      "sources": [
+        {
+          "title": "Digital Realty Investor Relations",
+          "url": "https://investor.digitalrealty.com"
+        }
+      ]
+    }
+  ],
+  "analysis": {
+    "interdependencies": [
+      {
+        "title": "1 · The capex loop: hyperscalers feed Nvidia",
+        "body": "Big Tech capex guidance is the demand signal for the entire hardware layer. Microsoft guides ~$170B for FY2027; Amazon ~$220B for 2026 with 2027 'significantly' higher; Alphabet spends $51.4B per quarter with 2027 guided significantly above its $195-205B 2026 range; Meta raised 2026 capex to $135-145B. A large share of that flows straight into Nvidia: Q2 FY2027 revenue was $96.2B, of which $89.0B (92.6%) was data center — split $48.7B hyperscale (+102% YoY) and $40.3B ACIE (AI clouds, industrial, enterprise; +139%). The ACIE segment growing faster than hyperscale is the structural change to watch: the chain is diversifying beyond Big Tech, into debt-funded buyers."
+      },
+      {
+        "title": "2 · Equity + compute loops: labs and their landlords",
+        "body": "Microsoft holds ~27% of the OpenAI Group and rents it Azure compute; Amazon and Google both hold Anthropic stakes and are its primary cloud providers — so a dollar of Anthropic funding partially recycles into AWS/GCP revenue. October 2026 added a new loop: with Meta raising $95B in equity, Nvidia, AMD and Broadcom each expressed interest in buying up to $5B of the shares — chip vendors financing their own customers. Each loop boosts reported growth today and concentrates correlated risk later."
+      },
+      {
+        "title": "3 · The debt layer: neoclouds as the marginal buyer",
+        "body": "Neoclouds (CoreWeave and peers) borrow against GPUs to buy more GPUs, and they are a large part of Nvidia's ACIE demand. This is the chain's leverage layer: their backlog confirms AI demand is real, while their bond yields measure how nervous credit markets are. The group fell sharply (~-30% reported) in the October 2026 sell-off. Bank of America's takeaway from the month: 'the era of big buybacks is over' — Big Tech bonds may offer better risk-adjusted exposure than the stocks."
+      },
+      {
+        "title": "4 · The funding bill comes due: free cash flow goes negative",
+        "body": "October 2026 was the month capex outran cash generation at three of the four hyperscalers: Alphabet FCF -$9.07B (capex $51.4B, buybacks halted, equity issued), Amazon TTM FCF -$42.4B (Q3 capex $77.3B), Meta FCF -$2.12B — its first shortfall in over a decade — and a $95B equity raise ($35B public offering + up to $60B ATM). Microsoft stayed positive (+$18.6B FCF on $45.2B quarterly capex). The market's reaction: Alphabet -13.7% (largest single-day drop on record), Amazon -7.5%, Intel -25.6% (~$125B of value) on weak PC guidance compounded by memory-price inflation. The correction is not about AI demand failing; it is about the gap between capex and monetization."
+      },
+      {
+        "title": "5 · The component & assembly chokepoint: Taiwan and the Tier-1/2 suppliers",
+        "body": "Below the chip layer sits the real physical bottleneck the first overview missed: IC substrates (Ibiden, Unimicron, Tripod), high-density power supplies (Delta, Lite-On), high-speed cabling (Amphenol, Marvell), cooling hardware (Vertiv, Modine, AAON) — and the Taiwanese ODMs (Foxconn, Quanta, Wistron) that assemble over 90% of advanced AI server racks. A modern AI rack draws over 100kW against ~10kW for a traditional cloud rack, so air cooling cannot cope and every rack needs liquid-cooling loops, precision manifolds and leak-proof couplings (Stäubli and Boyd, both private). Lead times for high-voltage transformers and data-centre chillers stretch 2-3 years and backlogs run past 2028, which gives this layer unusual pricing power. The catch is geography: even a US cooling company cannot ship a finished unit if Taiwanese subcontractors cannot deliver the chassis power shelves and micro-valves. Owning Western-domiciled infrastructure (Vertiv US, Schneider France, Eaton Ireland) hedges equity exposure to the Taiwan Strait, but it does not remove the operational dependency."
+      },
+      {
+        "title": "6 · The storage tier: AI eats exabytes, not just FLOPS",
+        "body": "The chain's most recent bottleneck is not silicon but storage. Data centres went from ~20% of NAND bit demand in the early 2020s to ~50% in 2026 — inference reads far more data than training. Enterprise SSDs are short, NAND ASPs rose ~140% QoQ at the peak, and SanDisk has locked hyperscalers into multi-year 'NVM' contracts ($42-94B reported) to dampen the cycle. On the other side of the storage divide, nearline HDDs are sold out through 2026: Seagate is fully allocated with LTAs into 2027 and customers asking about 2028-29, Western Digital has most 2027 supply under long-term agreements and customers negotiating 2030-31 assurance, and lead times stretched past 52 weeks. Dell's COO calls component tightness a 5-year problem with memory and HDDs the worst of it. Storage is now as physical — and as scarce — as transformers and chillers."
+      }
+    ],
+    "proxyRoutes": [
+      {
+        "company": "Microsoft",
+        "ticker": "MSFT",
+        "target": "OpenAI",
+        "mechanism": "~27% equity stake in the OpenAI Group plus Azure compute contract — the most direct listed proxy for the largest private lab.",
+        "risk": "A trillion-dollar core business can swamp the stake: a 1-2% cloud-margin compression from GPU depreciation and energy costs offsets any private-valuation gain."
+      },
+      {
+        "company": "Amazon",
+        "ticker": "AMZN",
+        "target": "Anthropic",
+        "mechanism": "Equity stake plus primary cloud provider; Anthropic's compute spend partly recycles into AWS revenue.",
+        "risk": "Equity marks already swing reported earnings (Q3 2026 net income fell 2% partly on prior-year Anthropic gains); the stake is small relative to AWS capex."
+      },
+      {
+        "company": "Alphabet",
+        "ticker": "GOOGL",
+        "target": "Anthropic",
+        "mechanism": "Equity stake plus Google Cloud (TPU) compute; gains and losses mark through the P&L.",
+        "risk": "Q3 2026 included an $8.66B loss on equity holdings (incl. SpaceX and Anthropic) — accounting noise that cuts both ways."
+      },
+      {
+        "company": "SoftBank Group",
+        "ticker": "SFTBY / TYO: 9984",
+        "target": "OpenAI, Scale AI",
+        "mechanism": "Late-stage direct investments in private AI firms; closely tied to the Vision Fund's AI thesis.",
+        "risk": "Conglomerate discount, leverage, and enormous single-theme concentration — a levered AI bet, not a diversified proxy."
+      },
+      {
+        "company": "Destiny Tech100",
+        "ticker": "DXYZ",
+        "target": "OpenAI and other pre-IPO tech",
+        "mechanism": "Listed closed-end fund holding pre-IPO shares — the retail 'backdoor' for investors below accredited thresholds.",
+        "risk": "Closed-end funds often trade at large premiums or discounts to NAV; the underlying marks are stale, and the premium can collapse."
+      }
+    ],
+    "ipo": [
+      {
+        "lab": "OpenAI",
+        "status": "Restructured into a public benefit corporation; confidential draft S-1 submitted to the SEC.",
+        "timeline": "Market consensus points to a listing around 2027.",
+        "note": "A listing converts the MSFT proxy into a directly priced asset and re-marks every compute commitment in the chain."
+      },
+      {
+        "lab": "Anthropic",
+        "status": "Confidential draft S-1 submitted; option to list but no date set.",
+        "timeline": "No official date.",
+        "note": "Would give AMZN and GOOGL shareholders a public benchmark for their stakes overnight."
+      }
+    ],
+    "proxyRisks": [
+      "Dilution and balance-sheet drain: the same quarter that produced record AI revenue also produced three negative-FCF hyperscalers, a $95B Meta equity raise (with chip vendors offering up to $5B each), halted buybacks at Alphabet and new debt at record pace — proxy holders are financing the buildout.",
+      "Scale asymmetry: a private stake's valuation jump is small next to a multi-trillion-dollar parent; core margin compression (energy, GPU depreciation) easily swamps it.",
+      "Cannibalization of core revenue: AI Mode queries monetize worse than classic search; Search revenue grew 12% vs 17% previously — the application layer can eat the cash cow that funds it.",
+      "Reporting noise: equity marks (Alphabet's $8.66B loss; Amazon's prior-year Anthropic gain comparison) make headline earnings unreadable as operating signals.",
+      "Circular financing: vendors buying customers' stock and landlords funding tenants flatter demand today and concentrate correlated risk."
+    ],
+    "rotation": {
+      "assumption": "Illustrative path with the base at 100 at month 0 — this encodes the dialogue's scenario (defensive/infrastructure outperforms while tech digests negative free cash flow and waits for monetization proof). It is not a model output and not a forecast you should size positions on.",
+      "points": [
+        {
+          "month": 0,
+          "tech": 100,
+          "defensive": 100
+        },
+        {
+          "month": 1,
+          "tech": 93,
+          "defensive": 103
+        },
+        {
+          "month": 2,
+          "tech": 88,
+          "defensive": 105
+        },
+        {
+          "month": 3,
+          "tech": 90,
+          "defensive": 107
+        },
+        {
+          "month": 4,
+          "tech": 93,
+          "defensive": 109
+        },
+        {
+          "month": 5,
+          "tech": 96,
+          "defensive": 110
+        },
+        {
+          "month": 6,
+          "tech": 99,
+          "defensive": 111
+        }
+      ],
+      "sectors": [
+        {
+          "sector": "Utilities & IPPs",
+          "examples": "CEG, VST (also NEE, SO)",
+          "coreMetric": "Power generation",
+          "valuation": "Moderate / premium",
+          "chainRole": "The raw electricity provider",
+          "rotationDriver": "Structural growth via premium tech contracts",
+          "performance": "Currently outperforming the S&P 500 tech index on a relative basis; behaving less like a bond proxy, more like a growth sector.",
+          "benefit": "Nuclear PPAs restarted at premium fixed rates (Three Mile Island for Microsoft); regulated utilities are legally allowed to raise rates to fund grid overhauls needed to connect data centers.",
+          "pricingPower": "High — contracted PPAs; valuation rate-sensitive"
+        },
+        {
+          "sector": "Industrials & data-center equipment",
+          "examples": "VRT, ETN (also Schneider, PWR)",
+          "coreMetric": "Manufacturing equipment",
+          "valuation": "Premium",
+          "chainRole": "The physical data center hardware",
+          "rotationDriver": "Multi-year backlogs and high pricing power",
+          "performance": "Strong operational momentum with massive backlogs; prices have broken away from standard industrial cycles on multi-year structural demand.",
+          "benefit": "Air-to-liquid cooling retrofits as next-generation chips run hotter (Vertiv); transformers, switchgear and transmission that utilities must buy to keep grids from collapsing under AI loads (Eaton, Quanta).",
+          "pricingPower": "High at scarce nodes (chillers, transformers); backlogs past 2028"
+        },
+        {
+          "sector": "Energy (natural gas)",
+          "examples": "EQT, WMB (also KMI)",
+          "coreMetric": "Natural gas / pipelines",
+          "valuation": "Deep value",
+          "chainRole": "The baseload fuel backup",
+          "rotationDriver": "High dividend yields and commodity safety",
+          "performance": "Solid defensive cash flows with depressed valuations relative to earnings — attractive to investors fleeing overpriced tech.",
+          "benefit": "Pipeline connectivity: data centers need power, and gas is the only scalable bridge while nuclear and storage scale; operators capitalize by connecting gas directly to on-site data-center generation.",
+          "pricingPower": "Commodity price-takers with pipeline fee floors"
+        },
+        {
+          "sector": "Consumer staples & defensive value",
+          "examples": "PG, WMT, COST",
+          "coreMetric": "Everyday necessities",
+          "valuation": "Fair value",
+          "chainRole": "None — purely defensive",
+          "rotationDriver": "Safe-haven cash allocation out of volatile tech",
+          "performance": "Stable, low-volatility appreciation with consistent dividend increases.",
+          "benefit": "They benefit strictly from institutional capital looking for a safe harbor while tech valuations stabilize — this is where the money parks, not where the AI money flows.",
+          "pricingPower": "Stable but unrelated to AI demand"
+        },
+        {
+          "sector": "Hardware components & assembly (Tier-1/2)",
+          "examples": "VRT, MOD, SMCI, Foxconn, Delta",
+          "coreMetric": "Specialised components",
+          "valuation": "Premium",
+          "chainRole": "The physical bottleneck (chassis, cooling, power, racks)",
+          "rotationDriver": "2-3 year lead times, backlogs past 2028, pricing power",
+          "performance": "Agnostic to the AI winner: whichever model or cloud wins, the racks still need substrates, PSUs, cables, cooling and assembly — and the current order books are locked in years ahead.",
+          "benefit": "Structural spending with guaranteed visibility: orders placed now ship in 2028. The risk is not demand but Taiwan geography.",
+          "pricingPower": "Split — toll nodes price with power; ODMs are thin-margin assemblers"
+        },
+        {
+          "sector": "AI tech (the compressed engine)",
+          "examples": "GOOGL, NVDA, AMZN, META",
+          "coreMetric": "Software / semiconductors",
+          "valuation": "Volatile / compressed",
+          "chainRole": "The core AI engine",
+          "rotationDriver": "Capital outflows due to high capex vs. low near-term ROI",
+          "performance": "The epicenter of the October 2026 repricing: Alphabet's record -13.7% drop led the sector lower; valuations muted until monetization is proven.",
+          "benefit": "Not a rotation beneficiary — this is the funding source for the rotation. It regains leadership only when capex converts into margins.",
+          "pricingPower": "Contested — Nvidia holds it; hyperscalers try to break it with custom silicon"
+        }
+      ],
+      "forecast": [
+        "The great capital rotation: money keeps sloshing around rather than leaving the market — out of premium-priced AI tech into energy, utilities (needed to power data centers) and defensive value.",
+        "The Nvidia pressure cooker: hyperscalers say near-term hardware orders are intact, so Nvidia's next quarter likely stays robust. The risk is guidance: any deceleration in demand as budgets get reined in triggers a deeper hardware-layer correction.",
+        "The neocloud debt squeeze: specialist AI clouds face intense scrutiny on bond yields and debt levels after their ~30% October drawdown.",
+        "The bottom line: the next months bring high volatility and muted valuations for tech. AI stocks are unlikely to reclaim record highs until companies prove they can monetize AI at a margin that covers the data-center bill.",
+        "The Taiwan chokepoint remains the tail risk: over 90% of advanced AI rack assembly and much of the micro-component supply sit in the Taiwan Strait. New US and European fabs fix chip supply, not final rack assembly — watch ODM capacity in Mexico/Vietnam/US as the real de-risking signal."
+      ]
+    },
+    "counterpoints": [
+      {
+        "title": "1 · Pricing power is not evenly distributed across the component tier",
+        "body": "Foxconn, Quanta, Wistron and Super Micro have backlogs but single-digit ODM margins — they are assemblers, not toll collectors. PCBs are competitive. Real scarcity rents sit at substrates, high-end PSUs, chillers and transformers. '2028 backlogs' are also often framework agreements that can slip, and the market has already priced the safety in — Vertiv trades near 50x earnings. The truly insulated cash flows are the utility PPAs, not the component makers."
+      },
+      {
+        "title": "2 · The geographic hedge is partly domicile theater",
+        "body": "Holding Vertiv (US), Schneider (France) and Eaton (Ireland) changes currency and listing exposure, not the operating dependency — their components still pass through Taiwanese ODMs and East Asian supply. Only ODM capacity physically moving to Mexico, Vietnam or the US de-risks the chain. Watch Celestica's Mexico lines, Amkor's Arizona packaging and Foxconn's US expansion as the real signals, not the domicile mix."
+      },
+      {
+        "title": "3 · The demand-side case the dialogue omits",
+        "body": "Token prices are falling, open-weight models commoditize the 'pixels' layer, and the models layer may earn thin returns while the physical layer captures the economics. That supports the barbell — but for a different reason than 'the hardware always wins': you may be holding the physical layer because the software layer disappoints, not because the buildout is guaranteed. Two different theses, same allocation — know which one you are buying."
+      },
+      {
+        "title": "4 · EUR/USD is half the five-year question",
+        "body": "Roughly 70% of the Sparplan's value sits in USD-priced assets held by a German investor. Over five years the exchange rate can contribute or destroy as much as stock selection. The plan is unhedged; EUR strength in a risk-off unwind would compound a tech drawdown. Either accept the USD exposure as a deliberate bet (USD assets, dollar earnings) or lean the European names (Schneider, Siemens, Siemens Energy) in the same sleeves to balance it — but decide consciously. This is the one analysis the Gemini dialogue offered and never delivered."
+      }
+    ],
+    "chokepoints": [
+      {
+        "layer": "upstream",
+        "bottleneck": "EUV lithography",
+        "controlledBy": "ASML (sole supplier)",
+        "alternative": "None for leading edge; High-NA extends the lock"
+      },
+      {
+        "layer": "silicon",
+        "bottleneck": "Leading-edge fabrication",
+        "controlledBy": "TSMC (~90%)",
+        "alternative": "Samsung (catching), Intel (lagging)"
+      },
+      {
+        "layer": "silicon",
+        "bottleneck": "Advanced packaging (CoWoS)",
+        "controlledBy": "TSMC",
+        "alternative": "ASE, Amkor, Samsung — partial, capacity-limited"
+      },
+      {
+        "layer": "silicon",
+        "bottleneck": "HBM memory",
+        "controlledBy": "SK Hynix (lead)",
+        "alternative": "Micron, Samsung (qualification pending)"
+      },
+      {
+        "layer": "silicon",
+        "bottleneck": "EDA software & IP",
+        "controlledBy": "Synopsys + Cadence (~90% EDA), Arm (ISA)",
+        "alternative": "None realistic for leading-edge design"
+      },
+      {
+        "layer": "components",
+        "bottleneck": "IC substrates",
+        "controlledBy": "Ibiden, Unimicron, Tripod",
+        "alternative": "Limited Western capacity — 2-3 year expansion"
+      },
+      {
+        "layer": "components",
+        "bottleneck": "AI rack assembly",
+        "controlledBy": "Taiwanese ODMs (>90%)",
+        "alternative": "SMCI, Celestica (capacity-limited); Mexico buildout"
+      },
+      {
+        "layer": "components",
+        "bottleneck": "High-density PSUs",
+        "controlledBy": "Delta, Lite-On",
+        "alternative": "Few qualified suppliers; Taiwanese concentration"
+      },
+      {
+        "layer": "power",
+        "bottleneck": "High-voltage transformers",
+        "controlledBy": "Hitachi Energy, GE Vernova, Siemens Energy",
+        "alternative": "None fast — 2-3 year lead times, no shortcut"
+      },
+      {
+        "layer": "power",
+        "bottleneck": "24/7 baseload & PPAs",
+        "controlledBy": "Constellation, Talen, Vistra (nuclear)",
+        "alternative": "Gas as bridge; SMRs not before the 2030s"
+      },
+      {
+        "layer": "components",
+        "bottleneck": "Optical transceivers",
+        "controlledBy": "Coherent, Lumentum, Fabrinet",
+        "alternative": "Chinese vendors (geopolitical friction)"
+      },
+      {
+        "layer": "silicon",
+        "bottleneck": "NAND / enterprise SSD",
+        "controlledBy": "Samsung, SK Hynix, Kioxia/SanDisk, Micron",
+        "alternative": "No idle capacity — demand outpaces supply through 2027"
+      },
+      {
+        "layer": "components",
+        "bottleneck": "Nearline HDDs",
+        "controlledBy": "Seagate, Western Digital, Toshiba",
+        "alternative": "Sold out through 2026; allocated into 2028 — none near-term"
+      }
+    ],
+    "outlook": {
+      "stance": "Late-cycle expansion inside a rolling correction. The index sits ~2% below its high; the AI complex does not — semis are ~27% off their peak and 96% of semiconductor stocks are more than 20% below their highs. Treat late 2026 / 2027 as a high-volatility regime where contracted cash flow beats beta, and where a ~5% short rate makes cash a legitimate position for the first time in years.",
+      "summary": "This is not 2000 on earnings multiples — it is 1999 on concentration, leverage and narrative. S&P earnings grew ~29% in Q3 2026 and the top-5 tech forward P/E (~23x) is a third of the dot-com average (~65x). But the Shiller CAPE (~41 vs 44.2 at the 1999 peak), a 235%+ Buffett indicator, record margin debt ($1.48T) and a credit-financed capex boom ($182B IG issuance YTD; ~$570B AI debt expected) recreate the 2000 playbook on a different axis: the risk is not multiple compression alone, it is a funding event.",
+      "indicators": [
+        {
+          "label": "Shiller CAPE",
+          "value": "~41 (peak 44.2 in Dec 1999; avg 17.8)",
+          "read": "Only 1929 and 1997-2000 sustained CAPE >30; both ended badly. Priced for optimism."
+        },
+        {
+          "label": "Buffett indicator",
+          "value": ">235% of GDP",
+          "read": "Corporate equity value far above the economy that generates the earnings."
+        },
+        {
+          "label": "Margin debt (FINRA)",
+          "value": "$1.48T, +130% since Nov 2022",
+          "read": "Leverage amplifies any de-risking — the 1929 parallel that matters most."
+        },
+        {
+          "label": "Top-5 tech forward P/E",
+          "value": "~23x vs ~65x in 2000",
+          "read": "The 'not a bubble' argument: earnings are real and cheaper than dot-com."
+        },
+        {
+          "label": "S&P 500 earnings growth",
+          "value": "+29% blended in Q3 2026",
+          "read": "Third straight quarter above 25% — the denominator is doing the work."
+        },
+        {
+          "label": "Concentration",
+          "value": "Top-3 ≈ 21% of the index; Mag7 >35%",
+          "read": "Highest top-5 share in 50+ years; index returns hide what happens underneath."
+        },
+        {
+          "label": "Breadth",
+          "value": "60% of Russell 3000 >20% off highs; 96% of semis too",
+          "read": "A stealth bear market is already running inside a flat index."
+        },
+        {
+          "label": "AI credit",
+          "value": "$182B IG issuance YTD; Oracle CDS at 18-yr high (BBB-)",
+          "read": "The funding channel is where a real crisis starts, not P/E."
+        },
+        {
+          "label": "Rates",
+          "value": "10y ~5%; Fed 3.75-4.00% with hike bias; CPI 3.7%",
+          "read": "High discount rates are actively working against a CAPE of 41."
+        },
+        {
+          "label": "Energy",
+          "value": "Brent ~$115, WTI ~$100-103; EU gas €100/MWh",
+          "read": "The AI buildout's physical cost just went up while its financing costs rose too."
+        },
+        {
+          "label": "Buildout friction",
+          "value": "$260B of US data-center projects cancelled YTD",
+          "read": "Local opposition and grid limits are now a material constraint, not a footnote."
+        }
+      ],
+      "history": [
+        {
+          "episode": "1929 — 'new era' + leverage",
+          "valuation": "CAPE >30, record margin debt",
+          "outcome": "Dow -89% (1929-32)",
+          "lesson": "Leverage plus technology narrative plus stretched valuations is the classic composite; margin debt at records is today's echo."
+        },
+        {
+          "episode": "1999-2000 — the dot-com peak",
+          "valuation": "CAPE 44.2; Cisco at 100x+ earnings",
+          "outcome": "S&P -49%, Nasdaq -78% (2000-02); Cisco -90% from peak",
+          "lesson": "The 'obvious winner' loses most if bought at bubble multiples. Infrastructure leaders are not safe from multiple compression — only from irrelevance."
+        },
+        {
+          "episode": "2021-22 — growth multiple compression",
+          "valuation": "Zero-rate era; long-duration earnings at 40-100x",
+          "outcome": "Nasdaq -33% in a year without a recession",
+          "lesson": "When rates decide multiples, good companies halve. With the 10y near 5%, that risk is live again."
+        },
+        {
+          "episode": "2024-26 — the AI buildout (current)",
+          "valuation": "Index ~23x forward; leaders ~22-26x",
+          "outcome": "Rolling correction underway: semis -27%, neoclouds -70%",
+          "lesson": "The difference from 2000: earnings exist and backlog is contracted. The risk is financing, not demand — so watch credit, not narratives."
+        }
+      ],
+      "scenarios": [
+        {
+          "name": "Rolling correction, then grind higher",
+          "probability": "Base case ~50%",
+          "horizon": "6-12 months",
+          "path": "Index -8-15% from peak (7,100-7,200 area), semis another -10-15%, stabilization by Q1 2027, year-end 2027 higher on earnings growth.",
+          "trigger": "Nvidia's November guide holds; AI credit spreads stabilize; Fed pauses.",
+          "winners": "Power & grid with backlogs (CEG, GEV, Hitachi, ETN, PWR), HDD/NAND storage (STX, WDC, MU), gas (EQT, WMB), quality industrials.",
+          "losers": "Neoclouds, unprofitable AI SaaS, crowded momentum names, high-beta connectivity (ALAB, CRDO) in the drawdown."
+        },
+        {
+          "name": "Funding shock / deeper bear",
+          "probability": "~25-30%",
+          "horizon": "3-9 months",
+          "path": "A credit event (Oracle, a neocloud, or private-credit fund) forces de-leveraging: S&P -15-25%, Nasdaq -30%+; the Fed cuts into weakness.",
+          "trigger": "Oracle downgrade/CDS blowout, CoreWeave restructuring, stalled AI bond sales, Hormuz escalation.",
+          "winners": "Cash and T-bills (~5%), ASML and TSMC (fall last, recover first), long-contract infrastructure with net-cash balance sheets.",
+          "losers": "Leveraged builders (Oracle, neoclouds, IREN/NBIS), high-multiple beta, Intel (burning cash), any capex story financed at the top."
+        },
+        {
+          "name": "Melt-up continues",
+          "probability": "~20-25%",
+          "horizon": "6-12 months",
+          "path": "Holiday and Q1 2027 earnings beat, breadth improves, index to 8,500+; the bubble inflates further instead of deflating.",
+          "trigger": "Azure/AWS/Google Cloud acceleration, Nvidia blowout guide, Fed holds without hiking.",
+          "winners": "The whole complex, led by semis and compute; component names re-rate again.",
+          "losers": "Cash, defensives, value — a melt-up is a relative-loss environment for prudence."
+        },
+        {
+          "name": "Energy shock (tail)",
+          "probability": "<10%",
+          "horizon": "0-6 months",
+          "path": "Hormuz closure or strikes on Gulf energy/cables: Brent $150+, global recession risk, AI capex pauses; only energy, nuclear and defense hold.",
+          "trigger": "Post-midterm strikes on Iran, tanker attacks, subsea cable damage.",
+          "winners": "Oil & gas (EQT, WMB), nuclear (CEG, TLN), defense; cash.",
+          "losers": "Everything AI — capex, credit, and equity multiples together."
+        }
+      ],
+      "watch": [
+        "Nvidia's next quarterly guide — the single strongest signal (deceleration = hardware-layer repricing).",
+        "Oracle and CoreWeave CDS/bond spreads — the AI-credit thermometer.",
+        "Hyperscaler 2027 capex guidance revisions at the next prints.",
+        "Brent and war-risk insurance premiums (10% of cargo value is the stress line).",
+        "Breadth divergence: share of S&P above its 200-day average vs the index level.",
+        "Any first 'order pause' language from TSMC, HBM or transformer makers."
+      ]
+    }
+  },
+  "portfolioModel": {
+    "name": "Power & Pixels — stress-aware revision (Oct 2026)",
+    "note": "Revised after the October 2026 repricing: a 15% cash/short-treasury sleeve funded by trimming tech, infrastructure and utilities; the barbell alone was never a hedge. Power and infrastructure remain cash-flow slingshots, not insurance — in a funding shock they fall with the complex. Cash at ~3.5-5% is the only genuinely uncorrelated sleeve available to a German retail investor.",
+    "baseline": 10000,
+    "sleeves": [
+      {
+        "bucket": "Utilities & IPPs",
+        "weight": "35%",
+        "names": "CEG · VST · NEE",
+        "rationale": "Still the contractual foundation (fixed-rate PPAs), trimmed from 40% because CEG/VST were repriced as AI proxies: their drawdown beta in a funding shock is real, only their cash flow is not."
+      },
+      {
+        "bucket": "Data-centre infrastructure",
+        "weight": "25%",
+        "names": "VRT · ETN · Schneider",
+        "rationale": "Picks and shovels with 2028 backlogs, trimmed from 30% — VRT at ~50x earnings means the safety was priced in; keep the backlog, lose the multiple risk."
+      },
+      {
+        "bucket": "AI semis & core tech",
+        "weight": "15%",
+        "names": "NVDA · AVGO · MSFT",
+        "rationale": "Capped at 15% (from 20): semis sit ~27% below their peak; the sleeve is for eventual upside, not current conviction."
+      },
+      {
+        "bucket": "Gas & energy value",
+        "weight": "10%",
+        "names": "EQT · WMB",
+        "rationale": "Unchanged: the bridge fuel and the one sleeve that benefits if the Hormuz risk premium stays. Cheap multiples, high yields."
+      },
+      {
+        "bucket": "Cash & short treasuries",
+        "weight": "15%",
+        "names": "€STR money market · T-bills (UCITS)",
+        "rationale": "New: at ~3.5-5% nominal, cash yields more than the portfolio's dividends and is the only asset that reliably rises when credit breaks. It is also the dry powder that buys the next drawdown."
+      }
+    ],
+    "yieldRows": [
+      {
+        "bucket": "Utilities & IPPs (35%)",
+        "weightPct": 35,
+        "cash": 3500,
+        "components": "CEG, VST, NEE",
+        "yieldPct": 1.5,
+        "income": 52.5
+      },
+      {
+        "bucket": "Data infrastructure (25%)",
+        "weightPct": 25,
+        "cash": 2500,
+        "components": "VRT, ETN",
+        "yieldPct": 0.6,
+        "income": 15.0
+      },
+      {
+        "bucket": "AI tech & Pixels (15%)",
+        "weightPct": 15,
+        "cash": 1500,
+        "components": "NVDA, AVGO, MSFT",
+        "yieldPct": 0.5,
+        "income": 7.5
+      },
+      {
+        "bucket": "Gas & energy value (10%)",
+        "weightPct": 10,
+        "cash": 1000,
+        "components": "EQT, WMB",
+        "yieldPct": 2.4,
+        "income": 24.0
+      },
+      {
+        "bucket": "Cash & T-bills (15%)",
+        "weightPct": 15,
+        "cash": 1500,
+        "components": "€STR MM / T-bills",
+        "yieldPct": 3.5,
+        "income": 52.5
+      }
+    ],
+    "totalYieldPct": 1.515,
+    "totalIncome": 151.5,
+    "yieldNotes": [
+      "The revision lifts the blended yield from ~1.12% to ~1.5% — because cash became the portfolio's highest-yielding sleeve (3.5% vs 1.5% utilities). That is the honest signal about this market: safety now pays more than growth dividends.",
+      "The utility multiplier remains: CEG/VST yield only ~0.6-0.7% on price; the payoff is dividend growth from cloud contracts, not current income.",
+      "Tech's cash stash is intentional — reinvested into custom silicon and energy leases rather than paid out.",
+      "Honesty note: blended sector approximations, not current per-share yields — re-check each name before sizing."
+    ],
+    "protection": [
+      "Capped tech sleeve: a further -15% on the $1,500 tech allocation costs $225 — 2.25% of the whole book, not 15%.",
+      "Anchored base: $6,000 in power, cooling and gas with multi-year backlogs and physical necessity behind the revenue.",
+      "Cash as the real hedge: 15% in short treasuries/money market at ~3.5-5% is the only sleeve with genuinely low correlation to the AI complex — and more yield than the other four combined.",
+      "Limits of the model: the infrastructure anchor can fall in a genuine AI-capex unwind; this is a barbell plus cash, not insurance. Size it accordingly."
+    ],
+    "rebalancing": [
+      "Quarterly review, plus anytime a sleeve drifts more than 5 percentage points from target.",
+      "Cash floor: refill the cash sleeve to 15% when it drops below 10% (i.e. after deploying dry powder in a drawdown); deploy it when it exceeds 20%.",
+      "Trim discipline: when tech surges past 20% of the portfolio, cut the excess into utilities, gas or cash — harvest the beta, keep the compounding.",
+      "Buying window: during sharp tech corrections, deploy cash and defensive dividends into the high-conviction tech names at deep discounts.",
+      "EU access note: US-listed stocks are purchasable by EU retail; US ETFs are not (PRIIPs). Cash side uses €STR money-market UCITS or the broker's own cash rate."
+    ],
+    "drip": {
+      "assumptions": [
+        "Illustration only: constant annualized total returns — utilities 10%, infrastructure 12%, tech 15%, gas 8%, cash 3.5% — compounded with dividends reinvested.",
+        "No taxes, no volatility path, no rebalancing: a real €10k will show drawdowns this table never does.",
+        "Baseline $10,000 allocated 35/25/15/10/15; dividends reinvested at the annualized rate each year."
+      ],
+      "years": [
+        {
+          "year": 0,
+          "utilities": 3500.0,
+          "industrials": 2500.0,
+          "tech": 1500.0,
+          "gas": 1000.0,
+          "cash": 1500.0,
+          "total": 10000.0,
+          "dividend": 151.5
+        },
+        {
+          "year": 1,
+          "utilities": 3850.0,
+          "industrials": 2800.0,
+          "tech": 1725.0,
+          "gas": 1080.0,
+          "cash": 1552.5,
+          "total": 11007.5,
+          "dividend": 166.76
+        },
+        {
+          "year": 2,
+          "utilities": 4235.0,
+          "industrials": 3136.0,
+          "tech": 1983.75,
+          "gas": 1166.4,
+          "cash": 1606.84,
+          "total": 12127.99,
+          "dividend": 183.74
+        },
+        {
+          "year": 3,
+          "utilities": 4658.5,
+          "industrials": 3512.32,
+          "tech": 2281.31,
+          "gas": 1259.71,
+          "cash": 1663.08,
+          "total": 13374.92,
+          "dividend": 202.63
+        },
+        {
+          "year": 4,
+          "utilities": 5124.35,
+          "industrials": 3933.8,
+          "tech": 2623.51,
+          "gas": 1360.49,
+          "cash": 1721.28,
+          "total": 14763.43,
+          "dividend": 223.67
+        },
+        {
+          "year": 5,
+          "utilities": 5636.79,
+          "industrials": 4405.85,
+          "tech": 3017.04,
+          "gas": 1469.33,
+          "cash": 1781.53,
+          "total": 16310.54,
+          "dividend": 247.1
+        }
+      ],
+      "insights": [
+        {
+          "title": "Total capital appreciation",
+          "body": "Without adding a dollar, the structure grows 63.1% over five years to an estimated $16,311 — about 10.3% annualized, dragged down deliberately by the 15% cash sleeve."
+        },
+        {
+          "title": "The yield snowball",
+          "body": "Annual dividend income grows from $151.50 to $247.10 (+63%) — and it starts from a higher base than before, because cash now pays."
+        },
+        {
+          "title": "The automatic rebalancing effect",
+          "body": "Dividends from stable sleeves get reinvested into whichever sleeve the brokerage buys — during tech selloffs that means cheaper fractional shares of the growth engines."
+        },
+        {
+          "title": "What the cash sleeve changes",
+          "body": "The 15% cash sleeve is the dry powder and the only sleeve that rises when credit breaks. In a funding shock the other four fall together — this is the sleeve that lets you buy them."
+        },
+        {
+          "title": "What the table cannot show",
+          "body": "Constant returns hide the risk that matters: the tech sleeve has historically produced its 15% in bursts around -20% to -35% drawdowns. The 5-year smooth line is a teaching device; the actual path decides who stays invested."
+        }
+      ]
+    }
+  },
+  "sparplan": {
+    "name": "€10,000 component-heavy AI infrastructure Sparplan — stress-aware revision",
+    "currency": "EUR",
+    "baseline": 10000,
+    "monthlyTotal": 832,
+    "note": "Revised Oct 30, 2026: cooling 30→25%, grid 30→35%, networking 20→15%, upstream unchanged, plus a 5% cash buffer. The revision follows the outlook: more contracted backlog (grid), less high-beta optics, and a cash floor that earns while it waits.",
+    "rows": [
+      {
+        "segment": "Liquid cooling & thermal",
+        "weightPct": 25,
+        "cash": 2500,
+        "monthly": 208,
+        "holdings": "VRT · MOD",
+        "broker": "WKN directory below"
+      },
+      {
+        "segment": "Power routing & grid",
+        "weightPct": 35,
+        "cash": 3500,
+        "monthly": 291,
+        "holdings": "ETN · SU.PA",
+        "broker": "WKN directory below"
+      },
+      {
+        "segment": "Networking & cabling",
+        "weightPct": 15,
+        "cash": 1500,
+        "monthly": 124,
+        "holdings": "AVGO · APH",
+        "broker": "WKN directory below"
+      },
+      {
+        "segment": "Core upstream hardware",
+        "weightPct": 20,
+        "cash": 2000,
+        "monthly": 167,
+        "holdings": "NVDA · ASML",
+        "broker": "WKN directory below"
+      },
+      {
+        "segment": "Cash buffer",
+        "weightPct": 5,
+        "cash": 500,
+        "monthly": 42,
+        "holdings": "€STR money market",
+        "broker": "Broker cash or €STR UCITS ETF (e.g. XEON)"
+      }
+    ],
+    "notes": [
+      "Why the revision: the outlook puts the risk in credit and energy, not demand. Grid equipment (longer backlog, less beta) gains 5 points; networking optics lose 5; cooling loses 5 but stays core.",
+      "Geographic reality: all eight names are US/EU listings — but their components still pass through Taiwanese ODMs. The only real de-risking signal is ODM capacity moving to Mexico/Vietnam/US (Celestica, Amkor Arizona, Foxconn US).",
+      "Monthly scaling: €832/month ≈ €10,000/year keeps the weights through fractional plans; €790 invested + €42 to the cash buffer.",
+      "Honest caveat: still an AI-capex-dependent book. The 5% cash and the grid tilt soften the cycle, they don't immunise it."
+    ],
+    "checklist": [
+      {
+        "title": "W-8BEN coverage",
+        "body": "German brokers apply the US-Germany treaty automatically: US dividend withholding drops from 30% to 15%, fully creditable against German tax."
+      },
+      {
+        "title": "Product compliance",
+        "body": "Single US stocks trade directly; US-domiciled ETFs stay blocked for EU retail under PRIIPs/MiFID II. The cash buffer uses a €STR money-market UCITS (€-denominated, EU-domiciled) or broker cash."
+      },
+      {
+        "title": "Rebalancing inside a Sparplan",
+        "body": "Steer weights by adjusting the monthly split instead of selling, so no taxable realisations are triggered. Deploy the cash buffer when a 10%+ AI drawdown arrives."
+      }
+    ],
+    "setupSteps": [
+      {
+        "title": "1 · Open the search",
+        "body": "German brokers index by WKN (Wertpapierkennnummer) or ISIN, not by US tickers. Open Trade Republic or Scalable Capital and tap the search icon."
+      },
+      {
+        "title": "2 · Search by WKN",
+        "body": "Type the WKN code from the directory below — not the company name — so the app resolves exactly the intended security."
+      },
+      {
+        "title": "3 · Create the plan",
+        "body": "Tap the asset, then 'Create Sparplan' / 'Sparplan einrichten'."
+      },
+      {
+        "title": "4 · Pick frequency and date",
+        "body": "Choose Monthly / Monatlich and an execution date right after payday (e.g. the 2nd or 16th of the month)."
+      },
+      {
+        "title": "5 · Enter the amount",
+        "body": "Enter the euro amount from the directory and confirm. Repeat for the second name in each sleeve."
+      }
+    ],
+    "directory": [
+      {
+        "company": "Vertiv Holdings",
+        "ticker": "VRT",
+        "wkn": "A2PZ5A",
+        "monthly": 125,
+        "verified": true,
+        "note": "The dialogue's A2P0P3 does not match any Vertiv listing. Use A2PZ5A (ISIN US92537N1081; German venue ticker 49V)."
+      },
+      {
+        "company": "Modine Manufacturing",
+        "ticker": "MOD",
+        "wkn": "871038",
+        "monthly": 83,
+        "verified": false,
+        "note": "A lookup suggests 869795 — check in your app, otherwise search 'Modine'."
+      },
+      {
+        "company": "Eaton Corporation",
+        "ticker": "ETN",
+        "wkn": "A1J5SB",
+        "monthly": 175,
+        "verified": false,
+        "note": "A lookup suggests A1J88N — check in your app, otherwise search 'Eaton'."
+      },
+      {
+        "company": "Schneider Electric",
+        "ticker": "SU",
+        "wkn": "860180",
+        "monthly": 116,
+        "verified": true,
+        "note": "ISIN FR0000121972."
+      },
+      {
+        "company": "Broadcom",
+        "ticker": "AVGO",
+        "wkn": "A2JG9V",
+        "monthly": 75,
+        "verified": false,
+        "note": "Unverified — search 'Broadcom' if the code does not resolve."
+      },
+      {
+        "company": "Amphenol",
+        "ticker": "APH",
+        "wkn": "A14U1B",
+        "monthly": 50,
+        "verified": false,
+        "note": "Unverified — search 'Amphenol' if the code does not resolve."
+      },
+      {
+        "company": "NVIDIA",
+        "ticker": "NVDA",
+        "wkn": "918422",
+        "monthly": 100,
+        "verified": true,
+        "note": "Listed on Xetra as NVD."
+      },
+      {
+        "company": "ASML Holding",
+        "ticker": "ASML",
+        "wkn": "A1J4U4",
+        "monthly": 66,
+        "verified": false,
+        "note": "Unverified — search 'ASML' if the code does not resolve."
+      }
+    ],
+    "manualDrip": {
+      "title": "Manual DRIP: the dividend sweep",
+      "intro": "US brokers can automatically reinvest a dividend into the same stock; German brokers legally cannot do this on an individual-stock Sparplan. The workaround is a manual sweep done twice a year — taxes are already handled at source, so the cash that lands in your account is net.",
+      "steps": [
+        {
+          "title": "1 · Let cash accumulate",
+          "body": "Eaton, Broadcom and Schneider pay quarterly dividends. The 15% US treaty withholding and German Abgeltungsteuer are handled instantly, so the cash landing in your broker account is 100% net."
+        },
+        {
+          "title": "2 · Sweep twice a year",
+          "body": "Do not log in for every €1.50 payout — the operational drag is too high. Check your uninvested cash balance every six months."
+        },
+        {
+          "title": "3 · Raise one Sparplan temporarily",
+          "body": "If €50 of dividends accumulated, open your top-performing infrastructure plan (e.g. Vertiv or Eaton) and raise that month's budget by €50."
+        },
+        {
+          "title": "4 · Reset to baseline",
+          "body": "Once the raised plan executes and consumes the accumulated cash, lower the budget back to its baseline. The profits loop back into compounding at zero transaction fees."
+        }
+      ]
+    },
+    "taxShield": [
+      {
+        "title": "Before the first dividend: Trade Republic",
+        "body": "Profile → Tax / Steuern → Tax Exemptions / Freistellungsauftrag → enter the amount (up to €1,000 for individuals)."
+      },
+      {
+        "title": "Before the first dividend: Scalable Capital",
+        "body": "Profile → Products / Produkte → Tax Data / Steuerdaten → set the Freistellungsauftrag."
+      },
+      {
+        "title": "What it buys you",
+        "body": "Your broker withholds no German tax on dividends or gains until the €1,000 annual threshold is crossed. If this is your only investment account, set the full €1,000."
+      }
+    ]
+  }
+}
