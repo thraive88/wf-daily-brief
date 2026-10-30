@@ -4361,5 +4361,255 @@
         "chainImpact": "Low-liquidity print — outsized moves possible in the last week of the year."
       }
     ]
+  },
+  "globalPortfolio": {
+    "name": "Global two-layer portfolio — €10,000",
+    "note": "The council's architecture made concrete: 60% diversified core that survives any scenario, 40% AI-chain satellite that is allowed to be exciting because it can no longer hurt the whole. Expected figures are assumptions for planning, not promises — the 10-15% annual returns of 2015-2025 came from a different valuation starting point.",
+    "baseline": 10000,
+    "currency": "EUR",
+    "expectedReturnPct": 6.3,
+    "expectedIncomePct": 1.66,
+    "expectedIncome": 166.4,
+    "assumptions": [
+      "Expected total returns (nominal, EUR, 10y): global equity 6.0%, bonds 3.2%, gold 3.5%, cash 2.0%, AI satellite ~9% blended — deliberately below the last decade's realized numbers because valuations start much higher.",
+      "Income and total return are different numbers: an S&P 500 fund on €10k pays ~€130-150 of dividends a year — the 10-15% figure people mean is TOTAL return. This model's ~1.7% blended income (or reinvested, if accumulating) is normal for a growth allocation.",
+      "Projections are constant-rate illustrations: bear = −2%/yr, base = 6.3%/yr, bull = +12%/yr, no contributions, no taxes. Real paths include drawdowns these lines never show."
+    ],
+    "holdings": [
+      {
+        "role": "Global equity core",
+        "layer": "core",
+        "product": "VWCE",
+        "name": "Vanguard FTSE All-World UCITS ETF (Acc)",
+        "isin": "IE00BK5BQT80",
+        "ter": "0.14%",
+        "weightPct": 38,
+        "cash": 3800,
+        "why": "Owns ~3,700 companies across developed and emerging markets in one accumulating fund — the closest thing to 'the world's earnings'. Accumulating shares reinvest dividends automatically (no cash handling, Vorabpauschale applies in Germany). Fee cut to 0.14% in July 2026.",
+        "alternative": "iShares MSCI World (IWDA, IE00B4L5Y983, ~0.20%) + EM (IS3N, IE00BKM4GZ66, ~0.18%) — cheaper blend at ~0.19% and more control; SPDR MSCI ACWI IMI (IE00B3YLTY66, ~0.17%) includes small caps."
+      },
+      {
+        "role": "Bond core",
+        "layer": "core",
+        "product": "AGGH / EUNA",
+        "name": "iShares Core Global Aggregate Bond UCITS ETF EUR-Hedged (Acc)",
+        "isin": "IE00BDBRDM35",
+        "ter": "0.10%",
+        "weightPct": 12,
+        "cash": 1200,
+        "why": "Investment-grade global bonds, currency-hedged to EUR, so the job is pure duration/credit exposure in your own currency. Starting yields near 3-4% give it a real (if modest) expected return at today's rates. It is insurance, not excitement: it returned about −8% over the last five years in the rate shock — bonds protect against recession, not against inflation shocks.",
+        "alternative": "iShares Core € Govt Bond UCITS ETF (IEGA, IE00B4WXJJ64, ~0.10%) for pure euro government credit; or a short-duration class (1-3y) if you expect the December hike to extend."
+      },
+      {
+        "role": "Real asset / crisis hedge",
+        "layer": "core",
+        "product": "4GLD",
+        "name": "Xetra-Gold (physically backed gold)",
+        "isin": "DE000A0S9GB0",
+        "ter": "no management fee (spread cost)",
+        "weightPct": 6,
+        "cash": 600,
+        "why": "The asset that historically works when policy, geopolitics or currencies break — the Hormuz tail scenario lives here. EUR-denominated, physically backed, one gram per unit, redeemable. In Germany gains are tax-treated like physical gold after the one-year holding period (check current rules).",
+        "alternative": "iShares Physical Gold ETC (IGLN/SGLN, IE00B4ND3602, ~0.12%) — deeper liquidity in USD; EUWAX Gold II for smaller units."
+      },
+      {
+        "role": "Cash core",
+        "layer": "core",
+        "product": "XEON / broker cash",
+        "name": "Xtrackers II EUR Overnight Rate Swap (Acc)",
+        "isin": "LU0290358497",
+        "ter": "~0.10%",
+        "weightPct": 4,
+        "cash": 400,
+        "why": "Tracks the €STR overnight rate — genuinely earns while it waits, with no credit or duration risk. This is core liquidity that pays a short rate rather than a zero.",
+        "alternative": "Trade Republic / Scalable pay interest on broker cash directly (check tiering); €STR UCITS keeps it inside the plan with automatic execution."
+      },
+      {
+        "role": "AI satellite — utilities & IPPs",
+        "layer": "satellite",
+        "product": "CEG · VST · NEE",
+        "name": "Constellation · Vistra · NextEra",
+        "isin": "single stocks",
+        "ter": "—",
+        "weightPct": 14,
+        "cash": 1400,
+        "why": "Contracted PPAs and nuclear baseload — the sleeve paid first in the AI chain. Drops from 35% of the AI sleeve to 14% of the total because the satellite is now capped at 40%.",
+        "alternative": "A clean-energy UCITS ETF would diversify but dilutes the contractual-PPA edge; single stocks keep the direct revenue line."
+      },
+      {
+        "role": "AI satellite — infrastructure",
+        "layer": "satellite",
+        "product": "VRT · ETN",
+        "name": "Vertiv · Eaton (+Schneider optional)",
+        "isin": "single stocks",
+        "ter": "—",
+        "weightPct": 10,
+        "cash": 1000,
+        "why": "Cooling and switchgear with backlogs past 2028 — chip-agnostic picks and shovels. Capped at 10% of the total: priced for perfection, so the job is backlog, not beta.",
+        "alternative": "Schneider (SU.PA, EUR-denominated) swaps Eaton exposure into euro currency; nVent adds cooling breadth."
+      },
+      {
+        "role": "AI satellite — semis & tech",
+        "layer": "satellite",
+        "product": "NVDA · AVGO · MSFT",
+        "name": "Nvidia · Broadcom · Microsoft",
+        "isin": "single stocks",
+        "ter": "—",
+        "weightPct": 6,
+        "cash": 600,
+        "why": "The growth engine, tiny on purpose: 6% of total. Semis sit ~27% off their peak; Microsoft is the only hyperscaler still cash-flow positive. This sleeve exists for upside, not conviction today.",
+        "alternative": "TSMC or ASML instead of Nvidia for a less crowded accelerator exposure; a semiconductor UCITS ETF for breadth at the cost of quality."
+      },
+      {
+        "role": "AI satellite — energy value",
+        "layer": "satellite",
+        "product": "EQT · WMB",
+        "name": "EQT · Williams",
+        "isin": "single stocks",
+        "ter": "—",
+        "weightPct": 4,
+        "cash": 400,
+        "why": "Gas and pipelines with high dividend yields — the bridge fuel and the Hormuz hedge inside the satellite.",
+        "alternative": "An energy UCITS ETF (e.g., sector ETF on Xetra) for less single-name risk at a higher fee."
+      },
+      {
+        "role": "AI satellite — deployment cash",
+        "layer": "satellite",
+        "product": "XS, ladder",
+        "name": "Cash for the −10/−20/−30% ladder",
+        "isin": "same cash vehicle",
+        "ter": "—",
+        "weightPct": 6,
+        "cash": 600,
+        "why": "The ladder from the council review: one third deploys at −10% from peak, one third at −20%, one third at −30% or on a confirmed Fed pivot. Pre-committed so panic does the buying automatically.",
+        "alternative": "Hold it in the same €STR vehicle as core cash; no separate product needed."
+      }
+    ],
+    "projections": [
+      {
+        "year": 0,
+        "bear": 10000.0,
+        "base": 10000.0,
+        "bull": 10000.0
+      },
+      {
+        "year": 1,
+        "bear": 9800.0,
+        "base": 10630.0,
+        "bull": 11200.0
+      },
+      {
+        "year": 2,
+        "bear": 9604.0,
+        "base": 11300.0,
+        "bull": 12544.0
+      },
+      {
+        "year": 3,
+        "bear": 9412.0,
+        "base": 12012.0,
+        "bull": 14049.0
+      },
+      {
+        "year": 4,
+        "bear": 9224.0,
+        "base": 12768.0,
+        "bull": 15735.0
+      },
+      {
+        "year": 5,
+        "bear": 9039.0,
+        "base": 13573.0,
+        "bull": 17623.0
+      }
+    ],
+    "scenarios": [
+      {
+        "name": "Stagflation persists",
+        "probability": "~25%",
+        "assumption": "Bear: oil stays above $100, hike cycle extends, AI multiples compress further; gold and cash do the heavy lifting",
+        "y5": 9039
+      },
+      {
+        "name": "Base: earnings normalise",
+        "probability": "~50%",
+        "assumption": "AI capex slows to sustainable growth, earnings carry the index, satellite grinds through one 20-30% drawdown",
+        "y5": 13576
+      },
+      {
+        "name": "Melt-up + breadth",
+        "probability": "~25%",
+        "assumption": "Bull: Fed pauses, AI monetisation proves out, breadth improves; satellite re-rates",
+        "y5": 17623
+      }
+    ],
+    "incomeRows": [
+      {
+        "bucket": "Global equity (VWCE)",
+        "weightPct": 38,
+        "yieldPct": 1.8,
+        "income": 68.4
+      },
+      {
+        "bucket": "Bonds (AGGH)",
+        "weightPct": 12,
+        "yieldPct": 3.2,
+        "income": 38.4
+      },
+      {
+        "bucket": "Gold (4GLD)",
+        "weightPct": 6,
+        "yieldPct": 0,
+        "income": 0.0
+      },
+      {
+        "bucket": "Core cash (XEON)",
+        "weightPct": 4,
+        "yieldPct": 2.0,
+        "income": 8.0
+      },
+      {
+        "bucket": "AI utilities",
+        "weightPct": 14,
+        "yieldPct": 1.5,
+        "income": 21.0
+      },
+      {
+        "bucket": "AI infrastructure",
+        "weightPct": 10,
+        "yieldPct": 0.6,
+        "income": 6.0
+      },
+      {
+        "bucket": "AI semis & tech",
+        "weightPct": 6,
+        "yieldPct": 0.5,
+        "income": 3.0
+      },
+      {
+        "bucket": "AI gas",
+        "weightPct": 4,
+        "yieldPct": 2.4,
+        "income": 9.6
+      },
+      {
+        "bucket": "Satellite cash",
+        "weightPct": 6,
+        "yieldPct": 2.0,
+        "income": 12.0
+      }
+    ],
+    "rebalancing": [
+      "Quarterly review; rebalance when any layer drifts more than 5pp.",
+      "Keep core ≥55% at all times — if a satellite rally pushes it above 45% of the total, harvest back into the core.",
+      "The satellite's 6% deployment cash follows the pre-committed ladder and is refilled from satellite profits, never from the core.",
+      "New contributions (Sparplan style) go to the most underweight layer — automatic buy-low discipline without selling."
+    ],
+    "notes": [
+      "Why 38% equity, not 60%: CAPE ~41 with a 10y at 5% and a December hike priced — the council's defensive stance expressed in weights, not words. If valuations compress, the ladder and monthly contributions rebuild exposure.",
+      "UCITS only: every funded product is EU-domiciled, so PRIIPs allows it for German retail. US-domiciled ETFs remain blocked.",
+      "Taxes: accumulating funds (VWCE, AGGH, XEON) pay the Vorabpauschale annually; Xetra-Gold is taxed like physical gold after one year. Use the €1,000 Freistellungsauftrag before anything else.",
+      "Second opinion: TradingAgents analyses single stocks, not funds — it cannot referee a core built from ETFs. The council lenses are the right referee here; run it quarterly."
+    ]
   }
 }
