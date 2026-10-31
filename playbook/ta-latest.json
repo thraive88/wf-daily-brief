@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "playbook-ta-live",
+  "date": "2026-10-31",
+  "title": "Playbook TradingAgents verdicts (live)",
+  "summary": "1 verdicts published. Agree 0 \u00b7 partial 0 \u00b7 disagree 1. Generated on demand from the Playbook tab's Run TA buttons (Mac worker, quick model, market analyst only).",
+  "tags": [
+    "tradingagents",
+    "playbook"
+  ],
+  "sections": [
+    {
+      "heading": "Verdicts side by side",
+      "table": {
+        "columns": [
+          "Verdict",
+          "Ticker",
+          "TradingAgents",
+          "Agreement",
+          "Key point"
+        ],
+        "rows": [
+          [
+            "BUY LIST",
+            "HAG.DE",
+            "SELL",
+            "Disagree",
+            "## 1. Rating"
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How the agent reasoned",
+      "body": "### HAG.DE ## 1. Rating\n\n**Sell** (Stay Avoid on new money; scale out of existing longs)\n\n---\n\n## 2. Executive Summary\n\n**Action Plan \u2014 HAG.DE**\n\n- **Existing longs:** Scale out into the **87\u201390** resistance shelf. Do not hold for the 95\u201396 extension, which requires a volume confirmation the tape has repeatedly withheld.\n- **New entries:** **Do nothing at 85.62.** No accumulation in the 83\u201385 zone while momentum decelerates into resistance \u2014 the Neutral analyst's \"staged starter position\" is a reasonable idea in the abstract, but its risk definition collapses on inspection (see thesis), and the immediate risk/reward is ~1:1 to the first shelf.\n- **Position sizing:** Zero new exposure. For any residual long, size down to a token/tracking position or flat.\n- **Key risk levels:**\n  - **Upside trigger (flips bullish):** decisive close **above 90 on >400k volume** \u2014 then buy confirmation, target 95\u201396, \u2026\n"
+    },
+    {
+      "heading": "Limits",
+      "body": "Market-analyst-only lean configuration (DeepSeek flash, one debate round). LLM output \u2014 verify any number before acting. The rating scale is the agent's; the mapping above is ours."
+    }
+  ],
+  "sources": []
+}
