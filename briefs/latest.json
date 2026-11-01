@@ -1,10 +1,10 @@
 {
  "schema": 1,
- "id": "brief-2026-10-31",
- "date": "2026-10-31",
- "generatedAt": "2026-10-31T08:30:08.177243+00:00",
- "snapshotUtc": "2026-10-31 08:30",
- "snapshotNote": "weekend snapshot, 04:30 ET · US prices = Oct 30 post-close; crypto live",
+ "id": "brief-2026-11-01",
+ "date": "2026-11-01",
+ "generatedAt": "2026-11-01T09:21:19.727487+00:00",
+ "snapshotUtc": "2026-11-01 09:21",
+ "snapshotNote": "weekend snapshot, 05:21 ET · US prices = Oct 30 post-close; crypto live",
  "regime": {
   "breadthScore": 44.6,
   "breadthZone": "Neutral",
@@ -50,32 +50,32 @@
   },
   {
    "label": "BTC",
-   "value": "$77,317",
-   "sub": "-0.8% 24h / -4.2% 7d"
+   "value": "$78,121",
+   "sub": "+1.0% 24h / -3.1% 7d"
   }
  ],
- "posture": "Friday's session was a broad AI-capex shakeout, not a narrow one: the S&P 500 fell 1.8% below its 100-day average and the Nasdaq 2.9% to a three-month low, while VIX jumped 12.9% to 19.42 — still inside the normal 16–20 band. Breadth scores 44.6/100 (Neutral), with the 8-day breadth MA at 0.605 in a 200-day downtrend and a muted bearish signal active; the model's equity-exposure band is 60–75%. Inside the collector's 75-stock universe only 35 names sit above their 50-day average and 44 above their 200-day — selective, deteriorating, not broken. Crypto reads 63.2/100 Neutral (5 of 6 components): BTC is a bull pullback between its 50- and 200-day averages but 30% below its 1-year high, funding is near baseline, and only 10% of the top-20 are positive over 30 days. With the 10-year at 4.93% and December hike odds near 72–75%, rate-sensitive assets stay under pressure.",
- "sentiment": "Risk-off, concentrated where capital intensity is highest: the market is repricing AI spend against cash flow (Alphabet's worst day since IPO, Intel's worst since 1974) even as energy and parts of the broad tape held up. The week ahead adds midterms and payrolls, so expect headline-driven volatility to stay elevated.",
+ "posture": "Risk is rotating, not collapsing: the S&P 500 closed Friday −1.82% at 7,580 (3.1% below its Oct 6 high) in an AI-capex-driven tech selloff, with VIX at 19.4 — still the normal 16–20 band but +12.9% on the day. Breadth scores 44.6/100 Neutral: the 8-day breadth MA (0.605) sits in a 200-day downtrend with an active bearish signal and a 30th-percentile reading, putting the model's equity-exposure band at 60–75%. The collector's 75-stock universe confirms a mixed tape — 35/75 names sit above their 50-day average (47%) but 44/75 above the 200-day (59%) — so the uptrend is dented, not broken. Crypto scores 63.2/100 Neutral: BTC is in a bull pullback between its 50- and 200-day averages, about 30% below its one-year high, funding near baseline (~9% annualized) and only 10% of the top-20 coins positive over 30 days. Net read: selective exposure with a defensive tilt into Tuesday's midterms and Friday's payrolls.",
+ "sentiment": "Sentiment is defensive and headline-sensitive: fear that AI capex is converting poorly into cash flow is driving rotation out of megacap tech into energy and defensives, while a hawkish Fed hold (~70–86% market-implied odds of a December hike) keeps duration and growth multiples under pressure. Crypto sentiment is similarly fragile after the Binance breach, though spot BTC ETF inflows have continued.",
  "news": [
   {
-   "text": "AI-capex selloff: S&P 500 −1.8% to 7,580 (below its 100-day average), Nasdaq −2.9% to a three-month low, Philadelphia Semiconductor index −7.2%; Intel −29% on weak Q4 guidance, AMD ~−11%.",
-   "url": "https://www.barrons.com/livecoverage/stock-market-news-today-103026"
+   "text": "Fed held rates at 3.75–4.00% by a 10–2 vote; Chair Warsh cited \"essentially no progress\" toward the 2% target and markets now price roughly 70–86% odds of a December hike, with core PCE at +3.1% y/y.",
+   "url": "https://en.theblockbeats.news/flash/374660"
   },
   {
-   "text": "Big Tech earnings verdict: Alphabet −12.7% a day earlier (worst since its 2004 IPO) on capex fears; Amazon missed revenue/EPS with negative free cash flow and $220B capex held; Reddit −29% on guidance.",
-   "url": "https://www.livemint.com/market/wall-street-slides-as-ai-cash-burn-worries-spark-tech-selloff-11793385103163.html"
+   "text": "AI-capex selloff: Nasdaq −2.86% (worst day since June; −5.3% for October), S&P 500 −1.82% to 7,580.07 after Intel −28.6% and soft AI-spending earnings; the Philadelphia Semiconductor Index fell 7.2% with AMD −10.9%.",
+   "url": "https://www.moneycontrol.com/news/business/markets/wall-street-closes-sharply-lower-as-ai-cash-burn-fears-spark-tech-selloff-14064895.html"
   },
   {
-   "text": "Fed held at 3.75–4.00% (two dissents for a hike); September PCE at 3.6% y/y keeps ~72–75% odds of a December hike in play, with Q3 GDP +3.4% as backdrop.",
-   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-amazon-intel-alphabet-google-meta-microsoft-nvidia-amd-chevron-exxon-mobil-reddit-earnings-ai-spending-fed-rate-treasury-bond-yield-israel-iran-war-market-news-30th-october-2026/liveblog/135361421.cms"
+   "text": "Energy was the outlier: Exxon and Chevron hit all-time highs as money rotated into defensives and oil rose, with Brent +2.4% to about $113.",
+   "url": "https://hk.marketscreener.com/news/us-stocks-end-sharply-lower-as-ai-cash-burn-fears-spark-tech-selloff-ce785fd8d98af426"
   },
   {
-   "text": "Energy bucked the tape: Exxon and Chevron beat on strong refining margins; Brent rose ~2.4% to ~$113 amid the US–Israel–Iran conflict and Russia–Ukraine disruptions.",
-   "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-a01d3551e794fed1a0c317c20bc3f0a2"
+   "text": "Binance suffered a roughly $6.3B breach; BTC slid to a six-week low near $77K before stabilizing around $78K with ~$1.5B of liquidations — though US spot bitcoin ETFs kept attracting net inflows.",
+   "url": "https://www.btcc.com/en-US/news/deep-article/13579"
   },
   {
-   "text": "Crypto: record $6.3B Binance hack (North Korea-linked per TRM/Chainalysis); BTC fell below $77k, $1.58B liquidated in 24h; Tether and Circle froze ~$2.4B combined.",
-   "url": "https://www.business-standard.com/markets/cryptocurrency/fbi-secret-service-join-probe-as-6-bn-binance-hack-rattles-crypto-markets-126103100226_1.html"
+   "text": "Week ahead: US midterms on Tuesday and October payrolls on Friday frame the next move; earnings season so far shows ~82% of 299 S&P 500 reporters beating estimates, with Q3 EPS growth tracking +31.6% y/y.",
+   "url": "https://economictimes.indiatimes.com/markets/us-stocks/wall-street-guide/wall-street-drops-to-its-worst-day-since-june-after-the-sell-off-for-tech-stocks-deepens/printarticle/135382776.cms"
   }
  ],
  "tables": [
@@ -346,16 +346,16 @@
     ],
     [
      "20",
-     "OXY",
-     "Occidental Petroleum Corporatio",
+     "BP",
+     "BP p.l.c.",
      "Value",
-     "$64.00",
-     "+1.6%",
-     "+10.7%",
-     "+15.4%",
-     "+55.3%",
-     "-3.4%",
-     "Fwd P/E 12.8, $64B cap, 3M +15.4%, 3.4% below 52w high, above 50DMA, 200DMA intact."
+     "$50.39",
+     "+0.1%",
+     "+13.2%",
+     "+13.8%",
+     "+43.4%",
+     "-1.8%",
+     "Fwd P/E 8.7, $130B cap, 3M +13.8%, 1.8% below 52w high, above 50DMA, 200DMA intact."
     ]
    ]
   },
@@ -691,7 +691,7 @@
   {
    "id": "bonds",
    "title": "Bonds — top 20 by 3-month return",
-   "note": "The 10-year sits at 4.93% and the yield index is up ~5.2% over three months, so duration was the drag: over 3M, TLT −0.4%, IEF −1.1%, AGG −0.9% and LQD −1.7%, while cash-like SGOV/BIL stayed slightly positive (+0.3%). The past month flipped direction (TLT +5.3% 1M as equities sold off), but with a December hike priced at ~72–75%, the risk is yields re-testing 5% and re-pricing long duration again — T-bills remain the low-volatility anchor.",
+   "note": "With the 10-year at 4.93% — up about 5% in yield over the past three months — duration has been a drag: long buckets averaged −1.1% (TLT −0.4%, IEF −1.1%, LQD −1.7% over 3M) while T-bills compounded positively (BIL/SGOV +0.3%). The last month has been kinder to duration (TLT +5.3% 1M as yields eased), but with December hike odds high, fresh upside in yields is the main risk — bills and floaters remain the low-volatility anchor.",
    "columns": [
     "#",
     "Ticker",
@@ -866,7 +866,7 @@
   {
    "id": "crypto",
    "title": "Crypto — top 20 by market cap",
-   "note": "BTC at $77,317 (−4.2% 7d / −8.1% 30d, 30% below its 1-year high) — crypto regime 63.2/100 Neutral on 5 of 6 components (BTC bull pullback between its 50/200-day averages, funding near baseline at ~1.8% annualized, but only 10% of the top-20 positive over 30 days), with the Binance hack and ~$1.6B of liquidations compounding risk-off; the dominance component needs 31 days of history before it reports. Values marked ≈ use CoinGecko's 200-day change; 1Y is CoinGecko native.",
+   "note": "BTC trades near $78.1K, −3.1% over 7 days and −9.3% over 30 days, roughly 30% below its one-year high; the regime skill reads a bull pullback between the 50- and 200-day averages with neutral funding, but momentum breadth is washed out (only 10% of the top-20 positive over 30 days).",
    "columns": [
     "Symbol",
     "Name",
@@ -882,222 +882,222 @@
     [
      "BTC",
      "Bitcoin",
-     "$77,317.00",
-     "-0.8%",
-     "-4.2%",
-     "-8.1%",
-     "-3.2%",
-     "-29.5%",
-     "$1.55T"
+     "$78,121.00",
+     "+1.0%",
+     "-3.1%",
+     "-9.3%",
+     "-3.5%",
+     "-29.0%",
+     "$1.57T"
     ],
     [
      "ETH",
      "Ethereum",
-     "$2,240.30",
-     "+0.7%",
-     "-5.7%",
-     "-17.4%",
-     "-4.6%",
-     "-41.5%",
-     "$273.7B"
+     "$2,271.93",
+     "+1.3%",
+     "-3.0%",
+     "-16.9%",
+     "-3.9%",
+     "-41.1%",
+     "$277.6B"
     ],
     [
      "BNB",
      "BNB",
-     "$699.62",
-     "-0.8%",
-     "-5.1%",
-     "-9.2%",
-     "+12.3%",
-     "-36.2%",
-     "$92.0B"
+     "$713.09",
+     "+1.6%",
+     "-3.9%",
+     "-7.9%",
+     "+13.0%",
+     "-34.3%",
+     "$93.8B"
     ],
     [
      "XRP",
      "XRP",
-     "$1.24",
-     "-0.8%",
-     "-3.4%",
-     "-17.3%",
-     "-10.7%",
-     "-49.8%",
-     "$78.8B"
+     "$1.25",
+     "+0.6%",
+     "-3.7%",
+     "-18.2%",
+     "-11.4%",
+     "-50.0%",
+     "$79.4B"
     ],
     [
      "SOL",
      "Solana",
-     "$95.37",
-     "-1.8%",
-     "-6.4%",
-     "-19.9%",
-     "+13.3%",
-     "-48.5%",
-     "$56.3B"
+     "$95.59",
+     "+0.2%",
+     "-5.7%",
+     "-21.3%",
+     "+10.6%",
+     "-48.4%",
+     "$56.4B"
     ],
     [
      "TRX",
      "TRON",
-     "$0.321227",
-     "-2.9%",
-     "-2.6%",
-     "-4.8%",
-     "-6.1%",
-     "+8.9%",
-     "$30.5B"
+     "$0.310406",
+     "-2.8%",
+     "-5.6%",
+     "-7.1%",
+     "-10.0%",
+     "+4.9%",
+     "$29.5B"
     ],
     [
      "FIGR_HELOC",
      "Figure Heloc",
-     "$1.03",
-     "-0.2%",
-     "+0.7%",
-     "+0.1%",
-     "≈+0.1%",
-     "+339.2%",
-     "$26.6B"
+     "$1.06",
+     "–",
+     "+0.0%",
+     "+4.1%",
+     "≈+3.5%",
+     "+1.8%",
+     "$27.6B"
     ],
     [
      "ZEC",
      "Zcash",
-     "$1,270.31",
-     "+2.0%",
-     "+8.4%",
-     "-11.7%",
-     "+200.0%",
-     "+229.1%",
-     "$21.6B"
+     "$1,249.09",
+     "-2.1%",
+     "+4.6%",
+     "-9.7%",
+     "+141.8%",
+     "+183.6%",
+     "$21.2B"
     ],
     [
      "HYPE",
      "Hyperliquid",
-     "$87.15",
-     "-4.4%",
-     "+14.7%",
-     "-1.9%",
-     "≈+96.5%",
-     "+97.5%",
-     "$20.9B"
+     "$87.61",
+     "+0.2%",
+     "+16.0%",
+     "-1.7%",
+     "≈+103.6%",
+     "+101.6%",
+     "$21.0B"
     ],
     [
      "DOGE",
      "Dogecoin",
-     "$0.074946",
-     "-1.1%",
-     "-4.0%",
-     "-21.6%",
-     "-32.0%",
-     "-59.3%",
-     "$11.7B"
+     "$0.075789",
+     "+1.0%",
+     "-1.2%",
+     "-21.2%",
+     "-34.1%",
+     "-59.4%",
+     "$11.9B"
     ],
     [
      "XMR",
      "Monero",
-     "$591.87",
-     "-0.5%",
-     "+1.9%",
-     "+7.9%",
-     "+45.8%",
-     "+85.7%",
-     "$11.1B"
-    ],
-    [
-     "WBT",
-     "WhiteBIT Coin",
-     "$74.23",
+     "$604.15",
+     "+1.5%",
      "-0.4%",
-     "-5.3%",
-     "-11.8%",
-     "+25.0%",
-     "+68.0%",
-     "$8.8B"
+     "+9.7%",
+     "+46.5%",
+     "+76.0%",
+     "$11.4B"
     ],
     [
      "LINK",
      "Chainlink",
-     "$11.33",
-     "+2.6%",
-     "-3.6%",
-     "-21.4%",
-     "+21.0%",
-     "-33.9%",
-     "$8.7B"
+     "$11.74",
+     "+2.9%",
+     "+3.7%",
+     "-17.8%",
+     "+20.2%",
+     "-31.8%",
+     "$9.0B"
+    ],
+    [
+     "WBT",
+     "WhiteBIT Coin",
+     "$75.01",
+     "+1.0%",
+     "-3.4%",
+     "-12.6%",
+     "+25.4%",
+     "+58.4%",
+     "$8.9B"
     ],
     [
      "LEO",
      "LEO Token",
-     "$9.39",
-     "-0.3%",
-     "+4.6%",
-     "+6.4%",
+     "$9.40",
+     "+0.2%",
+     "+4.0%",
+     "+5.1%",
      "-9.0%",
-     "-2.0%",
+     "-1.7%",
      "$8.6B"
     ],
     [
      "ADA",
      "Cardano",
-     "$0.192724",
-     "+0.2%",
-     "-8.2%",
-     "-23.9%",
-     "-22.9%",
-     "-68.4%",
-     "$7.2B"
+     "$0.193201",
+     "+0.3%",
+     "-5.8%",
+     "-24.2%",
+     "-26.4%",
+     "-68.5%",
+     "$7.3B"
     ],
     [
      "XLM",
      "Stellar",
-     "$0.168656",
-     "+1.6%",
-     "-2.0%",
-     "-25.9%",
-     "+7.0%",
-     "-44.1%",
-     "$5.9B"
-    ],
-    [
-     "BCH",
-     "Bitcoin Cash",
-     "$287.95",
-     "+2.2%",
-     "+4.5%",
-     "-6.0%",
-     "-35.2%",
-     "-47.5%",
-     "$5.8B"
+     "$0.169085",
+     "-0.1%",
+     "-0.2%",
+     "-24.1%",
+     "+5.8%",
+     "-44.4%",
+     "$6.0B"
     ],
     [
      "NEAR",
      "NEAR Protocol",
-     "$4.33",
-     "-0.2%",
-     "-6.8%",
-     "-20.9%",
-     "+243.0%",
-     "+104.6%",
+     "$4.38",
+     "+1.3%",
+     "-0.8%",
+     "-11.4%",
+     "+237.0%",
+     "+105.5%",
      "$5.7B"
     ],
     [
-     "RAIN",
-     "Rain",
-     "$0.006217",
-     "-2.6%",
-     "-23.6%",
-     "-49.7%",
-     "≈-23.0%",
-     "+77.7%",
-     "$4.4B"
+     "BCH",
+     "Bitcoin Cash",
+     "$283.99",
+     "-1.5%",
+     "+3.9%",
+     "-9.5%",
+     "-38.5%",
+     "-47.9%",
+     "$5.7B"
     ],
     [
      "UNI",
      "Uniswap",
-     "$6.94",
-     "+3.6%",
-     "+0.9%",
-     "-22.4%",
-     "≈+119.1%",
-     "+18.2%",
-     "$4.3B"
+     "$7.27",
+     "+4.1%",
+     "+7.7%",
+     "-19.9%",
+     "≈+132.9%",
+     "+25.6%",
+     "$4.5B"
+    ],
+    [
+     "LTC",
+     "Litecoin",
+     "$56.15",
+     "+2.6%",
+     "-0.3%",
+     "-19.9%",
+     "-0.4%",
+     "-43.2%",
+     "$4.4B"
     ]
    ]
   }
