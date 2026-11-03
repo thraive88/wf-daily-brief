@@ -1,9 +1,9 @@
 {
   "schema": 1,
-  "id": "playbook-ta-2026-11-02",
-  "date": "2026-11-02",
-  "title": "Playbook TradingAgents verdicts — 2026-11-02",
-  "summary": "TradingAgents (market analyst only, DeepSeek, one debate round) returned Hold on Rheinmetall for 2026-11-02: the short-term tape is intact, but a two-week stall under the falling 200-day and collapsed rally volume argue against adding. The final plan keeps exposure at half weight, ties the exit to a close below the 50-SMA with a €1003.67 hard backstop, and treats a volume-backed reclaim of €1090.20 as the let-run trigger. That is partial agreement with the playbook's BUY LIST stance — hold what you have, add nothing at these levels.",
+  "id": "playbook-ta-2026-11-03",
+  "date": "2026-11-03",
+  "title": "Playbook TradingAgents verdicts — 2026-11-03",
+  "summary": "TradingAgents (market analyst only, DeepSeek, one debate round) returned Hold on Hensoldt for 2026-11-03: the primary uptrend is intact at €85.62, but leading momentum is fading — seven straight sessions of a shrinking MACD histogram, retest volume at roughly half the breakout day, and price only 0.8% above the VWMA. With ~7% risk to the €79.60 structural stop against a 6.6% first target at €91.26, the setup is about 1:1, so the plan keeps the current weight as a ceiling, adds nothing at market, and acts only on confirmation. That is partial agreement with the playbook's BUY LIST stance — hold, do not chase, and buy only the ladder.",
   "tags": ["tradingagents", "playbook"],
   "sections": [
     {
@@ -13,17 +13,17 @@
         "rows": [
           [
             "BUY LIST",
-            "RHM.DE",
+            "HAG.DE",
             "HOLD",
             "Partial",
-            "Hold at €1037.60 at ≤half weight — no new capital; exit on a close below the 50-SMA (€1022.24) with a €1003.67 backstop; a volume reclaim of €1090.20 is the let-run trigger, not a trim trigger."
+            "Hold at €85.62 at no more than the current weight — no new money until two closes above €87.90 on >300k shares (adds capped at ~one-third of a full position) or the €82.8–83.0 / €81.2 dip zone prints; hard structural stop €79.60, just under the rising 200-SMA (€79.67)."
           ]
         ]
       }
     },
     {
       "heading": "How the agent reasoned",
-      "body": "The market analyst framed both sides: bullish because price at €1037.60 sits above the 10-EMA (€1026.68), the 50-SMA (€1022.24) and the VWMA (€1030.30) with a positive, zero-crossed MACD; bearish because the rally peaked at €1090.20 on 16 October and has printed two weeks of lower highs inside €1012–1090 while rally-day volume collapsed from ~283k–367k to ~96k–104k, all under a falling 200-day (€1262.51). The bull/bear judge found neither the 'higher-low reclaim' nor the 'distribution' call has an edge beyond noise at a €34.54 ATR, and the risk round converged on the same read rather than a dodge. The trader then formalized it: maintain at no more than half of a normal weight, replace the bare price stop with a rule (daily close below the 50-SMA, hard backstop at €1003.67 or a single-session gap through ~€985, no averaging down), and size for the demonstrated 15–19% overnight-gap tail — the 24 June single-session 19% gap with no identified catalyst is why the bull's 3.3% 'defined risk' framing was rejected. Upside targets if €1090.20 reclaims on volume above ~350k: €1120–1140, then the 200-day at €1262.51 as the trend-repair objective."
+      "body": "The market analyst found the trend unbroken but the tape tiring: price sits above the 10-EMA, 50-SMA and a rising 200-SMA (€79.67), the 20-SMA is climbing from €77.27 to €82.84, RSI ~57 is not overbought, and the MACD line (1.84) is still above signal (1.47). Against that, the MACD histogram has fallen seven consecutive sessions from 1.39 to 0.37 (−73%) after a +17.6% run in eight sessions, the 16–19 October closes above the €91.26 upper band failed to hold, and the 30 October down day closed at €85.62 near its low (€84.96) on 202k shares while retest volume runs at roughly half the 420k breakout day — turnover without upward progress. The bull/bear judge rejected both the aggressive 'healthy consolidation, buy the dip' framing and the conservative 'trim now' prescription: risk to invalidation (~7.0%) versus the first target (~6.6%, and that target needs an unconfirmed, volume-absent breakout through €87.90 and €89.20) is roughly 1:1, while trimming 5.5% above the 50-SMA right on a rising 20-SMA is selling into support. The risk round converged on the neutral read — intact trend argues against exiting, fading momentum argues against adding — and the trader formalized it as Hold with explicit ladders on both sides and a stop tied to structure rather than a bare price."
     },
     {
       "heading": "Limits",
