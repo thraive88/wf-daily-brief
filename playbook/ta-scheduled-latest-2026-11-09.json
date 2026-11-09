@@ -1,0 +1,34 @@
+{
+  "schema": 1,
+  "id": "playbook-ta-2026-11-09",
+  "date": "2026-11-09",
+  "title": "Playbook TradingAgents verdicts — 2026-11-09",
+  "summary": "TradingAgents (market analyst only, DeepSeek, one debate and one risk round) returned Underweight on Leonardo for 2026-11-09: at €48.07 the stock closed one cent off its session low, below the 10-EMA, 50-SMA and a falling 200-SMA (€53.23), −19.7% from the August close, with the MACD histogram collapsing and four straight down sessions pouring into the €45.28–46.25 demand shelf. The plan trims existing long exposure by about half (to 40–50% of full size), vetoes dip-buying toward €46.25–47.00, and carries a hard stop on a daily close below €45.80; any tactical short is optional and capped at the bottom of the size band. That is disagreement with the playbook's BUY LIST stance — the agent sees a confirmed primary downtrend and would reduce rather than add.",
+  "tags": ["tradingagents", "playbook"],
+  "sections": [
+    {
+      "heading": "Verdicts side by side",
+      "table": {
+        "columns": ["Verdict", "Ticker", "TradingAgents", "Agreement", "Key point"],
+        "rows": [
+          [
+            "BUY LIST",
+            "LDO.MI",
+            "UNDERWEIGHT",
+            "Disagree",
+            "Trim to ~40–50% of full size at €48.07 (cut about half the intended long); no adds into €46.25–47.00; hard stop on a daily close below €45.80; further trims into the €49.4–50.0 cluster (50-SMA/10-EMA/VWMA); rebuild only above €50.42, ideally €52.1–52.6, with a positive MACD cross on expanding volume. Optional tactical short ≤25–33% of normal size only on a confirmed close below €47.81 that coincides with an actual MACD cross, stop above €50.06. Horizon 4–8 weeks."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How the agent reasoned",
+      "body": "The bear case won on evidence, but only far enough to cut exposure. Price at €48.07 sits below the 10-EMA, the 50-SMA and a declining 200-SMA (€53.23) — the definition of a primary downtrend — and below the VWMA (€50.01), down 19.7% from the August close, with the MACD histogram collapsing from 0.556 to 0.020 in four sessions, RSI at 41.8 with room toward 30, ATR expanding from 1.30 to 1.50, and a close pinned one cent off the €47.81 session low after four straight down days totalling −7.6%. The failed €52.05–52.53 rally that never pushed RSI to 70 reads as a textbook bear flag, and the bull's 'higher low' is asserted without a volume-backed reversal candle. The risk debate rejected the aggressive analyst's short sizing as inverted (≈2.5 points of risk to stop €50.06 for ≈1.25 to the first target €46.25, with the stop barely 1.3× ATR in a headline-gapping name) and the conservative analyst's full abstention as too late; the neutral calibration carried — the ~50% trim is the primary risk action, the residual long lives or dies on the €45.80 daily-close stop, and shorts are limited to the size floor, below €47.81, and contingent on a real MACD cross rather than the near-cross at 0.258 vs 0.237."
+    },
+    {
+      "heading": "Limits",
+      "body": "Market analyst only — no news, fundamentals or social agents; DeepSeek chat models via the OpenAI-compatible endpoint; one debate round and one risk round, so this is a shallow pass by design. LLM output can misstate numbers: verify every price level against the chart before acting. The BUY LIST → Agree/Partial/Disagree mapping and the Underweight-means-reduce scale translation are ours, not the agent's."
+    }
+  ],
+  "sources": []
+}
