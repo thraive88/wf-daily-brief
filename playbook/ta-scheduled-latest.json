@@ -1,29 +1,38 @@
 {
   "schema": 1,
-  "id": "playbook-ta-2026-11-09",
-  "date": "2026-11-09",
-  "title": "Playbook TradingAgents verdicts — 2026-11-09",
-  "summary": "TradingAgents (market analyst only, DeepSeek, one debate and one risk round) returned Underweight on Leonardo for 2026-11-09: at €48.07 the stock closed one cent off its session low, below the 10-EMA, 50-SMA and a falling 200-SMA (€53.23), −19.7% from the August close, with the MACD histogram collapsing and four straight down sessions pouring into the €45.28–46.25 demand shelf. The plan trims existing long exposure by about half (to 40–50% of full size), vetoes dip-buying toward €46.25–47.00, and carries a hard stop on a daily close below €45.80; any tactical short is optional and capped at the bottom of the size band. That is disagreement with the playbook's BUY LIST stance — the agent sees a confirmed primary downtrend and would reduce rather than add.",
-  "tags": ["tradingagents", "playbook"],
+  "id": "playbook-ta-2026-11-10",
+  "date": "2026-11-10",
+  "title": "Playbook TradingAgents verdicts — 2026-11-10",
+  "summary": "TradingAgents (market analyst only, DeepSeek, one debate and one risk round) returned Hold on Eaton for 2026-11-10: at $359.30 the stock sits below the 10-EMA ($363.23), the Bollinger basis ($379.25) and a rising 200-SMA ($396.35), with a 50/200 death cross in place and the MACD histogram still widening negative — yet the 6.59M-share capitulation flush through the lower band and six consecutive lower highs make the setup binary rather than directional. The plan keeps existing size, vetoes both adding into the unconfirmed bounce and shorting a washed-out low into a rising 200-SMA, and pre-commits two trigger levels. That is partial agreement with the playbook's BUY LIST stance — hold what you own, add only on a volume-confirmed close above $363.23, reduce only below $327.02.",
+  "tags": [
+    "tradingagents",
+    "playbook"
+  ],
   "sections": [
     {
       "heading": "Verdicts side by side",
       "table": {
-        "columns": ["Verdict", "Ticker", "TradingAgents", "Agreement", "Key point"],
+        "columns": [
+          "Verdict",
+          "Ticker",
+          "TradingAgents",
+          "Agreement",
+          "Key point"
+        ],
         "rows": [
           [
             "BUY LIST",
-            "LDO.MI",
-            "UNDERWEIGHT",
-            "Disagree",
-            "Trim to ~40–50% of full size at €48.07 (cut about half the intended long); no adds into €46.25–47.00; hard stop on a daily close below €45.80; further trims into the €49.4–50.0 cluster (50-SMA/10-EMA/VWMA); rebuild only above €50.42, ideally €52.1–52.6, with a positive MACD cross on expanding volume. Optional tactical short ≤25–33% of normal size only on a confirmed close below €47.81 that coincides with an actual MACD cross, stop above €50.06. Horizon 4–8 weeks."
+            "ETN",
+            "HOLD",
+            "Partial",
+            "Hold at $359.30 at current size — no add, no short. A daily close above the 10-EMA ($363.23) on volume clearly above the 3.55M bounce pace (ideally toward the 6.59M selloff print) arms a conditional scale-in of thirds at $363.23 / $379.25 / $396.35 with a hard stop below $327.02, sized down given ATR $19.73. A daily close below $327.02 invalidates the long; only then a modest tactical short with a stop back above $340. Time horizon 3–6 months, event-driven off those two levels."
           ]
         ]
       }
     },
     {
       "heading": "How the agent reasoned",
-      "body": "The bear case won on evidence, but only far enough to cut exposure. Price at €48.07 sits below the 10-EMA, the 50-SMA and a declining 200-SMA (€53.23) — the definition of a primary downtrend — and below the VWMA (€50.01), down 19.7% from the August close, with the MACD histogram collapsing from 0.556 to 0.020 in four sessions, RSI at 41.8 with room toward 30, ATR expanding from 1.30 to 1.50, and a close pinned one cent off the €47.81 session low after four straight down days totalling −7.6%. The failed €52.05–52.53 rally that never pushed RSI to 70 reads as a textbook bear flag, and the bull's 'higher low' is asserted without a volume-backed reversal candle. The risk debate rejected the aggressive analyst's short sizing as inverted (≈2.5 points of risk to stop €50.06 for ≈1.25 to the first target €46.25, with the stop barely 1.3× ATR in a headline-gapping name) and the conservative analyst's full abstention as too late; the neutral calibration carried — the ~50% trim is the primary risk action, the residual long lives or dies on the €45.80 daily-close stop, and shorts are limited to the size floor, below €47.81, and contingent on a real MACD cross rather than the near-cross at 0.258 vs 0.237."
+      "body": "The bull argued asymmetric risk at a washed-out level: the selloff was a genuine 6.59M-share capitulation flush that pierced the lower Bollinger Band and snapped back, the 200-SMA is still rising ($380.92 on 09-11 to $396.35 now) so the long-term trend has not broken, and a stop near the $327.02 structure is roughly 1.5x an already-expanded $19.73 ATR. The bear won the factual points: price at $359.30 is below the 10-EMA ($363.23), the Bollinger basis ($379.25) and the 200-SMA ($396.35); the 50/200 death cross is in place; the MACD histogram is still widening negative at -2.93 rather than compressing; the VWMA ($365.34) above price means the average recent buyer is underwater, i.e. overhead supply; and the 3.55M-share bounce against 6.59M/6.03M sell days is as consistent with buyer indifference as with exhaustion. The risk judge refused both unconditional calls: the evidence cannot support the bull's Buy or the bear's implied short, so it keeps size unchanged, rejects trimming at the lower band right after a six-million-share flush into a rising 200-SMA, and lets the two trigger levels commit price with volume confirmation rather than mechanical touches."
     },
     {
       "heading": "Limits",
