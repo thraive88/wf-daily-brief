@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "playbook-ta-2026-11-11",
+  "date": "2026-11-11",
+  "title": "Playbook TradingAgents verdicts — 2026-11-11",
+  "summary": "TradingAgents (market analyst only, DeepSeek, one debate and one risk round) returned Hold on HO.PA — Thales S.A. — for 2026-11-11: at ~€228.70 the stock sits below a descending 200-SMA (€241.44 → €238.82) with a 50/200 death cross in place, the October rally made a lower high (€238.40 → €228.70) alongside a lower RSI high (61.3 → 48.8), MACD crossed below signal (+1.17 on 10-30 → -0.61), and the bounce volume (270k) failed the setup's own >300k confirmation bar. The plan keeps existing size and pre-commits its triggers: add only on a daily close above €229.81–229.87 on >300k volume, add the second tranche only on a confirmed close above €238.82–239.18 on >300k volume with a positive MACD histogram, and halve on a daily close below €219.80. That is partial agreement with the playbook's BUY LIST stance — own it, add nothing until the tape proves itself on volume, trim only on a structural break. The 2026-10-31 identity fix held: the agent analysed Thales, not a mis-resolved company.",
+  "tags": [
+    "tradingagents",
+    "buy-list"
+  ],
+  "sections": [
+    {
+      "heading": "Verdicts side by side",
+      "table": {
+        "columns": [
+          "Verdict",
+          "Ticker",
+          "TradingAgents",
+          "Agreement",
+          "Key point"
+        ],
+        "rows": [
+          [
+            "BUY LIST",
+            "HO.PA",
+            "HOLD",
+            "Partial",
+            "Hold at ~€228.70 at benchmark weight — no add, no trim, no short. Tranche 1 add only on a daily close above €229.81–229.87 with volume >300k; Tranche 2 only on a confirmed close above €238.82–239.18 also on >300k volume with the MACD histogram turning positive; total adds capped at ~1.5x current position, each sized so a wrong trigger costs a fraction of a risk unit. Cut by half on a daily close below €219.80 and exit if €220.48 is not reclaimed within two sessions. Price target €239.18; hold horizon 10–15 sessions, tranche horizon 3–6 months."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How the agent reasoned",
+      "body": "The bull argued a coiled squeeze: ATR compressed to ~2.5% of price with Bollinger width narrowing, price pinned under the 50-SMA/VWMA cluster (~€229.87), MACD histogram improving from -0.65 to -0.50, RSI off 39 to ~49, and ~18% convexity to €271.90 against a defined €219.80 stop. The bear won the verified facts: price below a *descending* 200-SMA (€241.44 → €238.82) with the 50/200 death cross in place all period; the October rally printed a lower high (€238.40 → €228.70) with a lower RSI high (61.3 → 48.8); MACD fell from +1.17 to -0.61 and crossed below signal; and the 270k-share bounce came in under the preceding down days (314k/311k), failing the bull's own >300k Setup A bar. The neutral analyst rejected both overreaches — the €219.80 stop sits at real structure roughly 1.55 ATR down, and a Setup B-or-nothing stance forecloses the mean-reversion regime the compressed volatility itself identifies — so the risk judge kept benchmark weight with every level pre-defined and nothing touched until volume confirms. The tell to watch is the slope of the falling 200-SMA; an upgrade beyond Overweight would require hard fundamentals (order intake, book-to-bill, margins, valuation vs European defense peers), none of which were in this market-only pass."
+    },
+    {
+      "heading": "Limits",
+      "body": "Market analyst only — no news, fundamentals or social agents (their reports were empty, so the rearmament narrative floated without data under it); DeepSeek deepseek-chat via the OpenAI-compatible endpoint (the prompt's deepseek-v4-flash config livelocked again and was abandoned mid-thread, the same trap as 2026-11-09/10); one debate round and one risk round, so this is a shallow pass by design. LLM output can misstate numbers: verify every price level against the chart before acting. The BUY LIST → Agree/Partial/Disagree mapping and the Underweight-means-reduce scale translation are ours, not the agent's."
+    }
+  ],
+  "sources": []
+}
