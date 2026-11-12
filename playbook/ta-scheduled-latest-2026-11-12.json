@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "playbook-ta-2026-11-12",
+  "date": "2026-11-12",
+  "title": "Playbook TradingAgents verdicts — 2026-11-12",
+  "summary": "TradingAgents (market analyst only, DeepSeek, one debate and one risk round) returned Hold on LDO.MI — Leonardo S.p.A. — for 2026-11-12: at ~€51.54 the stock is repairing short-term (above the 10-EMA €50.34, 50-SMA €49.39 and VWMA €50.27, MACD above zero, RSI ~57), but the bounce came on 2.53M versus the ~3M+ sell volume of the 11-05/06 washout, the MACD histogram is thinning (0.56 → 0.11) into a negative divergence, and the 52.5–53.2 wall — pressed by a *declining* 200-SMA (€53.87 → €53.17) with the death cross intact — already rejected this stock on 11-02 (close 52.05 → 48.07 by 11-06). The bull's own arithmetic condemns the entry: ~0.35:1 reward-to-risk to the 52.77 first target against the €48.07 stop, sub-0.5:1 even to the 200-SMA. The plan therefore keeps existing size with the €48.07 stop, pre-commits a modest trim into 52.5–52.77 on another rejection, and upgrades to add only on a volume-backed daily close above €53.2 (target €55–56); that is partial agreement with the playbook's BUY LIST stance — own it at ≤ benchmark weight, add nothing until the tape proves itself on volume. The identity override held: the agent analysed Leonardo, not a mis-resolved company.",
+  "tags": [
+    "tradingagents",
+    "buy-list"
+  ],
+  "sections": [
+    {
+      "heading": "Verdicts side by side",
+      "table": {
+        "columns": [
+          "Verdict",
+          "Ticker",
+          "TradingAgents",
+          "Agreement",
+          "Key point"
+        ],
+        "rows": [
+          [
+            "BUY LIST",
+            "LDO.MI",
+            "HOLD",
+            "Partial",
+            "Hold at ~€51.54 at ≤ normal portfolio weight — no fresh adds into the 52.5–53.2 rejection zone, no shorts. Hard stop €48.07 (11-06 swing low); 49.39 (50-SMA) is the practical warning line, with 50.27/50.34 (VWMA/10-EMA) just above it. Trim a modest slice into 52.5–52.77 if the wall rejects again; upgrade and add toward €55–56 only on a volume-backed daily close above €53.2. A rejection rolling back below 50.3–49.4 downgrades toward Underweight and trims the remainder, with €48.07 then the next objective. Price target €53.2; horizon 1–3 months, event-driven on the 52.8–53.2 gate."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How the agent reasoned",
+      "body": "The bull argued the downtrend is bottoming: LDO.MI is 12.5% off its October low, above the 10-EMA/50-SMA/VWMA stack, MACD above zero and its signal, RSI recovered from ~38–42 to 57, and the 11-05/06 volume footprint (3.58M/2.53M sell-side washout met by 2.14–2.53M absorption) is a legitimate accumulation signature — with ~27% of convexity to the March highs near €63 if the trend truly turns. The bear won every point of dispute: the final push to 51.54 came on 2.53M, below the recent 20-day average, so participation did not confirm it; the MACD histogram cooling from 0.56 to 0.11 into a rising price is a negative divergence; the 52–53.2 zone already rejected the stock on 11-02 (closed 52.05, rolled to 48.07 by 11-06); and the 200-SMA is declining (€53.87 → €53.17) with the 50/200 death cross intact, making it a sagging ceiling rather than a magnet. The risk judge sided with the neutral analyst operationally: the bull's own risk math (~0.35:1 to the 52.77 first target, sub-0.5:1 to the 200-SMA) makes paying 51.5 a poor expectancy in a zone that just rejected — so rather than ride full size through the wall, trim a modest slice into 52.5–52.77 on another rejection and keep the core with the 48.07 stop, which with ATR 1.55 is a plan, not a guarantee. The aggressive analyst's point that a volume-backed close above 53.2 should be a sufficient filter (not an all-or-nothing permission slip) shaped the upgrade trigger toward €55–56. The tell to watch is whether volume confirms the next push through 52.5–53.2; a fade back below the 50-EMA into 50.3–49.4 flips the stance toward Underweight."
+    },
+    {
+      "heading": "Limits",
+      "body": "Market analyst only — no news, fundamentals or social agents, so the defence-order-flow backdrop floats without data under it; DeepSeek deepseek-chat via the OpenAI-compatible endpoint (the stored prompt's deepseek-v4-flash config replays the pipeline from START every window and never reaches the risk phase — the same trap as 2026-11-09/10/11, which burned 16 windows on CEG before the switch); one debate round and one risk round, so this is a shallow pass by design. LLM output can misstate numbers: verify every price level against the chart before acting. The BUY LIST → Agree/Partial/Disagree mapping and the Underweight-means-reduce scale translation are ours, not the agent's."
+    }
+  ],
+  "sources": []
+}
