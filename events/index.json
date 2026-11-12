@@ -1,7 +1,12 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-12T12:23:38Z",
+ "updatedAt": "2026-11-12T12:23:41Z",
  "events": [
+  {
+   "date": "2026-11-10",
+   "id": "events-2026-11-10",
+   "title": "Events alert \u2014 2026-11-10"
+  },
   {
    "date": "2026-11-09",
    "id": "events-2026-11-09",
