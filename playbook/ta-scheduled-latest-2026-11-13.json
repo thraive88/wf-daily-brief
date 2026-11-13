@@ -1,0 +1,43 @@
+{
+  "schema": 1,
+  "id": "playbook-ta-2026-11-13",
+  "date": "2026-11-13",
+  "title": "Buy list TradingAgents verdicts — 2026-11-13",
+  "summary": "TradingAgents (market analyst only, DeepSeek deepseek-chat, one debate and one risk round) returned Hold on CEG — Constellation Energy — for 2026-11-13: at $282.40 the stock has posted its first close above the 200-SMA ($277.92) with MACD histogram +2.90, RSI 57.64 and a 7.33M-share demand thrust off the $231 washout on 11-09, but the 50-SMA ($269.60) is still declining and sits $8.32 below the 200-SMA, price is nearly a full ATR above the 50-SMA and ~9.7% above the VWMA, the close is at the upper Bollinger band, and the two highest-price sessions came on only 41–48% of launch volume. The plan maintains existing size at or below half-normal — no add at $282.40 — trims on a daily close back below $277.92, cuts further below $269.60 and exits below $261.30, and adds only on a volume-backed close above $282.70. Honestly measured, reward-to-risk to the $300 first target is about 1:1 to 1.5:1, so this is partial agreement with the buy-list stance: own it, don't chase it.",
+  "tags": [
+    "tradingagents",
+    "buy-list"
+  ],
+  "sections": [
+    {
+      "heading": "Verdicts side by side",
+      "table": {
+        "columns": [
+          "Verdict",
+          "Ticker",
+          "TradingAgents",
+          "Agreement",
+          "Key point"
+        ],
+        "rows": [
+          [
+            "BUY LIST",
+            "CEG",
+            "HOLD",
+            "Partial",
+            "Hold at $282.40 at ≤ half-normal size — no add at current price. De-risk ladder on daily closes: trim below $277.92 (200-SMA — the bull case failing in real time), further cut below $269.60 (50-SMA), exit below $261.30 (20-SMA band). Upside add (quarter-normal, up to half) only on a daily close above $282.70 with volume > 5.5M shares; re-rate whichever side breaks first — the setup should resolve in 1–3 sessions. First objective $300.40 (recent lower high); $300 price target, 3–6 months."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How the agent reasoned",
+      "body": "The aggressive analyst read the first close above the 200-SMA ($277.92), the MACD histogram at +2.90, RSI 57.64 and the 7.33M-share 11-09 thrust off the $231 washout as a trend-change confirmation worth a 3:1–4:1 payoff. The conservative analyst countered with the volume divergence — the two highest-price sessions ran on only 41–48% of launch volume — and the October analogue where a 13.5M-share up-gap into a top preceded a 16% collapse. The neutral analyst carried the day by separating volume magnitude from volume context: the October print was an up-gap into a top, while 11-09 was an up-thrust off a held washout, so the signature differs — but the burden of proof sits with the buyer, and the 50-SMA remains declining and $8.32 below the 200-SMA while price sits at the upper Bollinger band, ~9.7% above the VWMA, with under 1:1 reward to the $300 first target against gap-able downside. The 3:1–4:1 claim was rejected as target-shopping: the $314–321 stretch objective requires clearing the $300.40 lower high first, and measured honestly the setup is ~1:1 to 1.5:1. The final decision adopts the neutral analyst's three amendments — trim at $277.92 rather than waiting for $269.60 and giving back ~$8 of rope; size the add at quarter-normal (not half) because a single band-touch does not earn more, with the right to add further only after $300.40 clears; and use volume expansion alone as the confirmation condition rather than stacking MACD-zero plus RSI>62 filters that would fire late or never. Result: a genuinely two-sided setup at a defined decision point — manage by size and pre-set invalidation on both sides, not a pre-committed directional bet."
+    },
+    {
+      "heading": "Limits",
+      "body": "Market analyst only — no news, fundamentals or social agents, so the AI-power-demand and hyperscaler-PPA backdrop behind CEG floats without data under it; DeepSeek deepseek-chat via the OpenAI-compatible endpoint (the stored prompt's deepseek-v4-flash config replays the pipeline from START every window and never reaches the risk phase — the trap that burned 16 windows on 2026-11-09/10/11/12); one debate round and one risk round, so this is a shallow pass by design. LLM output can misstate numbers: verify every price level against the chart before acting. The BUY LIST → Agree/Partial/Disagree mapping and the Underweight-means-reduce scale translation are ours, not the agent's."
+    }
+  ],
+  "sources": []
+}
