@@ -1,7 +1,12 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-12T12:23:48Z",
+ "updatedAt": "2026-11-13T08:17:56Z",
  "events": [
+  {
+   "date": "2026-11-13",
+   "id": "events-2026-11-13",
+   "title": "AI-chain market events \u2014 2026-11-13"
+  },
   {
    "date": "2026-11-12",
    "id": "events-2026-11-12",
