@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "id": "events-2026-11-12",
- "date": "2026-11-12",
- "title": "Events alert — 2026-11-12",
- "body": "Just landed: CoreWeave closed +~25% on Nov 11 — Q3 beat, $132.5B backlog, FY guide raised, ~$9B customer prepayments promised within three months. Sparked an AI rebound (Nasdaq +1.6%, Nebius +15%, IREN +5.7%); financing fear soothed, not cured (capex $37–39B; no positive net income before H1 2028). Siemens FY26 today 07:00 Berlin: record €108B orders, EPS €11.76 above guidance, dividend €5.50, 34.1% Healthineers spin-off by May 2027; XETRA reacts from 09:00.\n\nDue: Nebius Q3 premarket today (~13:00 Berlin; call 14:00) — ~$907M revenue expected, the debt-funded-backlog test. Applied Materials FQ4 tonight (release ~22:00 Berlin; call 22:30) — first >$10B quarter, ~$10.3B / ~$4.06 EPS consensus; 2027 WFE outlook decides. Tomorrow 14:30 Berlin: October PPI (some calendars flag shutdown-shifted dates). Nvidia confirmed Nov 17.\n\nSleeves: infrastructure relieved, semis event-loaded tonight; power constructive; 15% cash holds.\n\nSources: web search 2026-11-12 (Siemens press/Bloomberg, Yahoo Finance/TipRanks/ainvest on CRWV, Investing.com/mitrade NBIS preview, MarketBeat/Zacks AMAT, Nvidia IR, marketscreener/ABM agendas).",
- "generatedAt": "2026-11-12T12:23:46Z"
+ "id": "events-2026-11-13",
+ "date": "2026-11-13",
+ "title": "AI-chain market events — 2026-11-13",
+ "body": "**Just landed (2026-11-12, pre-open 07:30 ET / 13:30 CET):** Nebius (NBIS) Q3 — revenue beat at $980.8M (+571% y/y vs ~$907.5M consensus) and GAAP operating income turned positive (~$50M), but FY2026 revenue is guided to the low end of $3.0–3.4B and 2027 capex was raised to $40–45B vs ~$29B expected. NBIS fell ~17–20% on Nov 12; CoreWeave (−8% to −14%), IREN (−8%) and the neocloud complex sold off with it.\n\n**Chain read-through:** the market is punishing capex intensity, not demand — customer prepayments still covered >100% of Nebius's Q3 contract capex and 75–85% of 2027 buildout. Neocloud stress favors the infrastructure sleeve (power/utilities, Vertiv-type physical bottleneck names) over levered compute lessors; the semis sleeve faces its real test **Tuesday Nov 17: Nvidia Q3, post-close 16:20 ET / 22:20 CET** (~$108.8B revenue consensus, options implying ~11% move). Cash sleeve: hold the defensive 15% with a December hike ~89% priced.",
+ "generatedAt": "2026-11-13T08:17:54Z"
 }
