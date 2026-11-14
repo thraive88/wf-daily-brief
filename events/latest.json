@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "id": "events-2026-11-13",
- "date": "2026-11-13",
- "title": "AI-chain market events — 2026-11-13",
- "body": "**Just landed (2026-11-12, pre-open 07:30 ET / 13:30 CET):** Nebius (NBIS) Q3 — revenue beat at $980.8M (+571% y/y vs ~$907.5M consensus) and GAAP operating income turned positive (~$50M), but FY2026 revenue is guided to the low end of $3.0–3.4B and 2027 capex was raised to $40–45B vs ~$29B expected. NBIS fell ~17–20% on Nov 12; CoreWeave (−8% to −14%), IREN (−8%) and the neocloud complex sold off with it.\n\n**Chain read-through:** the market is punishing capex intensity, not demand — customer prepayments still covered >100% of Nebius's Q3 contract capex and 75–85% of 2027 buildout. Neocloud stress favors the infrastructure sleeve (power/utilities, Vertiv-type physical bottleneck names) over levered compute lessors; the semis sleeve faces its real test **Tuesday Nov 17: Nvidia Q3, post-close 16:20 ET / 22:20 CET** (~$108.8B revenue consensus, options implying ~11% move). Cash sleeve: hold the defensive 15% with a December hike ~89% priced.",
- "generatedAt": "2026-11-13T08:17:54Z"
+ "id": "events-2026-11-14",
+ "date": "2026-11-14",
+ "title": "Events alert — 2026-11-14",
+ "body": "**Nvidia Q3 FY27 earnings — Tue Nov 17, ~4:20 pm ET (22:20 Berlin); call 5:00 pm ET (23:00 Berlin).** Consensus: EPS ~$2.47 on ~$108.8B revenue (company guide $108B ±2%), gross margin ~74% ±50bp, assuming zero China data-center revenue. This is the first print with CFO Colette Kress as interim CEO after Huang's Nov 12 resignation, so guidance credibility matters as much as the beat. Read-through by sleeve: semis (AVGO, MU, MRVL, AMD) and infrastructure (VRT, ANET, SMCI, DELL) gap with NVDA's Q4 guide — a soft guide hits the whole capex chain; power/utilities (CEG, VST, TLN, ETN, GEV) hold unless capex is explicitly cut. With uncertainty this high into the print, the cash sleeve is the hedge — no new chain entries Monday/Tuesday. No verified macro releases due Nov 14–16.",
+ "generatedAt": "2026-11-14T08:14:20Z"
 }
