@@ -1,16 +1,16 @@
 {
  "schema": 1,
- "id": "brief-2026-11-14",
- "date": "2026-11-14",
- "generatedAt": "2026-11-14T08:06:40.742532+00:00",
- "snapshotUtc": "2026-11-14 08:06",
- "snapshotNote": "weekend snapshot, 03:06 ET · US prices = Nov 13 post-close; crypto live",
+ "id": "brief-2026-11-15",
+ "date": "2026-11-15",
+ "generatedAt": "2026-11-15T13:14:07.032668+00:00",
+ "snapshotUtc": "2026-11-15 13:14",
+ "snapshotNote": "weekend snapshot, 08:14 ET · US prices = Nov 13 post-close; crypto live",
  "regime": {
   "breadthScore": 51.4,
   "breadthZone": "Neutral",
-  "equityExposure": "60-75%",
-  "cryptoScore": 50.9,
-  "cryptoZone": "NEUTRAL"
+  "equityExposure": "60–75%",
+  "cryptoScore": "n/a",
+  "cryptoZone": "Risk-off"
  },
  "kpis": [
   {
@@ -41,41 +41,41 @@
   {
    "label": "Market breadth",
    "value": "51.4 / 100",
-   "sub": "Neutral — equity exposure band 60-75%"
+   "sub": "Neutral — equity exposure band 60–75%"
   },
   {
    "label": "Crypto regime",
-   "value": "50.9 / 100",
-   "sub": "NEUTRAL — 5/6 components"
+   "value": "n/a / 100",
+   "sub": "Risk-off — 5/6 components"
   },
   {
    "label": "BTC",
-   "value": "$67,167",
-   "sub": "-2.1% 24h / -11.7% 7d"
+   "value": "$65,515",
+   "sub": "-1.8% 24h / -13.7% 7d"
   }
  ],
- "posture": "Breadth sits at 51.4/100 (Neutral, 60-75% equity band): the rally is neither broad nor broken - 38 of the 75 tracked names hold their 200-day average but only 27 remain above the 50-day. VIX at 19.3 is normal-to-cautious, and price risk is now concentrated in AI/semis as the mega-cap complex digests the Nvidia leadership shock rather than in the index itself. The 10-year at 5.15% with BofA now calling December-January-March hikes keeps valuation pressure on long-duration growth. Crypto is neutral (50.9/100) but internally soft: BTC 30.7% below its 1-year high, only 26% of alts above their 200DMA, and a near-total 30-day momentum washout. Stance: keep the core, let new-money entries wait for a 50-day breadth reclaim, and avoid adding leveraged duration on either side.",
- "sentiment": "Risk-off and internally split: mega-cap AI leadership cracked (NVDA -12.8% on the week) while Friday breadth was actually positive and defensives held - a rotation, not yet a broad liquidation. Fear gauges are stretched (crypto Fear & Greed ~19) and a hawkish Fed caps any rebound.",
+ "posture": "Weekend snapshot after a mixed Friday close: VIX at 19.3 sits in the normal 16–20 band, but internals are soft — only 27 of the 75-name universe hold their 50-day average (38 the 200-day) and the breadth model scores 51.4/100 (Neutral), implying a 60–75% equity-exposure band. The tape is fighting a hawkish repricing: the 10-year at 5.15% and ~85% priced odds of a December hike after a hot October CPI/PPI, with the Nasdaq down 5.9% over one month while Apple prints records and defensives rally. Crypto is the clear risk-off outlier: BTC $65.5k, down 13.7% on the week and 20.7% over 30 days, with only 1 of the top 20 positive over 7 days — the dedicated regime skill was degraded this run (CoinGecko throttling), so its chip is a collector-derived read marked n/a. AI leadership is broken at the top — NVDA is 31.9% below its high ahead of Tuesday's Nov 17 print — so watch breadth, not the index level.",
+ "sentiment": "Risk-off under a flattish index: hawkish Fed and 5%+ long yields are pressuring duration, semis and crypto, while rotation into defensives (Apple at an intraday record; staples and pharma at highs) keeps the S&P within 3.3% of its high. Not panic — VIX 19 — but leadership is narrow.",
  "news": [
   {
-   "text": "Nvidia leadership shock: Jensen Huang resigned Thursday over an affair that raised national-security concerns; CFO Colette Kress named interim CEO. NVDA fell 2% Friday and 12.8% on the week (~$600B market cap lost); HSBC cut to Hold.",
-   "url": "https://www.thestar.com/business/asian-shares-are-mixed-as-investors-assess-impact-of-nvidia-s-fallout-on-global-ai-development/article_b6f03bd1-a6d8-5bda-be33-c12a4b743d65.html"
+   "text": "Friday close mixed: S&P 500 −0.41% to 7,561.67, Nasdaq −0.91% to 25,136, Dow +0.10% to 52,348 — still a positive week that snapped a four-week losing streak.",
+   "url": "https://m.economictimes.com/markets/us-stocks/wall-street-guide/stock-market-live-updates-dow-jones-nasdaq-sp-500-nvidia-microsoft-cerebras-amd-micron-treasury-yield-news-13th-november-2026/amp_liveblog/135804970.cms"
   },
   {
-   "text": "S&P 500 closed -0.4% at 7,561.67 Friday but +2.5% on the week (first winning week since early October); Nasdaq -0.9% yet +~2.3% weekly. Internally positive: 315+ of 500 names rose, staples +1.4% and energy +1.0% led, tech -1.7%.",
-   "url": "https://apnews.com/article/wall-street-stocks-dow-nasdaq-12c1e8155fb85c3c7b09e058ed6d3c74"
+   "text": "Nvidia −2% amid fallout from CEO Jensen Huang's resignation; Philadelphia Semiconductor Index −3.4–3.7% (AMD −8.8%, Broadcom −4.8%). NVDA is scheduled to report Nov 17.",
+   "url": "https://gbcode.rthk.hk/TuniS/news.rthk.hk/rthk/en/component/k2/1877774-20261114.htm"
   },
   {
-   "text": "October PPI +0.3% m/m (below +0.4% est.) but +6.5% y/y; hawkish Fed tone persists with BofA now expecting hikes in December, January and March. 10-year Treasury yield 5.15%, up 3.8bp on the day.",
-   "url": "https://investinglive.com/news/investinglive-americas-market-news-wrap-hawkish-fed-worries-ebb-after-ppi/"
+   "text": "10-year Treasury back above 5.1% after a hot October CPI; markets price ~85% odds of a December hike (12–15% for a jumbo 50bp) — steepest weekly yield spike since April 2025.",
+   "url": "https://uk.investing.com/news/forex-news/euro-yields-hit-multiweek-highs-as-hawkish-fed-shatters-global-bond-rally-4980006"
   },
   {
-   "text": "Chips slid again despite positive breadth: AMD -8.8%, Dell -7.2%, Cisco -6.2% (despite a beat), Broadcom -4.8%; PHLX Semiconductor Index -3.4%, its second straight down day.",
-   "url": "https://pro.thestreet.com/market-commentary/chips-slide-again-but-the-sp-500-still-ends-the-week-up-2-5"
+   "text": "Bitcoin broke below $70k Friday and traded near $62k over the weekend; ~$2B liquidated in 24 hours and ~$3B of spot-ETF outflows since Oct 30, per press reports.",
+   "url": "https://coinmarketcap.com/community/el/articles/6af8f72f7755f52db9199b6b/"
   },
   {
-   "text": "Bitcoin broke below $70k (~$67-69k), ETH below $2k: $1.3-1.6B liquidated in 24h (~90% longs), $1.44B of US spot-BTC ETF outflows over five sessions, Fear & Greed ~19. BTC now ~45% below its Oct 2025 record.",
-   "url": "https://coinmarketcap.com/community/el/articles/6af6c256c2b46320566ca117/"
+   "text": "Defensive rotation: Apple at an intraday record high; Coca-Cola, Eli Lilly and P&G closed at highs; Brent crude ~$96.",
+   "url": "https://www.21jingji.com/article/20261114/herald/212e84a3a0aa62bb51e5ee4abb67110b.html"
   }
  ],
  "tables": [
@@ -691,7 +691,7 @@
   {
    "id": "bonds",
    "title": "Bonds — top 20 by 3-month return",
-   "note": "With the 10Y at 5.15% and a December hike back on the table, duration was punished over the past three months: TLT fell 2.4% while 0-3 month T-bills (SGOV/BIL) were flat, and high-yield credit also slipped (HYG -3.4%), a mild spread-widening signal. Short-duration and floating-rate paper remains the defensive anchor until the hike path is priced out.",
+   "note": "The 10-year sits at 5.15% with ~85% odds of a December hike priced, so duration risk is concentrated beyond the front end: TLT/IEF/LQD average −2.7% over 3 months versus −0.3% for SHY/BIL/SGOV/FLOT. Credit is repricing too — HYG −3.4% and EMB −3.8% over 3 months — so both rate and spread exposure need care.",
    "columns": [
     "#",
     "Ticker",
@@ -866,7 +866,7 @@
   {
    "id": "crypto",
    "title": "Crypto — top 20 by market cap",
-   "note": "BTC's 50/200-day stack is still intact but price trades below it after a 30.7% drawdown from the 1-year high; with only 26% of top-20 alts above their 200DMA, 5% of coins positive over 30 days, and funding at baseline (~1.2% annualized), this reads as a washout inside a neutral regime rather than a leveraged top unwinding.",
+   "note": "BTC $65.5k (15 Nov, 14:14 UTC): −13.7% on the week and −20.7% over 30 days, and only 1 of the top 20 is positive over 7 days — a broad liquidation (≈$2B in 24h per press reports) with seven straight days of spot-ETF outflows. The 6-component regime skill was degraded this run (CoinGecko throttling), so its score is shown as n/a; this note is a collector-derived read. Values marked ≈ use CoinGecko's 200-day change; 1Y is CoinGecko native.",
    "columns": [
     "Symbol",
     "Name",
@@ -882,222 +882,222 @@
     [
      "BTC",
      "Bitcoin",
-     "$67,167.00",
-     "-2.1%",
-     "-11.7%",
-     "-17.0%",
-     "-12.7%",
-     "-31.2%",
-     "$1.35T"
+     "$65,515.00",
+     "-1.8%",
+     "-13.7%",
+     "-20.7%",
+     "-14.7%",
+     "-31.5%",
+     "$1.32T"
     ],
     [
      "ETH",
      "Ethereum",
-     "$1,897.55",
-     "-1.9%",
-     "-15.5%",
-     "-19.5%",
-     "-10.9%",
-     "-41.1%",
-     "$231.9B"
+     "$1,834.46",
+     "-3.0%",
+     "-18.0%",
+     "-25.8%",
+     "-13.1%",
+     "-41.7%",
+     "$224.2B"
     ],
     [
      "BNB",
      "BNB",
-     "$615.78",
-     "-2.2%",
-     "-11.3%",
-     "-14.1%",
-     "-4.3%",
-     "-33.3%",
-     "$81.0B"
+     "$597.85",
+     "-2.0%",
+     "-14.4%",
+     "-18.3%",
+     "-6.5%",
+     "-35.7%",
+     "$78.6B"
     ],
     [
      "XRP",
      "XRP",
-     "$0.983179",
-     "-4.4%",
-     "-16.0%",
-     "-24.8%",
-     "-29.2%",
-     "-57.5%",
-     "$62.4B"
+     "$0.971196",
+     "-1.8%",
+     "-16.9%",
+     "-28.0%",
+     "-28.6%",
+     "-57.0%",
+     "$61.7B"
     ],
     [
      "SOL",
      "Solana",
-     "$75.21",
-     "-6.0%",
-     "-16.6%",
-     "-26.3%",
-     "-11.8%",
-     "-47.5%",
-     "$44.5B"
+     "$73.01",
+     "-3.2%",
+     "-18.8%",
+     "-31.7%",
+     "-13.3%",
+     "-48.0%",
+     "$43.2B"
     ],
     [
      "TRX",
      "TRON",
-     "$0.312918",
-     "+0.7%",
+     "$0.307084",
      "-1.8%",
-     "-5.6%",
-     "-12.0%",
-     "+7.4%",
-     "$29.7B"
+     "-4.1%",
+     "-8.4%",
+     "-13.7%",
+     "+5.4%",
+     "$29.2B"
     ],
     [
      "FIGR_HELOC",
      "Figure Heloc",
-     "$1.05",
-     "+4.5%",
-     "+2.4%",
-     "+0.7%",
-     "≈+1.5%",
-     "+0.8%",
-     "$27.9B"
+     "$1.07",
+     "+1.9%",
+     "+0.0%",
+     "+3.4%",
+     "≈+3.1%",
+     "+3.0%",
+     "$28.4B"
     ],
     [
      "HYPE",
      "Hyperliquid",
-     "$69.68",
-     "-2.9%",
+     "$68.17",
+     "+0.2%",
      "-11.9%",
-     "-12.5%",
-     "≈+72.0%",
-     "+87.2%",
-     "$16.6B"
+     "-16.8%",
+     "≈+68.8%",
+     "+76.3%",
+     "$16.2B"
     ],
     [
      "ZEC",
      "Zcash",
-     "$909.73",
-     "-3.6%",
-     "-30.6%",
-     "-16.7%",
-     "+61.7%",
-     "+82.5%",
-     "$15.5B"
+     "$917.31",
+     "+4.0%",
+     "-28.0%",
+     "-25.4%",
+     "+59.9%",
+     "+42.9%",
+     "$15.6B"
     ],
     [
      "XMR",
      "Monero",
-     "$527.85",
-     "-0.3%",
-     "-13.8%",
-     "-1.5%",
-     "+37.7%",
-     "+35.4%",
-     "$9.9B"
+     "$504.80",
+     "-5.0%",
+     "-15.9%",
+     "-10.0%",
+     "+26.5%",
+     "+20.9%",
+     "$9.5B"
     ],
     [
      "DOGE",
      "Dogecoin",
-     "$0.062554",
-     "-2.9%",
-     "-13.0%",
-     "-21.4%",
-     "-40.2%",
-     "-62.0%",
-     "$9.8B"
+     "$0.059354",
+     "-4.9%",
+     "-16.7%",
+     "-28.0%",
+     "-42.3%",
+     "-63.3%",
+     "$9.3B"
     ],
     [
      "LEO",
      "LEO Token",
-     "$9.32",
-     "+0.4%",
-     "-0.3%",
-     "+3.2%",
-     "-8.4%",
-     "+1.1%",
-     "$8.6B"
+     "$9.12",
+     "-2.0%",
+     "-2.2%",
+     "+0.8%",
+     "-8.5%",
+     "-1.1%",
+     "$8.4B"
     ],
     [
      "WBT",
      "WhiteBIT Coin",
-     "$65.47",
-     "-1.7%",
-     "-10.4%",
-     "-17.2%",
-     "+15.3%",
-     "+23.2%",
-     "$7.8B"
+     "$63.36",
+     "-2.7%",
+     "-13.0%",
+     "-22.0%",
+     "+12.0%",
+     "+20.1%",
+     "$7.5B"
     ],
     [
      "LINK",
      "Chainlink",
-     "$9.56",
-     "-3.4%",
-     "-11.8%",
-     "-20.6%",
-     "-0.4%",
-     "-33.8%",
-     "$7.3B"
+     "$9.32",
+     "-2.2%",
+     "-13.5%",
+     "-26.5%",
+     "-1.3%",
+     "-33.4%",
+     "$7.1B"
     ],
     [
      "ADA",
      "Cardano",
-     "$0.162655",
-     "-4.6%",
-     "-11.9%",
-     "-26.1%",
-     "-35.3%",
-     "-68.9%",
-     "$6.1B"
+     "$0.156027",
+     "-3.3%",
+     "-13.5%",
+     "-32.5%",
+     "-37.2%",
+     "-68.8%",
+     "$5.9B"
     ],
     [
      "XLM",
      "Stellar",
-     "$0.142529",
-     "-2.1%",
-     "-7.0%",
-     "-20.3%",
-     "-3.1%",
-     "-46.9%",
+     "$0.140152",
+     "-1.3%",
+     "-7.2%",
+     "-24.2%",
+     "-2.3%",
+     "-46.1%",
      "$5.0B"
-    ],
-    [
-     "NEAR",
-     "NEAR Protocol",
-     "$3.32",
-     "-6.0%",
-     "-11.3%",
-     "-28.4%",
-     "+104.2%",
-     "+37.6%",
-     "$4.3B"
     ],
     [
      "BCH",
      "Bitcoin Cash",
-     "$213.63",
-     "-2.4%",
-     "-18.0%",
-     "-18.0%",
-     "-43.5%",
-     "-57.2%",
+     "$211.27",
+     "-2.2%",
+     "-14.3%",
+     "-25.1%",
+     "-42.8%",
+     "-57.4%",
      "$4.3B"
+    ],
+    [
+     "NEAR",
+     "NEAR Protocol",
+     "$3.18",
+     "-4.2%",
+     "-14.1%",
+     "-39.8%",
+     "+98.9%",
+     "+28.3%",
+     "$4.2B"
     ],
     [
      "LTC",
      "Litecoin",
-     "$48.18",
-     "-1.7%",
-     "-8.0%",
+     "$45.30",
+     "-4.9%",
+     "-12.5%",
+     "-25.7%",
      "-16.7%",
-     "-11.3%",
-     "-50.2%",
-     "$3.7B"
+     "-55.6%",
+     "$3.5B"
     ],
     [
-     "AVAX",
-     "Avalanche",
-     "$8.01",
-     "-3.5%",
-     "-3.8%",
-     "-16.1%",
-     "-13.2%",
-     "-49.7%",
-     "$3.6B"
+     "CC",
+     "Canton",
+     "$0.081493",
+     "-3.7%",
+     "-11.8%",
+     "-21.5%",
+     "≈-45.5%",
+     "-26.3%",
+     "$3.3B"
     ]
    ]
   }
