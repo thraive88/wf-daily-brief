@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "id": "events-2026-11-15",
- "date": "2026-11-15",
- "title": "Events alert — 2026-11-15",
- "body": "**NVDA Q3 FY27 — Tue 17 Nov, after the close** (results ~4:20 pm ET / 22:20 Berlin; call 5:00 pm ET / 23:00 Berlin). Consensus ~$109B revenue / ~$2.47 EPS vs $108B ±2% guidance (TipRanks, Nov 15). First print with CFO Colette Kress as interim CEO after Jensen Huang's Nov 12 resignation. October retail sales also land Tue 8:30 am ET / 14:30 Berlin — after a hot CPI, a strong print would reinforce the ~85% December-hike pricing.\n\nSleeve read: semis (AMD, AVGO, MU, ASML, TSMC) carry the beta — NVDA closed 31.9% below its 52-week high (Nov 13), so guidance moves the complex either way. Power/utilities (CEG, VST, NEE, GEV) hinge on data-center capex language; infrastructure (Vertiv, Eaton, Arista, Celestica) on backlog commentary. With the 10Y at 5.15%, the 15% cash sleeve stays the buffer — no positioning ahead of the print.",
- "generatedAt": "2026-11-15T15:11:08Z"
+ "id": "events-2026-11-16",
+ "date": "2026-11-16",
+ "title": "Chain events — 2026-11-16",
+ "body": "**Nvidia Q3 FY27 — Tue Nov 17, after US close (CFO commentary ~16:20 ET / 22:20 CET; call 17:00 ET / 23:00 CET).** Consensus per LSEG/Visible Alpha: revenue ~$109B (+~90% YoY; company guide $108B ±2%), adj. EPS ~$2.47, data-center ~$101.8B, gross margin ~74%, Q4 guide ~$125B. This is the first print since CEO Jensen Huang's resignation (Nov 12); options imply an ~8–9% move. Read-through by sleeve: semis (TSM, ASML, MU, AVGO) take the direct demand signal; infrastructure (VRT, ETN, ANET, DLR) hinges on Q4 capex commentary; power/utilities (CEG, VST, GEV, TLN) need confirmation of datacenter load growth; the ~15% cash sleeve is the buffer if guidance disappoints. Macro: Warsh speaks today (time unverified); FOMC minutes Wed.",
+ "generatedAt": "2026-11-16T07:17:04Z"
 }
