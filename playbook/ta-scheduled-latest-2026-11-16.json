@@ -1,0 +1,45 @@
+{
+  "schema": 1,
+  "id": "playbook-ta-2026-11-16",
+  "date": "2026-11-16",
+  "title": "Buy list TradingAgents verdicts — 2026-11-16",
+  "summary": "TradingAgents (market analyst only, DeepSeek deepseek-chat, one debate and one risk round) returned Hold on GEV — GE Vernova — for 2026-11-16: at $803 the stock sits in a fully inverted moving-average stack (below the 10-EMA $822, VWMA $830.51, Bollinger mid $848, 50-SMA $912.79 and even the rising 200-SMA at $949), with MACD at -35 and a re-widening histogram, RSI 41.5 with no positive divergence, ATR expanded from $41 to $57 in under a month, and six recent down sessions on 5.85–7.59M shares against lighter up-day volume — a distribution signature, not a coil. The structural thesis (gas backlog, grid modernization, BWRX-300 pipeline, 200-SMA still rising) argues against selling into a 15%-under-200-day flush, so the verdict is maintain at or below normal target weight — no add at $803 — with entry staged only on volume-confirmed closes above $830.51 (first half) and $847.61 holding two sessions (second half), invalidation on a daily close below $787.31 with a hard floor at $750, and a $912.79 price target over 3–6 months. Partial agreement with the buy-list stance: own it, don't chase the tape.",
+  "tags": [
+    "tradingagents",
+    "buy-list"
+  ],
+  "sections": [
+    {
+      "heading": "Verdicts side by side",
+      "table": {
+        "columns": [
+          "Verdict",
+          "Ticker",
+          "TradingAgents",
+          "Agreement",
+          "Key point"
+        ],
+        "rows": [
+          [
+            "BUY LIST",
+            "GEV",
+            "HOLD",
+            "Partial",
+            "Hold at $803 at or below normal target weight — no add at current price; the inverted MA stack and distribution-volume signature mean the bottom is not yet in. Two-stage add gate: first half on a daily close above $830.51 (VWMA) with MACD histogram turning positive; second half on a close above $847.61 that holds two sessions; full target weight only on a close above $912.79 (50-SMA) with MACD above zero. Invalidation: daily close below $787.31 (the report's trend-break level), hard floor $750; size any new tranche to a ~2-ATR (~$114) stop — real risk from $803 to invalidation is only ~$16. Price target $912.79, 3–6 months."
+          ]
+        ]
+      }
+    },
+    {
+      "heading": "How the agent reasoned",
+      "body": "The aggressive analyst leaned on the structural backlog — gas turbine orders, grid modernization spend and the BWRX-300 nuclear pipeline — plus the 200-SMA still rising from $934 to $949, arguing that shorting or exiting a secular name 15% under that average forfeits the recovery trade. The conservative analyst carried the tape: VWMA at $830.51 sits above spot at $803 after six sessions of 5.85–7.59M-share volume on down days versus lighter up-day volume — a distribution signature — and price must chew through four resistance shelves (10-EMA $822, VWMA $830, Bollinger mid $848, declining 50-SMA $912.79) where four weeks of bounces have died, with MACD -35 re-widening, RSI 41.5 with no capitulation divergence, and no higher low since the 11-05 close of $770. The neutral analyst synthesized: the conservative is right to demand volume confirmation but wrong to gate everything at $912.79 — so the portfolio manager kept the weight, pulled the entry down to the $830 VWMA with MACD turn as the first gate, capped the second at $847.61, and — overriding the trader — tightened the risk line from a $750 stop to the report's actual invalidation at $787.31, since a $750 stop accepts another 6–7% of loss past the point the thesis is already dead. Verdict: maintain, tighten risk, let price earn the next tranche.",
+      "level": 2
+    },
+    {
+      "heading": "Limits",
+      "body": "Market-analyst-only configuration (no social, news or fundamentals analysts); DeepSeek deepseek-chat rather than a frontier model; one bull/bear debate round and one risk round. LLM-generated: numbers were not independently re-verified. The Buy/Hold/Sell → Agree/Partial/Disagree scale mapping is our own convention, not the agent's output. Not investment advice.",
+      "level": 2
+    }
+  ],
+  "sources": []
+}
