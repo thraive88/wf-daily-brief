@@ -1,81 +1,81 @@
 {
  "schema": 1,
- "id": "brief-2026-11-17",
- "date": "2026-11-17",
- "generatedAt": "2026-11-17T07:06:03.252821+00:00",
- "snapshotUtc": "2026-11-17 07:06",
- "snapshotNote": "pre-market, 02:06 ET · US prices = Nov 16 post-close; crypto live",
+ "id": "brief-2026-11-18",
+ "date": "2026-11-18",
+ "generatedAt": "2026-11-18T07:05:44.437304+00:00",
+ "snapshotUtc": "2026-11-18 07:05",
+ "snapshotNote": "pre-market, 02:05 ET · US prices = Nov 17 post-close; crypto live",
  "regime": {
-  "breadthScore": 50.0,
-  "breadthZone": "Neutral",
-  "equityExposure": "60-75%",
-  "cryptoScore": 41.5,
-  "cryptoZone": "NEUTRAL"
+  "breadthScore": 39.5,
+  "breadthZone": "Weakening",
+  "equityExposure": "40–60%",
+  "cryptoScore": 40.9,
+  "cryptoZone": "Neutral"
  },
  "kpis": [
   {
    "label": "S&P 500",
-   "value": "7,416.59",
-   "sub": "-1.9% (prior close)"
+   "value": "7,340.53",
+   "sub": "-1.0% (prior close)"
   },
   {
    "label": "Nasdaq Comp",
-   "value": "24,509.76",
-   "sub": "-2.5%"
+   "value": "24,328.38",
+   "sub": "-0.7%"
   },
   {
    "label": "Dow",
-   "value": "51,608.17",
-   "sub": "-1.4%"
+   "value": "50,759.42",
+   "sub": "-1.6%"
   },
   {
    "label": "VIX",
-   "value": "22.91",
-   "sub": "+18.7% — cautious (20–25) band"
+   "value": "25.46",
+   "sub": "+11.1% — fear (25–30) band"
   },
   {
    "label": "US 10Y yield",
-   "value": "5.12%",
-   "sub": "-0.6% today"
+   "value": "5.10%",
+   "sub": "-0.3% today"
   },
   {
    "label": "Market breadth",
-   "value": "50.0 / 100",
-   "sub": "Neutral — equity exposure band 60-75%"
+   "value": "39.5 / 100",
+   "sub": "Weakening — equity exposure band 40–60%"
   },
   {
    "label": "Crypto regime",
-   "value": "41.5 / 100",
-   "sub": "NEUTRAL — 5/6 components"
+   "value": "40.9 / 100",
+   "sub": "Neutral — 5/6 components"
   },
   {
    "label": "BTC",
-   "value": "$64,603",
-   "sub": "-0.2% 24h / -13.7% 7d"
+   "value": "$64,648",
+   "sub": "+0.1% 24h / -12.6% 7d"
   }
  ],
- "posture": "Risk-off and defensive after a third straight down session: the S&P 500 fell 1.92% Monday to 7,416 and the Nasdaq 2.49%, with VIX up 18.7% to 22.9 (cautious 20-25 band, third straight rise). Breadth is thin - only 21 of our 75-name universe sit above their 50-day average and 29 above the 200-day - while the breadth model scores 50/100 Neutral (60-75% exposure guidance): deterioration, not panic. Every major index trades below its 50-day and the Nasdaq 100 is 11% off its Oct 6 high, with earnings/leadership risk concentrated in tonight's Nvidia print (options imply roughly +/-9.7%) after Jensen Huang's resignation and Colette Kress taking over as interim CEO. Crypto is weaker still: regime 41.5/100, low neutral, BTC 33% below its 1-year high. Keep new equity entries small and staged; staples and utilities were the only green sectors Monday.",
- "sentiment": "Cold and nervous: AI/semis are the source of risk (SOX -5.28% Monday), fear gauges are rising, and positioning is defensive heading into tonight's NVDA report and Wednesday's Anthropic IPO pricing.",
+ "posture": "The market is in a stair-step decline: the S&P closed below its 200-day average for the first time since April on Tuesday, its fourth straight loss, and the VIX at 25.5 (fear band) has risen ~38% in a month. Breadth reads 39.5/100 in the Weakening zone — inside the collector's 75-stock AI/energy/big-tech universe only 18 names sit above their 50-day average and 24 above the 200-day — so the model's equity band is 40–60%. The trigger is a rates-and-capex double squeeze: the 10-year at 5.10% with a December hike ~75–85% priced, while BofA's survey shows fund managers cutting tech overweights 37→12 points. Nvidia's beat-and-raise ($115.8B revenue, ~$130B Q4 guide) bought the AI complex some breathing room after hours, but the FOMC minutes today and Dec 4 payrolls/Dec 9 FOMC remain repricing events. Crypto offers no offset: regime 40.9/100 Neutral, BTC 33% off its 1-year high with alt breadth collapsed.",
+ "sentiment": "Cautious to fearful — tech-led risk-off with the Fear & Greed Index below 40 and a software rout (Salesforce −9.5%) even as Nvidia's print beat; the tape is waiting on today's FOMC minutes rather than chasing the after-hours bounce.",
  "news": [
   {
-   "text": "Third straight loss: S&P 500 -1.92% to 7,416.59, Nasdaq -2.49% to 24,509.76, SOX -5.28%; VIX jumped ~19% to 22.9 with staples/utilities the only green sectors.",
-   "url": "https://mobile.schaeffersresearch.com/content/ezines/2026/11/16/s-p-500-nasdaq-log-3rd-straight-loss-as-nvidia-tanks-tech"
+   "text": "Wall Street fell for a fourth straight day: Dow −848.75 (−1.64%) to 50,759, S&P −1.03% to 7,340 (first close below its 200-day MA since April), Nasdaq −0.74% to a ~7-month low; VIX +11% to 25.46.",
+   "url": "https://www.investing.com/analysis/the-sp-500-is-at-a-crossroads-as-nvidia-fails-to-impress-200691779"
   },
   {
-   "text": "Nvidia reports Q3 FY27 tonight ~4:20pm ET (22:20 CET; call 5:00pm ET / 23:00 CET) - first call without Jensen Huang; consensus ~$108.8-109.3B revenue / ~$2.47 adj EPS, options pricing a ~9.7% move.",
-   "url": "https://www.home.saxo/en-gb/content/articles/equities/nvidia-earnings-preview-the-first-big-test-after-jensen-huangs-exit-16112026"
+   "text": "Nvidia Q3 FY27: revenue $115.8B (+103% YoY), data-center $107.6B, non-GAAP EPS $2.68 vs ~$2.47 est.; Q4 guide ~$130B vs ~$125B consensus. First call without Jensen Huang; stock +3–4% after hours.",
+   "url": "https://www.news18.com/agency-feeds/nvidia-posts-103-revenue-growth-in-q3-reports-usd-115-8-billion-earnings-10429991.html"
   },
   {
-   "text": "Crypto deleveraging: BTC near $64.3-64.9k, -13.7% on the week and a sixth straight weekly loss; ~$2B liquidated Nov 14-15, Fear & Greed at 10-12 (extreme fear), 7 straight sessions of spot BTC ETF outflows.",
-   "url": "https://www.coinlive.com/zh/news-flash/1173150"
+   "text": "Software rout deepened the damage: Salesforce −9.45% (worst day since May 2024), Intuit −7.2%, ServiceNow −6.6%, IGV −3.3%; BofA survey shows tech overweights cut 37→12 points, record 38% call AI overinvestment.",
+   "url": "https://www.kucoin.com/news/flash/us-ai-stocks-drop-sharply-as-servicenow-falls-6-51"
   },
   {
-   "text": "Macro today: October advance retail sales 08:30 ET (14:30 CET) with Fed speakers Waller/Hammack - a sparse week for data after last week's hot October CPI, which keeps the 10Y near 5.1%.",
-   "url": "https://www.scotiabank.com/ca/en/about/economics/economics-publications/post.other-publications.calendar-of-economic-release-dates.calendar-of-economic-release-dates--november-2026-.html"
+   "text": "FOMC October minutes due today 2:00 p.m. ET — the Fed held at 3.75–4.00% by a 10–2 vote, both dissents favoring a hike; markets price ~75–85% odds of a December hike.",
+   "url": "https://www.sociustrades.com/blog/week-ahead-2026-11-16"
   },
   {
-   "text": "Anthropic IPO prices Wednesday Nov 18 and trades Thursday Nov 19 on Nasdaq (825M shares at $70-78, implying ~$1.3-1.45T) - an AI-demand gauge and a driver of cash-raising into crypto.",
-   "url": "http://www.chinaview.cn/northamerica/20261117/8d56ff3cb73647d2a4f92930316f4510/c.html"
+   "text": "Crypto stays in the risk-off move: BTC −12.6% over 7 days into the Fed minutes and Nvidia print; Russia's new crypto rules add regulatory headline risk this week.",
+   "url": "https://www.htx.co.zw/news/russias-new-regulations-federal-reserve-minutes-and-nvidias-gODak3haN"
   }
  ],
  "tables": [
@@ -102,260 +102,260 @@
      "APP",
      "Applovin Corporation",
      "AI/tech",
-     "$415.22",
-     "+1.5%",
-     "+56.0%",
-     "+35.1%",
-     "-23.0%",
-     "-43.4%",
-     "3M +35.1%, 43.4% below 52w high, above 50DMA, 200DMA intact."
+     "$398.94",
+     "-3.9%",
+     "+48.2%",
+     "+28.4%",
+     "-24.2%",
+     "-45.6%",
+     "3M +28.4%, 45.6% below 52w high, above 50DMA."
     ],
     [
      "2",
-     "TEM",
-     "Tempus AI, Inc.",
-     "AI/tech",
-     "$64.76",
-     "-9.6%",
-     "+0.1%",
-     "+31.2%",
-     "-2.5%",
-     "-23.9%",
-     "3M +31.2%, 23.9% below 52w high, below 50DMA, 200DMA intact."
-    ],
-    [
-     "3",
-     "CEG",
-     "Constellation Energy Corporatio",
-     "AI/tech",
-     "$277.82",
-     "-0.7%",
-     "+2.4%",
-     "+4.1%",
-     "-18.0%",
-     "-26.6%",
-     "3M +4.1%, 26.6% below 52w high, above 50DMA."
-    ],
-    [
-     "4",
      "CRWD",
      "CrowdStrike Holdings, Inc.",
      "AI/tech",
-     "$223.21",
-     "-1.5%",
-     "-1.8%",
-     "+4.8%",
-     "+68.5%",
-     "-20.0%",
-     "3M +4.8%, 20.0% below 52w high, below 50DMA, 200DMA intact."
+     "$219.58",
+     "-1.6%",
+     "-3.7%",
+     "+8.9%",
+     "+71.0%",
+     "-21.3%",
+     "3M +8.9%, 21.3% below 52w high, below 50DMA, 200DMA intact."
     ],
     [
-     "5",
-     "AI",
-     "C3.ai, Inc.",
-     "AI/tech",
-     "$10.68",
-     "-9.6%",
-     "-5.7%",
-     "+8.2%",
-     "-20.5%",
-     "-33.4%",
-     "3M +8.2%, 33.4% below 52w high, below 50DMA, 200DMA intact."
-    ],
-    [
-     "6",
+     "3",
      "AMD",
      "Advanced Micro Devices, Inc.",
      "AI/tech",
-     "$504.28",
-     "-5.6%",
-     "-4.6%",
-     "+4.1%",
-     "+109.7%",
-     "-22.4%",
-     "3M +4.1%, 22.4% below 52w high, below 50DMA, 200DMA intact."
+     "$503.41",
+     "-0.2%",
+     "-6.4%",
+     "+7.9%",
+     "+118.6%",
+     "-22.5%",
+     "3M +7.9%, 22.5% below 52w high, below 50DMA, 200DMA intact."
     ],
     [
-     "7",
+     "4",
+     "TEM",
+     "Tempus AI, Inc.",
+     "AI/tech",
+     "$63.43",
+     "-2.0%",
+     "-1.4%",
+     "+3.6%",
+     "-5.0%",
+     "-25.4%",
+     "3M +3.6%, 25.4% below 52w high, below 50DMA, 200DMA intact."
+    ],
+    [
+     "5",
      "ANET",
      "Arista Networks, Inc.",
      "AI/tech",
-     "$187.02",
-     "-5.2%",
-     "+5.7%",
-     "-3.2%",
-     "+47.0%",
-     "-13.7%",
-     "3M -3.2%, 13.7% below 52w high, below 50DMA, 200DMA intact."
+     "$186.42",
+     "-0.3%",
+     "+1.9%",
+     "-0.0%",
+     "+51.0%",
+     "-14.0%",
+     "3M -0.0%, 14.0% below 52w high, below 50DMA, 200DMA intact."
+    ],
+    [
+     "6",
+     "CEG",
+     "Constellation Energy Corporatio",
+     "AI/tech",
+     "$268.07",
+     "-3.5%",
+     "+1.9%",
+     "-2.2%",
+     "-21.0%",
+     "-29.2%",
+     "3M -2.2%, 29.2% below 52w high, below 50DMA."
+    ],
+    [
+     "7",
+     "AI",
+     "C3.ai, Inc.",
+     "AI/tech",
+     "$9.95",
+     "-6.8%",
+     "-11.8%",
+     "-4.1%",
+     "-27.6%",
+     "-37.9%",
+     "3M -4.1%, 37.9% below 52w high, below 50DMA."
     ],
     [
      "8",
-     "MSTR",
-     "Strategy Inc",
+     "PWR",
+     "Quanta Services, Inc.",
      "AI/tech",
-     "$103.03",
-     "-7.7%",
-     "-24.7%",
-     "+11.4%",
-     "-47.3%",
-     "-50.2%",
-     "3M +11.4%, 50.2% below 52w high, below 50DMA."
+     "$598.53",
+     "+2.2%",
+     "-3.2%",
+     "-11.6%",
+     "+36.2%",
+     "-23.8%",
+     "3M -11.6%, 23.8% below 52w high, below 50DMA."
     ],
     [
      "9",
      "LNG",
      "Cheniere Energy, Inc.",
      "Energy",
-     "$305.20",
+     "$301.97",
      "-1.1%",
-     "+5.5%",
-     "+11.5%",
-     "+41.8%",
-     "-7.6%",
-     "3M +11.5%, 7.6% below 52w high, above 50DMA, 200DMA intact."
+     "+5.4%",
+     "+10.1%",
+     "+42.1%",
+     "-8.6%",
+     "3M +10.1%, 8.6% below 52w high, above 50DMA, 200DMA intact."
     ],
     [
      "10",
      "DUK",
      "Duke Energy Corporation (Holdin",
      "Energy",
-     "$130.59",
-     "+1.1%",
-     "+7.5%",
-     "+5.3%",
-     "+4.3%",
-     "-2.1%",
-     "3M +5.3%, 2.1% below 52w high, above 50DMA, 200DMA intact."
+     "$129.84",
+     "-0.6%",
+     "+8.9%",
+     "+5.0%",
+     "+4.9%",
+     "-2.7%",
+     "3M +5.0%, 2.7% below 52w high, above 50DMA, 200DMA intact."
     ],
     [
      "11",
      "XEL",
      "Xcel Energy Inc.",
      "Energy",
-     "$81.21",
-     "-0.5%",
-     "+6.4%",
-     "+2.6%",
-     "-0.1%",
-     "-3.2%",
-     "3M +2.6%, 3.2% below 52w high, above 50DMA, 200DMA intact."
+     "$80.72",
+     "-0.6%",
+     "+7.4%",
+     "+1.6%",
+     "-0.3%",
+     "-3.8%",
+     "3M +1.6%, 3.8% below 52w high, above 50DMA, 200DMA intact."
     ],
     [
      "12",
-     "COP",
-     "ConocoPhillips",
-     "Energy",
-     "$140.52",
-     "-0.6%",
-     "-4.1%",
-     "+8.3%",
-     "+58.4%",
-     "-8.8%",
-     "3M +8.3%, 8.8% below 52w high, above 50DMA, 200DMA intact."
-    ],
-    [
-     "13",
      "EXC",
      "Exelon Corporation",
      "Energy",
-     "$46.46",
-     "+0.5%",
+     "$45.86",
+     "-1.3%",
+     "+8.1%",
+     "+1.2%",
+     "-1.1%",
+     "-8.8%",
+     "3M +1.2%, 8.8% below 52w high, above 50DMA, 200DMA intact."
+    ],
+    [
+     "13",
+     "COP",
+     "ConocoPhillips",
+     "Energy",
+     "$139.48",
+     "-0.7%",
+     "-4.0%",
      "+6.8%",
-     "+2.5%",
-     "-0.3%",
-     "-7.6%",
-     "3M +2.5%, 7.6% below 52w high, above 50DMA, 200DMA intact."
+     "+55.5%",
+     "-9.4%",
+     "3M +6.8%, 9.4% below 52w high, above 50DMA, 200DMA intact."
     ],
     [
      "14",
      "SO",
      "Southern Company (The)",
      "Energy",
-     "$94.64",
-     "+1.9%",
-     "+3.8%",
-     "+2.8%",
-     "+4.5%",
-     "-4.5%",
-     "3M +2.8%, 4.5% below 52w high, above 50DMA, 200DMA intact."
+     "$93.60",
+     "-1.1%",
+     "+4.8%",
+     "+1.5%",
+     "+3.2%",
+     "-5.6%",
+     "3M +1.5%, 5.6% below 52w high, above 50DMA, 200DMA intact."
     ],
     [
      "15",
-     "AAPL",
-     "Apple Inc.",
-     "Big tech",
-     "$352.78",
-     "-1.0%",
-     "+2.7%",
-     "+13.8%",
-     "+31.9%",
-     "-1.0%",
-     "3M +13.8%, 1.0% below 52w high, above 50DMA, 200DMA intact."
-    ],
-    [
-     "16",
-     "TSLA",
-     "Tesla, Inc.",
-     "Big tech",
-     "$379.74",
-     "-2.7%",
-     "+7.0%",
-     "+12.7%",
-     "-7.1%",
-     "-22.5%",
-     "3M +12.7%, 22.5% below 52w high, above 50DMA."
-    ],
-    [
-     "17",
      "TXN",
      "Texas Instruments Incorporated",
      "Big tech",
-     "$294.21",
-     "-3.1%",
-     "+6.4%",
-     "+8.1%",
-     "+89.8%",
-     "-11.5%",
-     "3M +8.1%, 11.5% below 52w high, above 50DMA, 200DMA intact."
+     "$295.86",
+     "+0.6%",
+     "+7.1%",
+     "+10.6%",
+     "+88.1%",
+     "-11.0%",
+     "3M +10.6%, 11.0% below 52w high, above 50DMA, 200DMA intact."
+    ],
+    [
+     "16",
+     "AAPL",
+     "Apple Inc.",
+     "Big tech",
+     "$351.91",
+     "-0.2%",
+     "+2.6%",
+     "+11.1%",
+     "+31.6%",
+     "-1.2%",
+     "3M +11.1%, 1.2% below 52w high, above 50DMA, 200DMA intact."
+    ],
+    [
+     "17",
+     "TSLA",
+     "Tesla, Inc.",
+     "Big tech",
+     "$380.11",
+     "+0.1%",
+     "+3.3%",
+     "+8.3%",
+     "-5.3%",
+     "-22.4%",
+     "3M +8.3%, 22.4% below 52w high, above 50DMA."
     ],
     [
      "18",
      "META",
      "Meta Platforms, Inc.",
      "Big tech",
-     "$626.41",
-     "-2.4%",
-     "-11.7%",
-     "+15.2%",
-     "+4.0%",
-     "-19.4%",
-     "3M +15.2%, 19.4% below 52w high, below 50DMA."
+     "$618.87",
+     "-1.2%",
+     "-12.3%",
+     "+13.3%",
+     "+3.5%",
+     "-20.4%",
+     "3M +13.3%, 20.4% below 52w high, below 50DMA."
     ],
     [
      "19",
      "NCLH",
      "Norwegian Cruise Line Holdings ",
      "Value",
-     "$17.90",
-     "-0.3%",
-     "+18.9%",
+     "$17.61",
+     "-1.6%",
+     "+15.6%",
      "+1.6%",
-     "+2.1%",
-     "-28.5%",
-     "Fwd P/E 12.6, $8B cap, 3M +1.6%, 28.5% below 52w high, above 50DMA."
+     "-1.3%",
+     "-29.6%",
+     "Fwd P/E 12.4, $8B cap, 3M +1.6%, 29.6% below 52w high, above 50DMA."
     ],
     [
      "20",
-     "BMY",
-     "Bristol-Myers Squibb Company",
+     "M",
+     "Macy's Inc",
      "Value",
-     "$62.93",
-     "-0.8%",
-     "+5.3%",
-     "-4.7%",
-     "+34.4%",
-     "-7.6%",
-     "Fwd P/E 9.4, $129B cap, 3M -4.7%, 7.6% below 52w high, above 50DMA, 200DMA intact."
+     "$23.39",
+     "-2.1%",
+     "-0.9%",
+     "-0.0%",
+     "+19.9%",
+     "-10.8%",
+     "Fwd P/E 9.9, $6B cap, 3M -0.0%, 10.8% below 52w high, above 50DMA, 200DMA intact."
     ]
    ]
   },
@@ -376,161 +376,161 @@
      "1",
      "XLV",
      "State Street Health Care Select",
-     "+6.3%",
-     "+10.7%",
-     "+23.9%"
+     "+5.5%",
+     "+5.4%",
+     "+21.4%"
     ],
     [
      "2",
      "XLP",
      "State Street Consumer Staples S",
+     "+4.9%",
      "+5.7%",
-     "+8.2%",
-     "+20.6%"
+     "+18.6%"
     ],
     [
      "3",
-     "SCHD",
-     "Schwab US Dividend Equity ETF",
-     "+4.4%",
-     "+3.9%",
-     "+32.8%"
+     "SPLV",
+     "Invesco S&P 500 Low Volatility ",
+     "+5.1%",
+     "+1.8%",
+     "+7.6%"
     ],
     [
      "4",
-     "SPLV",
-     "Invesco S&P 500 Low Volatility ",
-     "+5.2%",
+     "SCHD",
+     "Schwab US Dividend Equity ETF",
      "+3.1%",
-     "+9.1%"
+     "+0.6%",
+     "+30.0%"
     ],
     [
      "5",
-     "MOAT",
-     "VanEck Morningstar Wide Moat ET",
-     "+4.7%",
-     "+3.4%",
-     "+16.7%"
+     "XLU",
+     "State Street Utilities Select S",
+     "+5.0%",
+     "-1.4%",
+     "-2.7%"
     ],
     [
      "6",
-     "XLY",
-     "State Street Consumer Discretio",
-     "+5.1%",
-     "+1.5%",
-     "+3.3%"
+     "DGRO",
+     "iShares Core Dividend Growth ET",
+     "+2.3%",
+     "+0.3%",
+     "+18.6%"
     ],
     [
      "7",
-     "DGRO",
-     "iShares Core Dividend Growth ET",
-     "+3.2%",
-     "+2.1%",
-     "+20.0%"
+     "MOAT",
+     "VanEck Morningstar Wide Moat ET",
+     "+3.0%",
+     "-0.2%",
+     "+14.9%"
     ],
     [
      "8",
-     "USMV",
-     "iShares MSCI USA Min Vol Factor",
-     "+2.0%",
-     "+2.7%",
-     "+10.2%"
+     "XLF",
+     "State Street Financial Select S",
+     "+3.6%",
+     "-0.7%",
+     "+11.1%"
     ],
     [
      "9",
-     "XLF",
-     "State Street Financial Select S",
-     "+4.8%",
-     "+0.6%",
-     "+13.1%"
+     "USMV",
+     "iShares MSCI USA Min Vol Factor",
+     "+0.5%",
+     "+0.5%",
+     "+8.7%"
     ],
     [
      "10",
-     "XLU",
-     "State Street Utilities Select S",
-     "+4.5%",
-     "+0.2%",
-     "-1.5%"
+     "XLY",
+     "State Street Consumer Discretio",
+     "+2.3%",
+     "-1.3%",
+     "+4.3%"
     ],
     [
      "11",
      "XLRE",
      "State Street Real Estate Select",
-     "+5.0%",
-     "-0.8%",
-     "+8.8%"
+     "+4.6%",
+     "-3.1%",
+     "+6.8%"
     ],
     [
      "12",
      "VTV",
      "Vanguard Morningstar Value ETF",
-     "+1.6%",
-     "+0.3%",
-     "+22.7%"
+     "+0.8%",
+     "-1.3%",
+     "+21.0%"
     ],
     [
      "13",
-     "RSP",
-     "Invesco S&P 500 Equal Weight ET",
-     "+2.3%",
-     "-0.4%",
-     "+18.4%"
+     "VYM",
+     "Vanguard High Dividend Yield ET",
+     "+1.1%",
+     "-2.5%",
+     "+15.5%"
     ],
     [
      "14",
-     "COWZ",
-     "Pacer US Cash Cows 100 ETF",
-     "+0.2%",
-     "+0.1%",
-     "+21.9%"
+     "RSP",
+     "Invesco S&P 500 Equal Weight ET",
+     "+1.1%",
+     "-2.8%",
+     "+16.6%"
     ],
     [
      "15",
-     "XLB",
-     "State Street Materials Select S",
-     "+1.1%",
-     "-0.6%",
-     "+20.5%"
+     "HACK",
+     "Amplify Cybersecurity ETF",
+     "-4.5%",
+     "+0.4%",
+     "+36.7%"
     ],
     [
      "16",
-     "VYM",
-     "Vanguard High Dividend Yield ET",
-     "+1.7%",
-     "-1.6%",
-     "+16.8%"
+     "JEPI",
+     "JPMorgan Equity Premium Income ",
+     "-0.7%",
+     "-2.3%",
+     "+0.6%"
     ],
     [
      "17",
-     "JEPI",
-     "JPMorgan Equity Premium Income ",
-     "+0.3%",
-     "-1.1%",
-     "+1.4%"
+     "XLB",
+     "State Street Materials Select S",
+     "-0.2%",
+     "-3.2%",
+     "+18.9%"
     ],
     [
      "18",
-     "HACK",
-     "Amplify Cybersecurity ETF",
-     "-2.3%",
-     "-0.8%",
-     "+37.8%"
+     "COWZ",
+     "Pacer US Cash Cows 100 ETF",
+     "-1.3%",
+     "-3.2%",
+     "+19.1%"
     ],
     [
      "19",
-     "QUAL",
-     "iShares MSCI USA Quality Factor",
-     "-1.9%",
-     "-1.5%",
-     "+14.7%"
+     "XLE",
+     "State Street Energy Select Sect",
+     "-6.5%",
+     "-0.3%",
+     "+39.2%"
     ],
     [
      "20",
-     "DIA",
-     "State Street SPDR Dow Jones Ind",
-     "-0.7%",
+     "QUAL",
+     "iShares MSCI USA Quality Factor",
      "-3.2%",
-     "+10.6%"
+     "-2.9%",
+     "+14.1%"
     ]
    ]
   },
@@ -550,148 +550,148 @@
      "1",
      "SCHD",
      "Schwab US Dividend Equity ETF",
-     "+4.4%",
-     "+3.9%"
+     "+3.1%",
+     "+0.6%"
     ],
     [
      "2",
      "VONV",
      "Vanguard Russell 1000 Value ETF",
-     "+1.9%",
-     "+1.5%"
+     "+0.7%",
+     "-0.7%"
     ],
     [
      "3",
      "VTV",
      "Vanguard Morningstar Value ETF",
-     "+1.6%",
-     "+0.3%"
+     "+0.8%",
+     "-1.3%"
     ],
     [
      "4",
-     "DIA",
-     "State Street SPDR Dow Jones Ind",
-     "-0.7%",
-     "-3.2%"
+     "VLCAX",
+     "Vanguard Large Cap Index Fund A",
+     "-4.5%",
+     "-4.7%"
     ],
     [
      "5",
-     "VOO",
-     "Vanguard S&P 500 ETF",
-     "-3.0%",
-     "-3.6%"
+     "SPY",
+     "State Street SPDR S&P 500 ETF T",
+     "-4.4%",
+     "-4.8%"
     ],
     [
      "6",
-     "VFIAX",
-     "Vanguard 500 Index Fd Admiral S",
-     "-3.1%",
-     "-3.6%"
+     "VOO",
+     "Vanguard S&P 500 ETF",
+     "-4.5%",
+     "-4.8%"
     ],
     [
      "7",
-     "SPY",
-     "State Street SPDR S&P 500 ETF T",
-     "-3.0%",
-     "-3.6%"
+     "FXAIX",
+     "Fidelity 500 Index Fund",
+     "-4.5%",
+     "-4.8%"
     ],
     [
      "8",
-     "FXAIX",
-     "Fidelity 500 Index Fund",
-     "-3.1%",
-     "-3.6%"
+     "VFIAX",
+     "Vanguard 500 Index Fd Admiral S",
+     "-4.5%",
+     "-4.8%"
     ],
     [
      "9",
      "IVV",
      "iShares Core S&P 500 ETF",
-     "-3.0%",
-     "-3.6%"
+     "-4.5%",
+     "-4.8%"
     ],
     [
      "10",
-     "VLCAX",
-     "Vanguard Large Cap Index Fund A",
-     "-3.1%",
-     "-3.6%"
+     "DIA",
+     "State Street SPDR Dow Jones Ind",
+     "-2.2%",
+     "-5.0%"
     ],
     [
      "11",
      "SCHX",
      "Schwab U.S. Large-Cap ETF",
-     "-3.0%",
-     "-3.8%"
+     "-4.5%",
+     "-5.1%"
     ],
     [
      "12",
      "FSKAX",
      "Fidelity Total Market Index Fun",
-     "-2.8%",
-     "-3.9%"
+     "-4.2%",
+     "-5.1%"
     ],
     [
      "13",
-     "VTI",
-     "Vanguard Morningstar Total Stoc",
-     "-2.6%",
-     "-3.9%"
+     "VTSAX",
+     "Vanguard Total Stock Market Ind",
+     "-4.1%",
+     "-5.2%"
     ],
     [
      "14",
-     "VTSAX",
-     "Vanguard Total Stock Market Ind",
-     "-2.7%",
-     "-3.9%"
+     "VTI",
+     "Vanguard Morningstar Total Stoc",
+     "-4.1%",
+     "-5.2%"
     ],
     [
      "15",
      "ITOT",
      "iShares Core S&P Total U.S. Sto",
-     "-2.8%",
-     "-4.1%"
+     "-4.2%",
+     "-5.3%"
     ],
     [
      "16",
      "MDY",
      "State Street SPDR S&P MIDCAP 40",
-     "+0.5%",
-     "-5.8%"
+     "-0.9%",
+     "-6.9%"
     ],
     [
      "17",
      "VUG",
      "Vanguard Morningstar Growth ETF",
-     "-6.6%",
-     "-6.5%"
+     "-8.3%",
+     "-7.4%"
     ],
     [
      "18",
      "VIGAX",
      "Vanguard Growth Index Fd Admira",
-     "-6.7%",
-     "-6.6%"
+     "-8.3%",
+     "-7.4%"
     ],
     [
      "19",
      "ONEQ",
      "Fidelity Nasdaq Composite Index",
-     "-6.2%",
-     "-6.7%"
+     "-7.9%",
+     "-7.5%"
     ],
     [
      "20",
      "QQQ",
      "Invesco QQQ Trust, Series 1",
-     "-6.8%",
-     "-7.8%"
+     "-8.6%",
+     "-8.3%"
     ]
    ]
   },
   {
    "id": "bonds",
    "title": "Bonds — top 20 by 3-month return",
-   "note": "With the 10-year at 5.12% (about 3.6% below its 52-week high) every duration bucket is negative over three months - only T-bill proxies held flat (SGOV +0.01%, BIL -0.01%), while 7-10Y IEF lost 2.9% and 20Y+ TLT 2.8% (3M). Credit pays a little extra but still loses (HYG -3.5%, EMB -4.1% 3M), so duration risk stays the dominant drag on bonds until yields roll over.",
+   "note": "The 10-year sits at 5.10% with a December hike ~75–85% priced, and the 3M spread is all at the long end: TLT −4.2% and IEF −3.2% versus T-bills flat (BIL −0.02%, SGOV 0.0%). Duration, not credit carry, is the main rate risk now — high yield (−3.9%) and EM debt (PCY −5.3%) sit at the bottom of the 3M ranking as spreads widen.",
    "columns": [
     "#",
     "Ticker",
@@ -705,9 +705,9 @@
      "1",
      "SGOV",
      "iShares 0-3 Month Treasury Bond",
-     "-0.0%",
      "+0.0%",
-     "+0.0%"
+     "+0.0%",
+     "+0.1%"
     ],
     [
      "2",
@@ -721,7 +721,7 @@
      "3",
      "FLOT",
      "iShares Floating Rate Bond ETF",
-     "-0.2%",
+     "-0.1%",
      "-0.1%",
      "-0.1%"
     ],
@@ -729,144 +729,144 @@
      "4",
      "IAGG",
      "iShares International Aggregate",
-     "+0.5%",
+     "+0.8%",
      "-0.5%",
      "-4.0%"
     ],
     [
      "5",
-     "BNDX",
-     "Vanguard Total International Bo",
-     "+0.2%",
-     "-0.8%",
-     "-4.6%"
+     "SHY",
+     "iShares 1-3 Year Treasury Bond ",
+     "+0.0%",
+     "-0.9%",
+     "-1.9%"
     ],
     [
      "6",
-     "SHY",
-     "iShares 1-3 Year Treasury Bond ",
-     "-0.2%",
-     "-1.0%",
-     "-1.9%"
+     "BNDX",
+     "Vanguard Total International Bo",
+     "+0.6%",
+     "-0.9%",
+     "-4.4%"
     ],
     [
      "7",
      "VCSH",
      "Vanguard Short-Term Corporate B",
-     "-0.3%",
+     "-0.1%",
      "-1.7%",
      "-2.9%"
     ],
     [
      "8",
-     "MUB",
-     "iShares National Muni Bond ETF",
-     "+1.1%",
-     "-1.8%",
-     "-3.3%"
-    ],
-    [
-     "9",
-     "TFI",
-     "State Street SPDR Nuveen ICE Mu",
-     "+1.5%",
-     "-1.9%",
-     "-3.9%"
-    ],
-    [
-     "10",
      "GOVT",
      "iShares U.S. Treasury Bond ETF",
-     "-0.3%",
-     "-1.9%",
+     "+0.2%",
+     "-2.2%",
      "-4.7%"
     ],
     [
+     "9",
+     "VTIP",
+     "Vanguard Short-Term Inflation-P",
+     "-0.1%",
+     "-2.4%",
+     "-2.9%"
+    ],
+    [
+     "10",
+     "TIP",
+     "iShares TIPS Bond ETF",
+     "-0.4%",
+     "-2.5%",
+     "-5.4%"
+    ],
+    [
      "11",
-     "BND",
-     "Vanguard Total Bond Market ETF",
-     "-0.3%",
-     "-2.2%",
-     "-4.8%"
+     "MUB",
+     "iShares National Muni Bond ETF",
+     "+0.7%",
+     "-2.5%",
+     "-3.9%"
     ],
     [
      "12",
-     "AGG",
-     "iShares Core U.S. Aggregate Bon",
-     "-0.2%",
-     "-2.3%",
-     "-4.9%"
+     "BND",
+     "Vanguard Total Bond Market ETF",
+     "+0.2%",
+     "-2.5%",
+     "-4.8%"
     ],
     [
      "13",
-     "TIP",
-     "iShares TIPS Bond ETF",
-     "-0.9%",
-     "-2.3%",
-     "-5.6%"
+     "AGG",
+     "iShares Core U.S. Aggregate Bon",
+     "+0.2%",
+     "-2.6%",
+     "-4.8%"
     ],
     [
      "14",
-     "VTIP",
-     "Vanguard Short-Term Inflation-P",
-     "-0.3%",
-     "-2.5%",
-     "-3.1%"
+     "TFI",
+     "State Street SPDR Nuveen ICE Mu",
+     "+0.8%",
+     "-2.8%",
+     "-4.6%"
     ],
     [
      "15",
-     "TLT",
-     "iShares 20+ Year Treasury Bond ",
-     "-0.8%",
-     "-2.8%",
-     "-10.9%"
-    ],
-    [
-     "16",
-     "LQD",
-     "iShares iBoxx $ Investment Grad",
-     "-0.6%",
-     "-2.9%",
-     "-6.8%"
-    ],
-    [
-     "17",
      "IEF",
      "iShares 7-10 Year Treasury Bond",
-     "-0.2%",
-     "-2.9%",
+     "+0.4%",
+     "-3.2%",
      "-6.5%"
     ],
     [
-     "18",
+     "16",
      "VCIT",
      "Vanguard Intermediate-Term Corp",
-     "-0.4%",
-     "-3.0%",
-     "-5.8%"
+     "+0.0%",
+     "-3.4%",
+     "-6.0%"
+    ],
+    [
+     "17",
+     "LQD",
+     "iShares iBoxx $ Investment Grad",
+     "-0.1%",
+     "-3.6%",
+     "-6.9%"
+    ],
+    [
+     "18",
+     "HYG",
+     "iShares iBoxx $ High Yield Corp",
+     "-0.3%",
+     "-3.9%",
+     "-4.3%"
     ],
     [
      "19",
-     "HYG",
-     "iShares iBoxx $ High Yield Corp",
-     "-0.2%",
-     "-3.5%",
-     "-4.2%"
+     "TLT",
+     "iShares 20+ Year Treasury Bond ",
+     "+0.1%",
+     "-4.2%",
+     "-10.7%"
     ],
     [
      "20",
      "JNK",
      "State Street SPDR Bloomberg Hig",
-     "-0.2%",
-     "-3.9%",
-     "-4.6%"
+     "-0.4%",
+     "-4.2%",
+     "-4.7%"
     ]
    ]
   },
   {
    "id": "crypto",
    "title": "Crypto — top 20 by market cap",
-   "note": "BTC is at $64,603, down 13.7% on the week and 21% over 30 days, 33% below its 1-year high with perp funding near neutral to slightly negative and only 21% of tracked alts above their 200DMA - a washed-out, extreme-fear tape (regime 41.5/100; model reads 'stack intact, price below', 200DMA falling).",
+   "note": "BTC $64,648 (−12.6% 7d / −21.9% 30d), 33.3% below its 1-year high; regime 40.9/100 Neutral — only 16% of tracked top-20 alts hold their 200-day average and just 5% of the top 20 are positive over 30 days (washout). Perp funding is near baseline (~0.5% annualized across majors), so this is spot-led selling, not a leverage blow-off. Values marked ≈ use CoinGecko's 200-day change; 1Y is CoinGecko native.",
    "columns": [
     "Symbol",
     "Name",
@@ -882,222 +882,222 @@
     [
      "BTC",
      "Bitcoin",
-     "$64,603.00",
-     "-0.2%",
-     "-13.7%",
-     "-21.0%",
-     "-16.7%",
-     "-32.2%",
+     "$64,648.00",
+     "+0.1%",
+     "-12.6%",
+     "-21.9%",
+     "-16.6%",
+     "-28.3%",
      "$1.30T"
     ],
     [
      "ETH",
      "Ethereum",
-     "$1,829.56",
-     "+0.6%",
-     "-14.1%",
-     "-24.2%",
-     "-14.1%",
-     "-42.7%",
-     "$223.6B"
+     "$1,811.60",
+     "-1.0%",
+     "-12.6%",
+     "-25.6%",
+     "-15.0%",
+     "-39.8%",
+     "$221.4B"
     ],
     [
      "BNB",
      "BNB",
-     "$593.22",
-     "+0.1%",
-     "-14.2%",
-     "-17.6%",
-     "-8.7%",
-     "-36.6%",
-     "$78.0B"
+     "$592.36",
+     "-0.1%",
+     "-13.2%",
+     "-18.6%",
+     "-9.9%",
+     "-35.0%",
+     "$77.9B"
     ],
     [
      "XRP",
      "XRP",
-     "$0.961013",
-     "+0.5%",
-     "-12.8%",
-     "-25.9%",
-     "-29.7%",
-     "-57.5%",
-     "$61.1B"
+     "$0.987724",
+     "+2.8%",
+     "-7.2%",
+     "-24.9%",
+     "-28.1%",
+     "-54.3%",
+     "$62.7B"
     ],
     [
      "SOL",
      "Solana",
-     "$72.84",
-     "+2.3%",
-     "-15.8%",
-     "-29.8%",
-     "-15.5%",
-     "-48.4%",
-     "$43.1B"
+     "$74.81",
+     "+2.8%",
+     "-10.4%",
+     "-29.3%",
+     "-14.2%",
+     "-45.0%",
+     "$44.3B"
     ],
     [
      "TRX",
      "TRON",
-     "$0.306240",
-     "+1.2%",
-     "-3.6%",
-     "-8.1%",
-     "-14.7%",
-     "+4.6%",
-     "$29.1B"
+     "$0.309038",
+     "+0.9%",
+     "-2.6%",
+     "-6.7%",
+     "-15.3%",
+     "+6.8%",
+     "$29.4B"
     ],
     [
      "FIGR_HELOC",
      "Figure Heloc",
-     "$1.04",
-     "–",
-     "-0.1%",
-     "-2.7%",
-     "≈+0.7%",
-     "+1.2%",
-     "$27.7B"
+     "$1.01",
+     "-3.1%",
+     "-3.0%",
+     "-5.7%",
+     "≈-2.5%",
+     "-2.1%",
+     "$27.0B"
     ],
     [
      "HYPE",
      "Hyperliquid",
-     "$69.78",
-     "+5.1%",
-     "-7.0%",
-     "-11.2%",
-     "≈+73.6%",
-     "+81.6%",
-     "$16.6B"
+     "$68.99",
+     "-1.2%",
+     "-5.0%",
+     "-14.0%",
+     "≈+66.1%",
+     "+68.9%",
+     "$16.4B"
     ],
     [
      "ZEC",
      "Zcash",
-     "$922.34",
-     "+3.5%",
-     "-20.6%",
-     "-18.6%",
-     "+37.1%",
-     "+33.2%",
-     "$15.7B"
+     "$955.49",
+     "+3.6%",
+     "-6.6%",
+     "-18.4%",
+     "+43.7%",
+     "+54.8%",
+     "$16.3B"
     ],
     [
      "XMR",
      "Monero",
-     "$498.39",
-     "+2.9%",
-     "-12.0%",
-     "-14.4%",
-     "+23.2%",
-     "+25.6%",
-     "$9.4B"
+     "$506.24",
+     "+1.4%",
+     "-11.4%",
+     "-14.7%",
+     "+29.0%",
+     "+22.4%",
+     "$9.5B"
     ],
     [
      "DOGE",
      "Dogecoin",
-     "$0.059019",
-     "+0.2%",
-     "-16.0%",
+     "$0.059442",
+     "+0.7%",
+     "-13.2%",
      "-25.5%",
-     "-43.1%",
-     "-63.5%",
+     "-43.7%",
+     "-61.6%",
      "$9.3B"
     ],
     [
      "LEO",
      "LEO Token",
-     "$9.29",
-     "+0.9%",
-     "-0.5%",
-     "+2.8%",
-     "-7.4%",
-     "+0.8%",
-     "$8.5B"
+     "$9.33",
+     "+0.5%",
+     "+1.5%",
+     "+3.5%",
+     "-5.5%",
+     "+1.7%",
+     "$8.6B"
     ],
     [
      "WBT",
      "WhiteBIT Coin",
-     "$62.54",
-     "-0.3%",
-     "-13.3%",
-     "-21.8%",
-     "+9.5%",
-     "+18.5%",
+     "$62.43",
+     "-0.2%",
+     "-12.6%",
+     "-22.8%",
+     "+8.9%",
+     "+23.0%",
      "$7.4B"
     ],
     [
      "LINK",
      "Chainlink",
-     "$9.18",
-     "+0.4%",
-     "-14.0%",
-     "-23.4%",
-     "-4.7%",
-     "-34.4%",
-     "$7.0B"
+     "$9.25",
+     "+0.7%",
+     "-11.3%",
+     "-24.2%",
+     "-5.1%",
+     "-31.4%",
+     "$7.1B"
     ],
     [
      "ADA",
      "Cardano",
-     "$0.153552",
-     "+0.4%",
-     "-14.4%",
-     "-30.1%",
-     "-38.4%",
-     "-68.8%",
+     "$0.153961",
+     "+0.3%",
+     "-12.4%",
+     "-30.4%",
+     "-38.5%",
+     "-67.0%",
      "$5.8B"
     ],
     [
      "XLM",
      "Stellar",
-     "$0.137784",
-     "-0.7%",
-     "-7.1%",
-     "-22.2%",
-     "-4.2%",
-     "-46.4%",
-     "$4.9B"
+     "$0.141242",
+     "+2.5%",
+     "-3.1%",
+     "-21.2%",
+     "-3.7%",
+     "-43.2%",
+     "$5.0B"
     ],
     [
      "NEAR",
      "NEAR Protocol",
-     "$3.23",
-     "+2.1%",
-     "-11.2%",
-     "-34.7%",
-     "+90.1%",
-     "+38.9%",
-     "$4.2B"
+     "$3.38",
+     "+4.7%",
+     "-7.6%",
+     "-33.2%",
+     "+76.0%",
+     "+49.1%",
+     "$4.4B"
     ],
     [
      "BCH",
      "Bitcoin Cash",
-     "$208.79",
-     "+0.2%",
-     "-13.0%",
-     "-24.5%",
-     "-44.0%",
-     "-57.3%",
+     "$208.33",
+     "-0.2%",
+     "-10.0%",
+     "-25.6%",
+     "-45.3%",
+     "-57.2%",
      "$4.2B"
-    ],
-    [
-     "RAIN",
-     "Rain",
-     "$0.005527",
-     "-0.4%",
-     "+26.4%",
-     "-37.6%",
-     "≈-26.8%",
-     "+69.5%",
-     "$4.0B"
     ],
     [
      "LTC",
      "Litecoin",
-     "$44.67",
-     "-0.3%",
-     "-13.3%",
-     "-24.1%",
-     "-17.2%",
-     "-54.0%",
+     "$44.57",
+     "-0.2%",
+     "-12.9%",
+     "-25.8%",
+     "-17.7%",
+     "-52.6%",
      "$3.5B"
+    ],
+    [
+     "CC",
+     "Canton",
+     "$0.084699",
+     "+3.8%",
+     "-6.1%",
+     "-17.5%",
+     "≈-43.6%",
+     "-21.2%",
+     "$3.4B"
     ]
    ]
   }
