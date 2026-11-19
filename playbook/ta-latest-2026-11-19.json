@@ -1,0 +1,45 @@
+{
+ "schema": 1,
+ "id": "playbook-ta-2026-11-19",
+ "date": "2026-11-19",
+ "title": "Buy list TradingAgents verdicts — 2026-11-19",
+ "summary": "TradingAgents (market analyst only, DeepSeek deepseek-v4-flash, one debate and one risk round) returned Underweight on Eaton (ETN) for 2026-11-19. At 338.34 the stock sits below its 10 EMA (349.31), a falling VWMA (352.61) and ~14% under the 50/200-SMA cluster at ~395 that is about to death-cross; the rebound off 323 stalled at 360.62 on decaying volume while down-days came on heavier volume. The verdict is Underweight rather than Sell because a full liquidation at a single-test low is poor structure and shorting a 17.5-ATR name offers no clean risk point — the plan is to trim 30–35% into any 349–353 strength, cut the core by half on a volume-confirmed daily close below 323.07, and re-engage only on a VWMA reclaim at 352.61 with volume, RSI >50 and a sustained MACD cross.",
+ "tags": [
+  "tradingagents",
+  "buy-list"
+ ],
+ "sections": [
+  {
+   "heading": "Verdicts side by side",
+   "table": {
+    "columns": [
+     "Verdict",
+     "Ticker",
+     "TradingAgents",
+     "Agreement",
+     "Key point"
+    ],
+    "rows": [
+     [
+      "BUY LIST",
+      "ETN",
+      "UNDERWEIGHT",
+      "Disagree",
+      "Run at ~50–55% of benchmark weight. At 338.34 ETN trades below the 10 EMA (349.31) and falling VWMA (352.61), ~14% below the 50/200-SMA cluster (~395) whose gap has compressed to +0.32 points (imminent death cross). Trim 30–35% into the 349–353 confluence; make no adds at 338. On a daily close below 323.07 (lower Bollinger / November low) cut the core by half, with 308–312 as next demand. No tactical short: a 360.56 stop is only ~0.55 ATR and sits inside noise. Re-engage only on a daily close above 352.61 VWMA on >~3.2M-share volume, RSI >50, a sustained MACD cross, and three sessions holding the reclaimed 10 EMA. Price target 323, 3–6 months."
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "How the agent reasoned",
+   "body": "The bear carried the verified part of the tape: a lower high at 360.62 on monotonically decaying rebound volume (4.52M → 1.83M) while distribution days printed 2.84M, 3.44M and 2.57M, an 11-13 MACD histogram cross (+0.25) that failed within days (MACD back to −15.87 below a −15.17 signal), and RSI at 38.38 that has not closed above 50 since 10-13 — a 30–45 band that in a downtrend is more often continuation than exhaustion. The bull's case was judged defensible but unproven: ATR cooling from 19.52 to 17.47, RSI double-bottoming at 30.75/31.52, the 11-04/11-05 volume spike that printed the 323.28 low, and spot only ~4.7% above the lower Bollinger band after a 14% drawdown below the 200-SMA — which is why the desk stopped at Underweight rather than Sell, refusing to liquidate into a single-test low. The conservative seat's point that no fundamental packet (orders, backlog, margins) exists to rule out further multiple compression capped conviction further, and the neutral seat's staging won execution: trim into strength if offered, let a confirmed close below 323.07 — not a forecast of one — trigger the deeper cut. The aggressive short overlay was rejected because ~9.6 points of stop is ~0.55 ATR on a 5.2%-ATR name and cannot be widened to 1–1.5 ATR without destroying the ~2.9:1 reward-to-risk.",
+   "level": 2
+  },
+  {
+   "heading": "Limits",
+   "body": "Market-analyst-only configuration (no social, news or fundamentals analysts); DeepSeek deepseek-v4-flash rather than a frontier model; one bull/bear debate round and one risk round. LLM-generated: numbers were not independently re-verified. The Buy/Hold/Sell → Agree/Partial/Disagree scale mapping is our own convention, not the agent's output. Not investment advice.",
+   "level": 2
+  }
+ ],
+ "sources": []
+}
