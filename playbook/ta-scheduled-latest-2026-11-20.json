@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "id": "playbook-ta-2026-11-20",
+ "date": "2026-11-20",
+ "title": "Buy list TradingAgents verdicts — 2026-11-20",
+ "summary": "TradingAgents (market analyst only, DeepSeek deepseek-chat, one debate and one risk round) returned Hold on Fortinet (FTNT) for 2026-11-20. At 131.46 FTNT sits a hair below its rising 200-SMA (131.65) after a ~39% drawdown and the 10-29 gap (174.08→127.96 on 17.36M shares); RSI has recovered from 23.1 to 39.7 and the MACD histogram crossed positive, but the line remains deep below zero (−11.03) and the 11-19 candle (high 139.03, close 131.46) was a heavy-volume rejection. The plan is to hold roughly one-third of intended full weight with a hard 124 stop, add the second third only on a daily close above 138–139 on ≥7M shares, de-risk only on a second 138–139 rejection, and cut to one-sixth if a death cross coincides with a close below the 200-SMA. Verdict is Hold rather than Sell because shorting a defended rising major average after a 39% drawdown is poor risk/reward, and the 5.7%-to-stop downside is intended, not realized, given a 26.6% one-day gap in recent tape.",
+ "tags": [
+  "tradingagents",
+  "buy-list"
+ ],
+ "sections": [
+  {
+   "heading": "Verdicts side by side",
+   "table": {
+    "columns": [
+     "Verdict",
+     "Ticker",
+     "TradingAgents",
+     "Agreement",
+     "Key point"
+    ],
+    "rows": [
+     [
+      "BUY LIST",
+      "FTNT",
+      "HOLD",
+      "Partial",
+      "Run at roughly one-third of intended full weight at ~131.46; no adds, no market orders, no trim into the 200-SMA test. Hard stop 124 on the full existing position. Add the second third only on a daily close above 138–139 (Bollinger middle 138.23 / 11-19 high 139.03) on ≥7M shares. De-risk to the neutral plan: trim only on a SECOND rejection at 138–139 on sub-7M volume, not into the contested 131 floor. Cut to one-sixth if a confirmed death cross (50-SMA falling ~7.9 pts/4wk vs 200-SMA) coincides with a close below the 200-SMA 131.65. Price target 138.0, horizon 3–6 months."
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "How the agent reasoned",
+   "body": "The bull's constructive case was real but lagging-dependent: RSI recovered 23.1→39.7, MACD histogram improved six sessions and crossed positive (line still −11.03, a stabilization not a trend change), ATR compressed 24% (9.97→7.62), and price reclaimed the 10-EMA at 129.78; he was right that dumping or shorting into a defended, rising 200-SMA after a ~39% drawdown is poor risk/reward. The bear's rejection candle was the decisive counter: 11-19 opened 135.76, printed a 139.03 high and closed 131.46 while volume asymmetry ran against the stock (17.36M / 11.10M / 11.92M on down days vs 4.94M / 7.05M on up days), and the 10-29 26.6% gap on 17.36M shares means a 124 stop sits inside the 122.76–125.80 low cluster with ATR at 5.8% of price — capping intended, not realized, loss. The conservative seat won the burden-of-proof argument on adding, but his trim-25–40%-into-131–136 prescription failed on its own logic: 131.46 is below the 200-SMA, not a strength zone, and a trim there does not eliminate the gap tail he identified. The neutral synthesis carried the table: keep the one-third core on the 200-SMA, keep the 124 stop, and move de-risking to a second rejection at 138–139 on sub-7M volume, treating the death cross as a sizing trigger only when it coincides with a 200-SMA break. With price within 0.19 points of the 200-SMA, the 50-SMA at 162.11 falling ~7.9 points in four weeks, RSI sub-50 and an unverified 10-29 catalyst, neither adding nor trimming was underwritable — Hold with defined triggers on both sides."
+  },
+  {
+   "heading": "Limits",
+   "body": "Market-analyst-only configuration (no news, social or fundamentals analysts) on DeepSeek deepseek-chat, one debate round and one risk round; single verdicts on identical settings have flipped before, so treat triggers, not labels, as the deliverable. LLM output — verify every price level against the chart before acting. The buy-list vs rating scale mapping (Buy/Overweight = Agree, Hold = Partial, Sell/Underweight = Disagree) is ours, not the model's. Research, not investment advice."
+  }
+ ],
+ "sources": []
+}
