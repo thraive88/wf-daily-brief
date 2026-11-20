@@ -1,45 +1,43 @@
 {
-  "schema": 1,
-  "id": "playbook-ta-2026-11-18",
-  "date": "2026-11-18",
-  "title": "Buy list TradingAgents verdicts — 2026-11-18",
-  "summary": "TradingAgents (market analyst only, DeepSeek deepseek-chat, one debate and one risk round) returned Hold on AMD for 2026-11-18: at ~503 the stock sits mid-range between 466 support and 555 (50-SMA) resistance with ATR at 40.59, so no entry or stop placement offers attractive asymmetry right now. The long-term structure is intact (~18% above a rising 200-SMA, 50-SMA above 200), but the near-term tape has deteriorated — price below the 50-SMA since 10/16 with failed reclaims, a 11/17 full-body bearish close at the low, MACD at −9.80 with a compressing histogram (+7.58 → +3.81), and the +45% bounce off 402 dying into a lower high at 585. The debate converged on maintaining existing size — no adds at 503, no sell — with precise pre-committed triggers: a staged add on a first close above 555 with expanding volume and a positive MACD line, and a 33–50% trim only on a volume-confirmed daily close below 466.",
-  "tags": [
-    "tradingagents",
-    "buy-list"
-  ],
-  "sections": [
-    {
-      "heading": "Verdicts side by side",
-      "table": {
-        "columns": [
-          "Verdict",
-          "Ticker",
-          "TradingAgents",
-          "Agreement",
-          "Key point"
-        ],
-        "rows": [
-          [
-            "BUY LIST",
-            "AMD",
-            "HOLD",
-            "Partial",
-            "Hold at ~503 — maintain current size, no add, no sell. Range 466–555 defines the setup: no entry at 503 offers good asymmetry with ATR 40.59. Near-term tape weak (below 50-SMA since 10/16, MACD −9.80 with compressing histogram, 11/17 bearish close at the low, lower high at 585), long-term structure intact (~18% above rising 200-SMA; 11/05 RSI-29.75 washout on 71.2M shares at the 200-SMA/lower-Bollinger confluence). Add gate: starter tranche on first daily close >555 with expanding volume and positive MACD line, remainder only on a subsequent hold of 555. A smaller starter is permitted off a 466 hold, sized below the 555 add. Risk: trim 33–50% only on a volume-confirmed daily CLOSE below 466 (not an intraday wick); re-evaluate on any close outside 466–555 or a MACD histogram flip. Price target 555, 1–3 months."
-          ]
-        ]
-      }
-    },
-    {
-      "heading": "How the agent reasoned",
-      "body": "The bears carried the near-term case: price crossed below the 50-SMA on 10/16 and failed every reclaim, the 11/17 full-body bearish close at the low drew no follow-through, MACD sits deeply negative at −9.80 with the histogram compressing (+7.58 → +3.81), and the +45% bounce off 402 died into a lower high at 585 with 55.4M shares transacted near that close now underwater — a correction, not a reversal, but enough to rule out adding at 503. The aggressive analyst countered that the 2026-11-05 washout (RSI 29.75 on 71.2M shares) landed on a triple confluence of the 200-SMA (425.74), lower Bollinger (428.43) and ~2×ATR (~422), a genuine selling climax, with price still holding the VWMA at ~502 — and that the conservative's stop objections are arguments about the entry price, not about exiting an existing position. The conservative's mechanics won on detail: the 466 stop is only ~0.91×ATR from 503 and inside daily noise, so it must be a closing-basis trigger, evidence must precede size, and a single close in a 40-ATR stock is a candidate rather than confirmation — hence staging the 555 add; the conservative overreached, though, in proposing to trim now at 503, which would crystallize a sell-low/buy-higher sequence. The neutral analyst's framing was the tiebreaker: a positive histogram with a still-negative MACD line is the textbook signature of indecision, and the correct response to indecision is to hold existing exposure, refuse a bad entry, and pre-commit precise triggers — exactly the trader's plan with the two refinements above.",
-      "level": 2
-    },
-    {
-      "heading": "Limits",
-      "body": "Market-analyst-only configuration (no social, news or fundamentals analysts); DeepSeek deepseek-chat rather than a frontier model; one bull/bear debate round and one risk round. LLM-generated: numbers were not independently re-verified. The Buy/Hold/Sell → Agree/Partial/Disagree scale mapping is our own convention, not the agent's output. Not investment advice.",
-      "level": 2
-    }
-  ],
-  "sources": []
+ "schema": 1,
+ "id": "playbook-ta-2026-11-20",
+ "date": "2026-11-20",
+ "title": "Buy list TradingAgents verdicts — 2026-11-20",
+ "summary": "TradingAgents (market analyst only, DeepSeek deepseek-chat, one debate and one risk round) returned Hold on Fortinet (FTNT) for 2026-11-20. At 131.46 FTNT sits a hair below its rising 200-SMA (131.65) after a ~39% drawdown and the 10-29 gap (174.08→127.96 on 17.36M shares); RSI has recovered from 23.1 to 39.7 and the MACD histogram crossed positive, but the line remains deep below zero (−11.03) and the 11-19 candle (high 139.03, close 131.46) was a heavy-volume rejection. The plan is to hold roughly one-third of intended full weight with a hard 124 stop, add the second third only on a daily close above 138–139 on ≥7M shares, de-risk only on a second 138–139 rejection, and cut to one-sixth if a death cross coincides with a close below the 200-SMA. Verdict is Hold rather than Sell because shorting a defended rising major average after a 39% drawdown is poor risk/reward, and the 5.7%-to-stop downside is intended, not realized, given a 26.6% one-day gap in recent tape.",
+ "tags": [
+  "tradingagents",
+  "buy-list"
+ ],
+ "sections": [
+  {
+   "heading": "Verdicts side by side",
+   "table": {
+    "columns": [
+     "Verdict",
+     "Ticker",
+     "TradingAgents",
+     "Agreement",
+     "Key point"
+    ],
+    "rows": [
+     [
+      "BUY LIST",
+      "FTNT",
+      "HOLD",
+      "Partial",
+      "Run at roughly one-third of intended full weight at ~131.46; no adds, no market orders, no trim into the 200-SMA test. Hard stop 124 on the full existing position. Add the second third only on a daily close above 138–139 (Bollinger middle 138.23 / 11-19 high 139.03) on ≥7M shares. De-risk to the neutral plan: trim only on a SECOND rejection at 138–139 on sub-7M volume, not into the contested 131 floor. Cut to one-sixth if a confirmed death cross (50-SMA falling ~7.9 pts/4wk vs 200-SMA) coincides with a close below the 200-SMA 131.65. Price target 138.0, horizon 3–6 months."
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "How the agent reasoned",
+   "body": "The bull's constructive case was real but lagging-dependent: RSI recovered 23.1→39.7, MACD histogram improved six sessions and crossed positive (line still −11.03, a stabilization not a trend change), ATR compressed 24% (9.97→7.62), and price reclaimed the 10-EMA at 129.78; he was right that dumping or shorting into a defended, rising 200-SMA after a ~39% drawdown is poor risk/reward. The bear's rejection candle was the decisive counter: 11-19 opened 135.76, printed a 139.03 high and closed 131.46 while volume asymmetry ran against the stock (17.36M / 11.10M / 11.92M on down days vs 4.94M / 7.05M on up days), and the 10-29 26.6% gap on 17.36M shares means a 124 stop sits inside the 122.76–125.80 low cluster with ATR at 5.8% of price — capping intended, not realized, loss. The conservative seat won the burden-of-proof argument on adding, but his trim-25–40%-into-131–136 prescription failed on its own logic: 131.46 is below the 200-SMA, not a strength zone, and a trim there does not eliminate the gap tail he identified. The neutral synthesis carried the table: keep the one-third core on the 200-SMA, keep the 124 stop, and move de-risking to a second rejection at 138–139 on sub-7M volume, treating the death cross as a sizing trigger only when it coincides with a 200-SMA break. With price within 0.19 points of the 200-SMA, the 50-SMA at 162.11 falling ~7.9 points in four weeks, RSI sub-50 and an unverified 10-29 catalyst, neither adding nor trimming was underwritable — Hold with defined triggers on both sides."
+  },
+  {
+   "heading": "Limits",
+   "body": "Market-analyst-only configuration (no news, social or fundamentals analysts) on DeepSeek deepseek-chat, one debate round and one risk round; single verdicts on identical settings have flipped before, so treat triggers, not labels, as the deliverable. LLM output — verify every price level against the chart before acting. The buy-list vs rating scale mapping (Buy/Overweight = Agree, Hold = Partial, Sell/Underweight = Disagree) is ours, not the model's. Research, not investment advice."
+  }
+ ],
+ "sources": []
 }
