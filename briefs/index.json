@@ -1,7 +1,13 @@
 {
  "schema": 1,
- "updatedAt": "2026-11-19T07:14:03Z",
+ "updatedAt": "2026-11-20T07:14:25Z",
  "briefs": [
+  {
+   "date": "2026-11-20",
+   "id": "brief-2026-11-20",
+   "title": "Daily US Market Brief \u2014 2026-11-20",
+   "snapshotUtc": "2026-11-20 07:06"
+  },
   {
    "date": "2026-11-19",
    "id": "brief-2026-11-19",
