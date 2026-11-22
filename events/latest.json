@@ -1,8 +1,8 @@
 {
  "schema": 1,
- "id": "events-2026-11-21",
- "date": "2026-11-21",
- "title": "Chain events alert — 2026-11-21",
- "body": "**Nvidia aftermath (reported Nov 17; reaction through the Nov 20 close).** NVDA beat on Nov 17 (Q3 revenue $115.8B, +103% y/y; Q4 guide $130B ±3%), but fell 14.0% on Friday to $125.53 — -40.9% on the month and -47.5% below its 52-week high (collector, Nov 20 close) — on press reports of an SEC accounting probe. The semis sleeve took the blow: AVGO -12.2%, AMD -13.3%, MU -13.9% on Friday; the SOX posted its worst week since 2001 (NAI500). Infrastructure read-through: Vertiv -10.1%, SMCI -9.2% (Nov 20 close). **Next chain test:** Dell's Q3, week of Nov 24, after the U.S. close (late evening Berlin time; exact slot per issuer — not yet verified). Power/utilities stayed defensive — DUK +0.7%, XEL -0.2% on Friday — while CEG -5.8% and VST -7.2% still trade as AI beta. **Macro:** nothing scheduled until Nov payrolls Dec 4 (14:30 Berlin) and the Dec 9 FOMC (20:00 Berlin) with a hike nearly fully priced — the 40-60% exposure band and cash sleeve remain the posture.",
- "generatedAt": "2026-11-21T07:14:53Z"
+ "id": "events-2026-11-22",
+ "date": "2026-11-22",
+ "title": "Events alert — 2026-11-22",
+ "body": "**Mon Nov 23, 15:45 CET (09:45 ET):** S&P Global flash PMIs — the first macro print after the correction (Nov 23 week-ahead calendars, Trading Economics/eOption). Weak readings trim December-hike odds (~95–98% priced) and support relief; hot prints compound pressure on the 40–60% equity band. Power/utilities are least exposed; keep the cash sleeve as the buffer into Wednesday's October PCE (Nov 25, 14:30 CET, 08:30 ET).\n\n**Tue Nov 24, ~22:05 CET (16:05 ET):** Dell Technologies (DELL) Q3 — the chain's components-layer AI-server bellwether, reporting after close. Watch AI-server backlog and margin guidance: an in-line result is the first hard datapoint after the AI unwind; a soft AI guide hits the infrastructure sleeve (VRT, SMCI, ANET) and semis demand read-through (NVDA, AVGO, MU). Consensus figures not verified for this run.\n\nDerived from research/chain-dossier-2026-10-30.json (DELL in chain) and cited week-ahead sources. Research material, not investment advice.",
+ "generatedAt": "2026-11-22T07:13:52Z"
 }
