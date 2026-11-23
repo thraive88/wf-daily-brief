@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "id": "playbook-ta-2026-11-23",
+ "date": "2026-11-23",
+ "title": "Buy list TradingAgents verdicts — 2026-11-23",
+ "summary": "TradingAgents (market analyst only, DeepSeek deepseek-chat, one debate and one risk round) returned Underweight on Rheinmetall (RHM.DE) for 2026-11-23 — disagreeing with the buy list. At ~€693 the stock is ~42% below a falling 200-day average with nine straight months of lower highs (€1,731 → €1,097) and an unexplained 16% gap on 5 November on 1.1M shares, the largest volume print in the dataset; the Friday close was the weakest in the tape and RSI (21.88) made a new low without positive divergence. The plan is a two-stage de-risking: cut ~30% of existing exposure now, sell a further tranche into any €716–€740 bounce (or the declining 10 EMA ~€776), hard stop €630 on the residual sized for a survivable €550–580 breakdown. No new longs until the 5 November gap is explained AND price closes above €716.10 and holds the 10 EMA for three sessions on above-average volume.",
+ "tags": [
+  "tradingagents",
+  "buy-list"
+ ],
+ "sections": [
+  {
+   "heading": "Verdicts side by side",
+   "table": {
+    "columns": [
+     "Verdict",
+     "Ticker",
+     "TradingAgents",
+     "Agreement",
+     "Key point"
+    ],
+    "rows": [
+     [
+      "BUY LIST",
+      "RHM.DE",
+      "UNDERWEIGHT",
+      "Disagree",
+      "Do not initiate or add at ~€693.40. Two-stage de-risking of existing exposure: cut roughly 30% at market now (the €716 bounce may never arrive), sell a further tranche into any bounce toward €716–€740 or the declining 10 EMA ~€776. Hard stop €630 on the residual; size so a full breakdown to €550–€580 is a pre-agreed survivable loss. No new longs until the 5 Nov 16% gap is explained AND price closes above €716.10 and holds above the 10 EMA for three sessions on above-average volume. Price target 630.0, horizon 1–3 months."
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "How the agent reasoned",
+   "body": "The market report conceded nothing to the bulls: price ~42% below a falling 200-day, every moving average declining, nine consecutive months of lower highs (€1,731 → €1,097), and an unfilled 5 November gap of 16% on 1.1M shares — the largest volume print in the dataset — with no disclosed cause eleven sessions later. The aggressive analyst argued the washout was priced in, but he never answered the unexplained-institutional-repricing objection; the Friday close printed the lowest value in the tape and RSI made a fresh low on that low with no positive divergence, and his 2:1–2.5:1 asymmetry failed audit against ATR of €41.85/day (~6% per day): a €693 entry with a €625 stop is barely 1.6 daily ranges, inside the noise band both prior gaps blew through, while his upside targets shrank as the falling 10 EMA (~€18/session) and collapsed VWMA (€1,035 on 3 Nov) gave ground. The neutral analyst's data (\"tactically neutral-to-bearish, strategically bearish,\" no support until €630) did not support holding the full position, and the risk judge adopted his refinement over the conservative \"sell only into €716–€740 strength\" plan, because a sole trigger that may never fire risks capturing the whole downside — hence partial reduction at market now plus a tranche into strength. Re-entry requires the gap explained or a higher-low RSI plus a close above €716.10 on rising volume; a downgrade to outright Sell follows only if the gap reflects genuine fundamental impairment. A bounce on fading volume would confirm the €812–€845 trapped-longs ceiling and should be sold into."
+  },
+  {
+   "heading": "Limits",
+   "body": "Market-analyst-only configuration (no news, social or fundamentals analysts) on DeepSeek deepseek-chat, one debate round and one risk round; single verdicts on identical settings have flipped before, so treat triggers, not labels, as the deliverable. LLM output — verify every price level against the chart before acting. The buy-list vs rating scale mapping (Buy/Overweight = Agree, Hold = Partial, Sell/Underweight = Disagree) is ours, not the model's. Research, not investment advice."
+  }
+ ],
+ "sources": []
+}
