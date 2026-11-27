@@ -1,0 +1,43 @@
+{
+ "schema": 1,
+ "id": "playbook-ta-2026-11-27",
+ "date": "2026-11-27",
+ "title": "Buy list TradingAgents verdicts — 2026-11-27",
+ "summary": "TradingAgents (market analyst only, DeepSeek deepseek-chat, one debate and one risk round) returned Hold on Eaton (ETN) for 2026-11-27 — a partial agreement with the buy list. At $325.92 ETN sits below its 10-EMA ($331), 50-SMA ($386) and rolling-over 200-SMA ($394) with a death cross in place, and the Nov 23 pop to $336.34 was rejected back to $319 as a confirmed lower high; sell days at 6.0–6.6M shares against a 1.30M holiday bounce confirm distribution. But the pace of decline is decelerating (MACD histogram compressed −6.56 → −0.54, RSI off 31.5 to 40.7, ATR cooled from $19.67 to $18.06), and at ~5.5% daily ATR the $305 stop and $344 target are the same day's noise — so only position size is a real control. The plan is to maintain exposure with no adds and no short at $325.92, hard invalidation at $305, and let a volume-confirmed (>3M) close above the $337 VWMA decide: hold-and-let-run toward $344 and $353–358, or trim into a weak-volume rejection; a $305 break on expanding volume steps down toward Underweight.",
+ "tags": [
+  "tradingagents",
+  "buy-list"
+ ],
+ "sections": [
+  {
+   "heading": "Verdicts side by side",
+   "table": {
+    "columns": [
+     "Verdict",
+     "Ticker",
+     "TradingAgents",
+     "Agreement",
+     "Key point"
+    ],
+    "rows": [
+     [
+      "BUY LIST",
+      "ETN",
+      "HOLD",
+      "Partial",
+      "Hold at $325.92. Maintain existing exposure; do not add and do not short at market. Hard invalidation $305 (rising Bollinger lower band $305.18, just under the Nov 20 $311.33 low); size so the ~$18 daily ATR (5.5%) is survivable, since at this volatility the $305 stop and $344 target are one day's range. Decision point is the $337 VWMA: a volume-confirmed (>3M shares) daily close above it earns a hold-and-let-run toward $344 and $353–358; a weak-volume rejection means trim then, not before. A $305 break on expanding volume steps the stance down toward Underweight. Price target $344, horizon 3–6 months."
+     ]
+    ]
+   }
+  },
+  {
+   "heading": "How the agent reasoned",
+   "body": "The trader's read was structurally bearish — sub-10-EMA/50/200 stack with a rolling-over long-term average, death cross, a confirmed lower high off $336.34, and unambiguous volume distribution — but, with no fundamental impairment established, not bearish enough to sell. In the bull/bear debate the bear carried the fact set while the aggressive analyst's 'discounted quality entry' claim was exposed as value inferred from the absence of data (market-only configuration, no fundamentals or valuation), and his own concession of adding nothing was the tell. The conservative analyst's trim-into-$337 was rejected as self-defeating — selling at the exact level he said has rejected price twice, while remaining exposed to the gap-prone $305 downside — and his 6% protected-downside claim failed in a 5.5% ATR regime. The neutral analyst's volatility point decided it: with an $18 daily range, $305 downside and $344 upside are both noise, so only sizing and a defined invalidation matter. The portfolio manager settled on Hold — not Underweight because the franchise is unproven-impaired and MACD/RSI/ATR deceleration is real, not Overweight because the burden of proof to reclaim $337 on volume and hold $344 has not been met — with the $337 volume test as the pre-committed decision point."
+  },
+  {
+   "heading": "Limits",
+   "body": "Market-analyst-only configuration (no news, social or fundamentals analysts) on DeepSeek deepseek-chat, one debate round and one risk round; LLM output — verify prices and levels against your own data before acting. The BUY LIST / HOLD agreement mapping (Buy/Overweight = Agree, Hold = Partial, Sell/Underweight = Disagree) is ours, not the model's. Single verdicts on identical settings have flipped before (HAG.DE SELL → HOLD on 2026-10-31); treat the triggers as the deliverable, not the word."
+  }
+ ],
+ "sources": []
+}
