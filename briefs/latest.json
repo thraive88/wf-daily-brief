@@ -866,7 +866,7 @@
   {
    "id": "crypto",
    "title": "Crypto — top 20 by market cap",
-   "note": "BTC $59,571: +7.2% over 7d but −25.5% over 30d and −34.8% over 1y — a sharp bounce inside a deep downtrend, with November spot-ETF outflows of ~$5.4B (largest ever) the dominant marginal seller. Values marked ≈ use CoinGecko's 200-day change; 1Y is CoinGecko native.",
+   "note": "BTC $59,571: +7.2% over 7d but −25.5% over 30d and −34.8% over 1y — a sharp bounce inside a deep downtrend, with November spot-ETF outflows of ~$5.4B (largest ever) the dominant marginal seller.",
    "columns": [
     "Symbol",
     "Name",
